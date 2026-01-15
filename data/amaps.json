@@ -1,0 +1,2260 @@
+{
+  "metadata": {
+    "source": "AMAPs_Gironde_2025 - AMAP - 12_2025.csv",
+    "generated": "2026-01-15",
+    "count": 107,
+    "geocoded": 103,
+    "withDate": 46,
+    "dateMin": "2005-10-10",
+    "dateMax": "2022-09-23"
+  },
+  "amaps": [
+    {
+      "id": "AMBARES-POTAG",
+      "nom": "AMAP Le Potager Gourmand",
+      "localisation": {
+        "ville": "Ambarès-et-Lagrave",
+        "codePostal": "33440",
+        "adresse": "école Rosa Bonheur - accès par le parking situé derrière la Mairie (données 2025)",
+        "lat": 44.96083,
+        "lng": -0.50029
+      },
+      "distribution": {
+        "jour": "Jeudi",
+        "horaire": "19h00-20h00"
+      },
+      "web": {
+        "siteWeb": "https://www.cagette.net",
+        "plateforme": "AmapJ"
+      },
+      "dateCreation": "2013-07-24",
+      "rnaId": "W332015776"
+    },
+    {
+      "id": "ARTIG-ART",
+      "nom": "AMAP Artigues-Près-Bordeaux (Amap Art)",
+      "localisation": {
+        "ville": "Artigues près Bordeaux",
+        "codePostal": "33370",
+        "adresse": "salle du Périgord, 47 avenue du Périgord",
+        "lat": 44.84535,
+        "lng": -0.49671
+      },
+      "distribution": {
+        "jour": "Mercredi",
+        "horaire": "18h30-20h00"
+      },
+      "web": {
+        "siteWeb": null,
+        "plateforme": null
+      },
+      "dateCreation": "2010-08-02",
+      "rnaId": "W332010872"
+    },
+    {
+      "id": "BARSAC-ASTER",
+      "nom": "AMAP Barsac (AMAP des astéries)",
+      "localisation": {
+        "ville": "Barsac",
+        "codePostal": "33720",
+        "adresse": "Halle de Barsac",
+        "lat": 44.60433,
+        "lng": -0.32344
+      },
+      "distribution": {
+        "jour": "Lundi",
+        "horaire": "18h45-19h45"
+      },
+      "web": {
+        "siteWeb": null,
+        "plateforme": null
+      },
+      "dateCreation": "2013-01-23",
+      "rnaId": "W333002424"
+    },
+    {
+      "id": "BAYON-POTI",
+      "nom": "AMAP Poti'Bayon",
+      "localisation": {
+        "ville": "Bayon-sur-Gironde",
+        "codePostal": "33710",
+        "adresse": "salle des fêtes",
+        "lat": 45.05578,
+        "lng": -0.59979
+      },
+      "distribution": {
+        "jour": "Lundi",
+        "horaire": "19h00-20h00"
+      },
+      "web": {
+        "siteWeb": "https://potibayon.wordpress.com/",
+        "plateforme": null
+      },
+      "dateCreation": "2017-04-28",
+      "rnaId": "W331001798"
+    },
+    {
+      "id": "BAZAS-BAZAD",
+      "nom": "AMAP en Bazadais",
+      "localisation": {
+        "ville": "Bazas",
+        "codePostal": "33430",
+        "adresse": "Terrasse du restaurant Caro&co - 38 place de la Cathédrale",
+        "lat": 44.40844,
+        "lng": -0.19556
+      },
+      "distribution": {
+        "jour": "Mercredi",
+        "horaire": "18h00-19h00"
+      },
+      "web": {
+        "siteWeb": "https://amapenbazadais.wixsite.com/amap-en-bazadais",
+        "plateforme": "CAMAP"
+      },
+      "dateCreation": null,
+      "rnaId": null
+    },
+    {
+      "id": "BEGLES-RADIS",
+      "nom": "Le radis noir",
+      "localisation": {
+        "ville": "Bègles",
+        "codePostal": "33130",
+        "adresse": "au Radis Noir 37bis rue Pauly",
+        "lat": null,
+        "lng": null
+      },
+      "distribution": {
+        "jour": "Mardi",
+        "horaire": "19h00-20h00"
+      },
+      "web": {
+        "siteWeb": null,
+        "plateforme": null
+      },
+      "dateCreation": null,
+      "rnaId": null
+    },
+    {
+      "id": "BEGLES-1",
+      "nom": "Amap Bègles 1",
+      "localisation": {
+        "ville": "Bègles",
+        "codePostal": "33130",
+        "adresse": "Centre Social et Culturel de l'Estey Centre Jean Lurçat, 20 rue Pierre et Marie Curie",
+        "lat": 44.80311,
+        "lng": -0.54926
+      },
+      "distribution": {
+        "jour": "Mardi",
+        "horaire": "18h30-20h00"
+      },
+      "web": {
+        "siteWeb": "https://www.amapbegles33.fr/",
+        "plateforme": "CAMAP"
+      },
+      "dateCreation": null,
+      "rnaId": null
+    },
+    {
+      "id": "BEGLES-RDVB",
+      "nom": "AMAP Bègles RDVBio",
+      "localisation": {
+        "ville": "Bègles",
+        "codePostal": "33130",
+        "adresse": "129 Bis rue de Lauriol, sous le préau de l'école Langevin (Préeau école Langevin)",
+        "lat": 44.80311,
+        "lng": -0.54926
+      },
+      "distribution": {
+        "jour": "Mardi",
+        "horaire": "19h00-20h00"
+      },
+      "web": {
+        "siteWeb": null,
+        "plateforme": "CAMAP"
+      },
+      "dateCreation": null,
+      "rnaId": null
+    },
+    {
+      "id": "BEGLES-COCCI",
+      "nom": "Amap Bègles Coccinelle",
+      "localisation": {
+        "ville": "Bègles",
+        "codePostal": "33130",
+        "adresse": "Maison de Mussonville rue Alexis Labro",
+        "lat": 44.80311,
+        "lng": -0.54926
+      },
+      "distribution": {
+        "jour": "Mardi",
+        "horaire": "18h30-20h00"
+      },
+      "web": {
+        "siteWeb": null,
+        "plateforme": null
+      },
+      "dateCreation": "2010-09-20",
+      "rnaId": "W332011027"
+    },
+    {
+      "id": "BEGLES-EOLE",
+      "nom": "Amap d'entreprise Bègles (Le Jardin d'Eole - Valorem)",
+      "localisation": {
+        "ville": "Bègles",
+        "codePostal": "33130",
+        "adresse": "Société Valorem, 213 cours Victor Hugo",
+        "lat": null,
+        "lng": null
+      },
+      "distribution": {
+        "jour": "Mardi + Jeudi",
+        "horaire": null
+      },
+      "web": {
+        "siteWeb": null,
+        "plateforme": null
+      },
+      "dateCreation": "2008-11-26",
+      "rnaId": "W332007566"
+    },
+    {
+      "id": "BELIN-CASAL",
+      "nom": "AMAP Belin-Beliet (Lou Casalot)",
+      "localisation": {
+        "ville": "Belin-Beliet",
+        "codePostal": "33830",
+        "adresse": "Salle l'abbé Gaillard",
+        "lat": 44.49272,
+        "lng": -0.78961
+      },
+      "distribution": {
+        "jour": "Mardi",
+        "horaire": "19h00-20h00"
+      },
+      "web": {
+        "siteWeb": null,
+        "plateforme": null
+      },
+      "dateCreation": null,
+      "rnaId": null
+    },
+    {
+      "id": "BERSON-AMAP",
+      "nom": "AMAP de Berson",
+      "localisation": {
+        "ville": "Berson",
+        "codePostal": "33390",
+        "adresse": "11 Avenue de la Libération",
+        "lat": 45.1083,
+        "lng": -0.58514
+      },
+      "distribution": {
+        "jour": "Vendredi",
+        "horaire": "18h30-19h15"
+      },
+      "web": {
+        "siteWeb": null,
+        "plateforme": null
+      },
+      "dateCreation": null,
+      "rnaId": null
+    },
+    {
+      "id": "BIGANOS-COEUR",
+      "nom": "AMAP Cœur Bassin Biganos",
+      "localisation": {
+        "ville": "Biganos",
+        "codePostal": "33380",
+        "adresse": "Chemin de Pardies (P'tit Panier Bio)",
+        "lat": 44.6627,
+        "lng": -0.99204
+      },
+      "distribution": {
+        "jour": "Vendredi",
+        "horaire": "18h00-19h00"
+      },
+      "web": {
+        "siteWeb": "https://amapcoeurbassin.wixsite.com/amap",
+        "plateforme": "CAMAP"
+      },
+      "dateCreation": "2015-05-30",
+      "rnaId": "W336002939"
+    },
+    {
+      "id": "BLANQ-PLANET",
+      "nom": "Amaplanète Blanquefort",
+      "localisation": {
+        "ville": "Blanquefort",
+        "codePostal": "33290",
+        "adresse": "LA VACHERIE - 2 Rue de Monteil - parking Grottes de Majolan",
+        "lat": 44.92476,
+        "lng": -0.62313
+      },
+      "distribution": {
+        "jour": "Jeudi",
+        "horaire": "18h45-19h45"
+      },
+      "web": {
+        "siteWeb": "http://www.amaplaneteblanquefort.fr/wordpress/",
+        "plateforme": "AmapJ"
+      },
+      "dateCreation": "2012-02-06",
+      "rnaId": "W332013490"
+    },
+    {
+      "id": "BONZAC-PANIER",
+      "nom": "Paniers St Denis de Pile",
+      "localisation": {
+        "ville": "Bonzac",
+        "codePostal": "33910",
+        "adresse": "Bonzac",
+        "lat": 45.00737,
+        "lng": -0.22328
+      },
+      "distribution": {
+        "jour": "Vendredi",
+        "horaire": "18h45-19h30"
+      },
+      "web": {
+        "siteWeb": null,
+        "plateforme": null
+      },
+      "dateCreation": null,
+      "rnaId": null
+    },
+    {
+      "id": "BDX-CENTRE",
+      "nom": "AMAP Bordeaux Centre",
+      "localisation": {
+        "ville": "Bordeaux",
+        "codePostal": "33000",
+        "adresse": "81 rue du Loup - Au cheverus (café au croisement rue du Loup/rue de Cheverus)",
+        "lat": 44.83911,
+        "lng": -0.58143
+      },
+      "distribution": {
+        "jour": "Jeudi",
+        "horaire": "19h00-20h00"
+      },
+      "web": {
+        "siteWeb": "https://www.facebook.com/AMAPBordeauxCentre/",
+        "plateforme": "AmapJ"
+      },
+      "dateCreation": "2021-03-21",
+      "rnaId": "W332030450"
+    },
+    {
+      "id": "BDX-EMILE",
+      "nom": "AMAP des paniers d'Emile",
+      "localisation": {
+        "ville": "Bordeaux",
+        "codePostal": "33000",
+        "adresse": null,
+        "lat": 44.83911,
+        "lng": -0.58143
+      },
+      "distribution": {
+        "jour": "Mercredi",
+        "horaire": "18h30-19h30"
+      },
+      "web": {
+        "siteWeb": "https://www.facebook.com/lespaniersdemile",
+        "plateforme": null
+      },
+      "dateCreation": "2021-01-22",
+      "rnaId": "W332030239"
+    },
+    {
+      "id": "BDX-DESCAS",
+      "nom": "AMAP Descas - St Jean",
+      "localisation": {
+        "ville": "Bordeaux",
+        "codePostal": "33000",
+        "adresse": null,
+        "lat": 44.83911,
+        "lng": -0.58143
+      },
+      "distribution": {
+        "jour": null,
+        "horaire": null
+      },
+      "web": {
+        "siteWeb": null,
+        "plateforme": null
+      },
+      "dateCreation": null,
+      "rnaId": null
+    },
+    {
+      "id": "BDX-BIOGU",
+      "nom": "AMAP Bio'Gustin - Saint Augustin Bordeaux",
+      "localisation": {
+        "ville": "Bordeaux",
+        "codePostal": "33000",
+        "adresse": "salle municipale Quintin-Loucheur - rue de la Béchade",
+        "lat": 44.83911,
+        "lng": -0.58143
+      },
+      "distribution": {
+        "jour": "Vendredi",
+        "horaire": "18h00-19h30"
+      },
+      "web": {
+        "siteWeb": null,
+        "plateforme": "AmapJ"
+      },
+      "dateCreation": null,
+      "rnaId": null
+    },
+    {
+      "id": "BDX-5COEUR",
+      "nom": "Amap Bordeaux 5 de Coeur",
+      "localisation": {
+        "ville": "Bordeaux",
+        "codePostal": "33000",
+        "adresse": "salle Amédée Larrieu, Place Amédée Larrieu",
+        "lat": 44.83044,
+        "lng": -0.58157
+      },
+      "distribution": {
+        "jour": "Jeudi",
+        "horaire": "18h30-20h30"
+      },
+      "web": {
+        "siteWeb": null,
+        "plateforme": null
+      },
+      "dateCreation": null,
+      "rnaId": null
+    },
+    {
+      "id": "BDX-ESP29",
+      "nom": "Amap Bordeaux Espace 29",
+      "localisation": {
+        "ville": "Bordeaux",
+        "codePostal": "33000",
+        "adresse": "29, rue Fernand Marin",
+        "lat": 44.84058,
+        "lng": -0.58447
+      },
+      "distribution": {
+        "jour": null,
+        "horaire": null
+      },
+      "web": {
+        "siteWeb": null,
+        "plateforme": null
+      },
+      "dateCreation": null,
+      "rnaId": null
+    },
+    {
+      "id": "BDX-BACALAN",
+      "nom": "Amap Bordeaux Bacalan (Le Panier Moderne)",
+      "localisation": {
+        "ville": "Bordeaux",
+        "codePostal": "33300",
+        "adresse": "Amicale laïque, 5 rue Joseph Brunet",
+        "lat": 44.88299,
+        "lng": -0.55682
+      },
+      "distribution": {
+        "jour": "Mardi + Vendredi",
+        "horaire": "18h30-20h30"
+      },
+      "web": {
+        "siteWeb": "https://www.herbajo.com/coffrets-cadeaux",
+        "plateforme": "CAMAP"
+      },
+      "dateCreation": null,
+      "rnaId": null
+    },
+    {
+      "id": "BDX-CAUDER",
+      "nom": "Amap Bordeaux Caudéran",
+      "localisation": {
+        "ville": "Bordeaux",
+        "codePostal": "33000",
+        "adresse": "Chartreuse Saint André (Caudéran) ; Centre d'animation Monséjour",
+        "lat": 44.85521,
+        "lng": -0.61517
+      },
+      "distribution": {
+        "jour": "Jeudi",
+        "horaire": "18h30-19h30"
+      },
+      "web": {
+        "siteWeb": "https://www.lacroixmelier.fr/produit/la-piece-qui-tourne-moelleux/",
+        "plateforme": "CAMAP"
+      },
+      "dateCreation": null,
+      "rnaId": null
+    },
+    {
+      "id": "BDX-GPARC",
+      "nom": "AMAP Bordeaux Bio Grand Parc",
+      "localisation": {
+        "ville": "Bordeaux",
+        "codePostal": "33000",
+        "adresse": "Mairie du quartier du grand parc salle n°3, place de l'Europe ; Rue Premeynard",
+        "lat": 44.83911,
+        "lng": -0.58143
+      },
+      "distribution": {
+        "jour": "Jeudi",
+        "horaire": "17h00-19h00"
+      },
+      "web": {
+        "siteWeb": null,
+        "plateforme": "CAMAP"
+      },
+      "dateCreation": null,
+      "rnaId": null
+    },
+    {
+      "id": "BDX-NANSOU",
+      "nom": "AMAP Bordeaux Nansouty (3 groupes)",
+      "localisation": {
+        "ville": "Bordeaux",
+        "codePostal": "33800",
+        "adresse": "Stade BRUN ; Square de la Croix du Sud",
+        "lat": 44.81731,
+        "lng": -0.57497
+      },
+      "distribution": {
+        "jour": "Jeudi + Mardi",
+        "horaire": "Variable selon groupes"
+      },
+      "web": {
+        "siteWeb": null,
+        "plateforme": "CAMAP"
+      },
+      "dateCreation": null,
+      "rnaId": null
+    },
+    {
+      "id": "BDX-STGENE",
+      "nom": "Amap Bordeaux St Genès (Terre et Sillons)",
+      "localisation": {
+        "ville": "Bordeaux",
+        "codePostal": "33000",
+        "adresse": "Villa Pia, 52 rue des Treuils",
+        "lat": 44.82579,
+        "lng": -0.58293
+      },
+      "distribution": {
+        "jour": "Mercredi",
+        "horaire": "19h00-20h00"
+      },
+      "web": {
+        "siteWeb": null,
+        "plateforme": null
+      },
+      "dateCreation": null,
+      "rnaId": null
+    },
+    {
+      "id": "BDX-MOULIN",
+      "nom": "Le Moulin - Bordeaux Bastide",
+      "localisation": {
+        "ville": "Bordeaux Bastide",
+        "codePostal": "33100",
+        "adresse": null,
+        "lat": 44.84568,
+        "lng": -0.5531
+      },
+      "distribution": {
+        "jour": null,
+        "horaire": null
+      },
+      "web": {
+        "siteWeb": "https://www.facebook.com/moulinalegumes/",
+        "plateforme": "AmapJ"
+      },
+      "dateCreation": null,
+      "rnaId": null
+    },
+    {
+      "id": "BRAUD-ESTUA",
+      "nom": "AMAP de l'Estuaire",
+      "localisation": {
+        "ville": "Braud-et-Saint-Louis",
+        "codePostal": "33820",
+        "adresse": null,
+        "lat": 45.24778,
+        "lng": -0.62595
+      },
+      "distribution": {
+        "jour": null,
+        "horaire": null
+      },
+      "web": {
+        "siteWeb": null,
+        "plateforme": null
+      },
+      "dateCreation": null,
+      "rnaId": null
+    },
+    {
+      "id": "BRUGES-TERI",
+      "nom": "AMAP de la terre à l'assiette - Bruges Le Bouscat",
+      "localisation": {
+        "ville": "Bruges",
+        "codePostal": "33520",
+        "adresse": "salle du tasta place des fusillés à Bruges",
+        "lat": 44.88935,
+        "lng": -0.60247
+      },
+      "distribution": {
+        "jour": "Lundi",
+        "horaire": "18h30-19h30"
+      },
+      "web": {
+        "siteWeb": "http://www.amap-brugeslebouscat.fr/",
+        "plateforme": "AmapJ"
+      },
+      "dateCreation": "2018-08-21",
+      "rnaId": "W332023802"
+    },
+    {
+      "id": "CADAU-PLUS",
+      "nom": "AMAP de Cadaujac (AmaPlus)",
+      "localisation": {
+        "ville": "Cadaujac",
+        "codePostal": "33140",
+        "adresse": "3 place de l'église (2025) - salle du comité des fêtes ; Allée des Tilleuls - Local AMAP et Société des fêtes",
+        "lat": 44.75489,
+        "lng": -0.52865
+      },
+      "distribution": {
+        "jour": "Mercredi",
+        "horaire": "18h30-19h30"
+      },
+      "web": {
+        "siteWeb": "https://www.facebook.com/groups/129314147127621",
+        "plateforme": "CAMAP"
+      },
+      "dateCreation": null,
+      "rnaId": null
+    },
+    {
+      "id": "CADIL-AFFAM",
+      "nom": "Les Affamés du Local",
+      "localisation": {
+        "ville": "Cadillac-sur-Garonne",
+        "codePostal": "33410",
+        "adresse": null,
+        "lat": 44.63842,
+        "lng": -0.28629
+      },
+      "distribution": {
+        "jour": null,
+        "horaire": null
+      },
+      "web": {
+        "siteWeb": "https://www.facebook.com/Lesaffamesdulocal?locale=fr_FR",
+        "plateforme": null
+      },
+      "dateCreation": null,
+      "rnaId": null
+    },
+    {
+      "id": "CANEJAN-CAL",
+      "nom": "Amap Canejan (CaLienTer)",
+      "localisation": {
+        "ville": "Canejan",
+        "codePostal": "33610",
+        "adresse": "Salle du Lac Vert",
+        "lat": 44.77764,
+        "lng": -0.64754
+      },
+      "distribution": {
+        "jour": "1er et 3ème mercredi",
+        "horaire": "19h00-20h30"
+      },
+      "web": {
+        "siteWeb": null,
+        "plateforme": "CAMAP"
+      },
+      "dateCreation": null,
+      "rnaId": null
+    },
+    {
+      "id": "CARIG-PRE",
+      "nom": "AMAP le Pré de Carignan",
+      "localisation": {
+        "ville": "Carignan-de-Bordeaux",
+        "codePostal": "33360",
+        "adresse": "Salle polyvalente Carignan",
+        "lat": 44.81293,
+        "lng": -0.47474
+      },
+      "distribution": {
+        "jour": "Jeudi",
+        "horaire": "18h30-19h30"
+      },
+      "web": {
+        "siteWeb": null,
+        "plateforme": "AmapJ"
+      },
+      "dateCreation": null,
+      "rnaId": null
+    },
+    {
+      "id": "CASTEL-MAP",
+      "nom": "AMAP Castelamap",
+      "localisation": {
+        "ville": "Castelnau-de-Médoc",
+        "codePostal": "33480",
+        "adresse": "3 Rue de l'Ancien Collège - réfectoire de l'ancien collège",
+        "lat": 45.00582,
+        "lng": -0.8512
+      },
+      "distribution": {
+        "jour": "Vendredi",
+        "horaire": "18h00-19h30"
+      },
+      "web": {
+        "siteWeb": "http://www.castelamap.org/",
+        "plateforme": null
+      },
+      "dateCreation": "2010-07-06",
+      "rnaId": "W334001235"
+    },
+    {
+      "id": "CASTIL-VERT",
+      "nom": "Le Vert de Terre (Castillon)",
+      "localisation": {
+        "ville": "Castillon-la-Bataille",
+        "codePostal": "33350",
+        "adresse": null,
+        "lat": 44.85414,
+        "lng": -0.04394
+      },
+      "distribution": {
+        "jour": null,
+        "horaire": null
+      },
+      "web": {
+        "siteWeb": "https://www.facebook.com/lesjardinsdelaprele",
+        "plateforme": null
+      },
+      "dateCreation": null,
+      "rnaId": null
+    },
+    {
+      "id": "CENON-HAUT",
+      "nom": "AMAP du Haut Cenon",
+      "localisation": {
+        "ville": "Cenon",
+        "codePostal": "33150",
+        "adresse": "4 Rue du 11 Novembre 1918",
+        "lat": 44.85112,
+        "lng": -0.51444
+      },
+      "distribution": {
+        "jour": "Jeudi",
+        "horaire": "18h00"
+      },
+      "web": {
+        "siteWeb": "https://www.instagram.com/amapduhautcenon/",
+        "plateforme": null
+      },
+      "dateCreation": "2022-09-23",
+      "rnaId": "W332032407"
+    },
+    {
+      "id": "CENON-GOURM",
+      "nom": "AMAP Les Gourmandignes",
+      "localisation": {
+        "ville": "Cenon",
+        "codePostal": "33150",
+        "adresse": "5 Chemin des Carrières (2025) ; Maison de la Source (Anciennement: Centre social Camille Maumey, 7 rue Arago)",
+        "lat": 44.85788,
+        "lng": -0.52952
+      },
+      "distribution": {
+        "jour": "Jeudi",
+        "horaire": "19h00-20h00"
+      },
+      "web": {
+        "siteWeb": "https://www.gourmandignes.org/",
+        "plateforme": "CAMAP"
+      },
+      "dateCreation": null,
+      "rnaId": null
+    },
+    {
+      "id": "CISSAC-AMAP",
+      "nom": "AMAP de Cissac-Médoc",
+      "localisation": {
+        "ville": "Cissac-Médoc",
+        "codePostal": "33250",
+        "adresse": "6 chemin de la sablière",
+        "lat": 45.23174,
+        "lng": -0.83884
+      },
+      "distribution": {
+        "jour": "Vendredi",
+        "horaire": "18h00-19h00"
+      },
+      "web": {
+        "siteWeb": null,
+        "plateforme": null
+      },
+      "dateCreation": null,
+      "rnaId": null
+    },
+    {
+      "id": "COUTRAS-AMA",
+      "nom": "AMAP de Coutras",
+      "localisation": {
+        "ville": "Coutras",
+        "codePostal": "33230",
+        "adresse": "salle polyvalente de Coutras",
+        "lat": 45.05618,
+        "lng": -0.1423
+      },
+      "distribution": {
+        "jour": "Mercredi",
+        "horaire": "18h30-19h30"
+      },
+      "web": {
+        "siteWeb": "http://www.amap-coutras.fr/",
+        "plateforme": null
+      },
+      "dateCreation": null,
+      "rnaId": null
+    },
+    {
+      "id": "CREON-AMAP",
+      "nom": "AMAP du Créonnais",
+      "localisation": {
+        "ville": "Créon",
+        "codePostal": "33670",
+        "adresse": "salle de la Pelou de Créon (rue de la Pelou)",
+        "lat": 44.77465,
+        "lng": -0.35444
+      },
+      "distribution": {
+        "jour": "Vendredi",
+        "horaire": "19h00-20h00"
+      },
+      "web": {
+        "siteWeb": "http://amap-creon.fr/",
+        "plateforme": null
+      },
+      "dateCreation": "2008-10-22",
+      "rnaId": "W332007329"
+    },
+    {
+      "id": "CUSSAC-FORT",
+      "nom": "AMAP Cussac Fort Médoc",
+      "localisation": {
+        "ville": "Cussac-Fort-Médoc",
+        "codePostal": "33460",
+        "adresse": "salle polyvalente",
+        "lat": 45.11903,
+        "lng": -0.72885
+      },
+      "distribution": {
+        "jour": "Mercredi",
+        "horaire": "18h30-19h00"
+      },
+      "web": {
+        "siteWeb": null,
+        "plateforme": null
+      },
+      "dateCreation": null,
+      "rnaId": null
+    },
+    {
+      "id": "EYSIN-PAPIL",
+      "nom": "AMAP Papille Eysines",
+      "localisation": {
+        "ville": "Eysines",
+        "codePostal": "33320",
+        "adresse": "Grange du Château Lescombes",
+        "lat": 44.88293,
+        "lng": -0.64539
+      },
+      "distribution": {
+        "jour": "Mercredi",
+        "horaire": "18h30-19h30"
+      },
+      "web": {
+        "siteWeb": "http://www.amapapilleysines.org/",
+        "plateforme": null
+      },
+      "dateCreation": "2010-05-06",
+      "rnaId": "W332010535"
+    },
+    {
+      "id": "EYSIN-MIGRO",
+      "nom": "AMAP de Migron",
+      "localisation": {
+        "ville": "Eysines",
+        "codePostal": "33320",
+        "adresse": "salle \"Douceur de Vivre\" - Allée Léo Lagrange à Eysines",
+        "lat": 44.88293,
+        "lng": -0.64539
+      },
+      "distribution": {
+        "jour": "Mercredi",
+        "horaire": "18h30-19h30"
+      },
+      "web": {
+        "siteWeb": "http://amap-migron.jimdo.com/",
+        "plateforme": "AmapJ"
+      },
+      "dateCreation": "2011-10-24",
+      "rnaId": "W332012950"
+    },
+    {
+      "id": "FLOIRAC-PAN",
+      "nom": "Paniers Floirac",
+      "localisation": {
+        "ville": "Floirac",
+        "codePostal": "33270",
+        "adresse": "Mairie Floirac, entrée par monument aux morts, sous le préau",
+        "lat": 44.82527,
+        "lng": -0.50504
+      },
+      "distribution": {
+        "jour": "Mercredi",
+        "horaire": null
+      },
+      "web": {
+        "siteWeb": null,
+        "plateforme": null
+      },
+      "dateCreation": null,
+      "rnaId": null
+    },
+    {
+      "id": "GRADI-MALAR",
+      "nom": "AMAP De Malartic",
+      "localisation": {
+        "ville": "Gradignan",
+        "codePostal": "33170",
+        "adresse": "58 Boulevard Malartic - Hall de la MJC",
+        "lat": 44.76806,
+        "lng": -0.61686
+      },
+      "distribution": {
+        "jour": "Mardi",
+        "horaire": "17h30-19h00"
+      },
+      "web": {
+        "siteWeb": "http://amap-malartic.over-blog.com/",
+        "plateforme": null
+      },
+      "dateCreation": "2009-12-11",
+      "rnaId": "W332009718"
+    },
+    {
+      "id": "GRADI-CABAS",
+      "nom": "AMAP Le Cabas",
+      "localisation": {
+        "ville": "Gradignan",
+        "codePostal": "33170",
+        "adresse": "16 Avenue Jean Larrieu (2025) - Anciennement: Château de L'Hermitage",
+        "lat": 44.77355,
+        "lng": -0.61854
+      },
+      "distribution": {
+        "jour": "Lundi",
+        "horaire": "18h00-19h30"
+      },
+      "web": {
+        "siteWeb": "http://lecabas33.fr/",
+        "plateforme": "AmapJ"
+      },
+      "dateCreation": null,
+      "rnaId": null
+    },
+    {
+      "id": "GUJAN-SUDB",
+      "nom": "Amap Sud Bassin (Le Teich/Gujan/Arcachon/La Teste)",
+      "localisation": {
+        "ville": "Gujan-Mestras",
+        "codePostal": "33470",
+        "adresse": "Port du canal Cabane 82",
+        "lat": 44.5793,
+        "lng": -1.04064
+      },
+      "distribution": {
+        "jour": "Lundi",
+        "horaire": "18h30-19h30"
+      },
+      "web": {
+        "siteWeb": null,
+        "plateforme": null
+      },
+      "dateCreation": "2009-01-08",
+      "rnaId": "W336001665"
+    },
+    {
+      "id": "ILLATS-LAVO",
+      "nom": "AMAP du lavoir",
+      "localisation": {
+        "ville": "Illats",
+        "codePostal": "33205",
+        "adresse": "Foyer de la commune",
+        "lat": 44.59738,
+        "lng": -0.37356
+      },
+      "distribution": {
+        "jour": "Jeudi",
+        "horaire": "18h30-19h30 (tous les 15 jours)"
+      },
+      "web": {
+        "siteWeb": null,
+        "plateforme": null
+      },
+      "dateCreation": "2010-03-03",
+      "rnaId": "W333001782"
+    },
+    {
+      "id": "IZON-PANIER",
+      "nom": "Le Panier Izonnais AMAP",
+      "localisation": {
+        "ville": "Izon",
+        "codePostal": "33450",
+        "adresse": "187 Avenue du Général de Gaulle",
+        "lat": 44.91655,
+        "lng": -0.34667
+      },
+      "distribution": {
+        "jour": "Jeudi",
+        "horaire": "18h00"
+      },
+      "web": {
+        "siteWeb": "https://www.helloasso.com/associations/le-panier-izonnais",
+        "plateforme": null
+      },
+      "dateCreation": "2020-09-01",
+      "rnaId": "W335007221"
+    },
+    {
+      "id": "LABREDE-BAI",
+      "nom": "L'AMAP du Baillot - La Brède",
+      "localisation": {
+        "ville": "La Brède",
+        "codePostal": "33650",
+        "adresse": "École Maternelle (2025) - Anciennement: Ancienne mairie, 5 place Montesquieu",
+        "lat": 44.64466,
+        "lng": -0.57122
+      },
+      "distribution": {
+        "jour": "Jeudi",
+        "horaire": "18h30-19h30"
+      },
+      "web": {
+        "siteWeb": "http://amapdubaillot.fr/",
+        "plateforme": null
+      },
+      "dateCreation": "2013-03-25",
+      "rnaId": "W332015272"
+    },
+    {
+      "id": "LAREOLE-AMA",
+      "nom": "Amap La Réole",
+      "localisation": {
+        "ville": "La Réole",
+        "codePostal": "33190",
+        "adresse": null,
+        "lat": 44.57632,
+        "lng": -0.02646
+      },
+      "distribution": {
+        "jour": null,
+        "horaire": null
+      },
+      "web": {
+        "siteWeb": null,
+        "plateforme": null
+      },
+      "dateCreation": null,
+      "rnaId": null
+    },
+    {
+      "id": "LACANAU-AMA",
+      "nom": "AMAP Lacanau",
+      "localisation": {
+        "ville": "Lacanau",
+        "codePostal": "33680",
+        "adresse": "sous l'auvent du tennis proximité club house",
+        "lat": 44.93792,
+        "lng": -1.09079
+      },
+      "distribution": {
+        "jour": "Lundi",
+        "horaire": "18h30-19h30"
+      },
+      "web": {
+        "siteWeb": "https://www.facebook.com/amaplacanau/",
+        "plateforme": null
+      },
+      "dateCreation": "2009-06-11",
+      "rnaId": "W334001039"
+    },
+    {
+      "id": "LANGOI-AMAP",
+      "nom": "Amap Langoiran",
+      "localisation": {
+        "ville": "Langoiran",
+        "codePostal": "33550",
+        "adresse": null,
+        "lat": 44.71715,
+        "lng": -0.36226
+      },
+      "distribution": {
+        "jour": null,
+        "horaire": null
+      },
+      "web": {
+        "siteWeb": null,
+        "plateforme": null
+      },
+      "dateCreation": null,
+      "rnaId": null
+    },
+    {
+      "id": "LANGON-RIVE",
+      "nom": "AMAP des Rives de Garonne",
+      "localisation": {
+        "ville": "Langon",
+        "codePostal": "33210",
+        "adresse": "Espace jeunes, allée Garros, Langon",
+        "lat": 44.53657,
+        "lng": -0.28448
+      },
+      "distribution": {
+        "jour": "Jeudi",
+        "horaire": "18h15-19h30"
+      },
+      "web": {
+        "siteWeb": "https://www.facebook.com/AMAPdesRivesdeGaronne/",
+        "plateforme": null
+      },
+      "dateCreation": "2011-12-07",
+      "rnaId": "W333002208"
+    },
+    {
+      "id": "LANTON-AGUE",
+      "nom": "AMAP Les Agues",
+      "localisation": {
+        "ville": "Lanton",
+        "codePostal": "33138",
+        "adresse": "MIOS, 10 route de reganeau (distribution à Mios)",
+        "lat": 44.77394,
+        "lng": -0.96825
+      },
+      "distribution": {
+        "jour": null,
+        "horaire": null
+      },
+      "web": {
+        "siteWeb": null,
+        "plateforme": null
+      },
+      "dateCreation": null,
+      "rnaId": null
+    },
+    {
+      "id": "LAPOU-AMAP",
+      "nom": "AMAP Lapouyade",
+      "localisation": {
+        "ville": "Lapouyade",
+        "codePostal": "33620",
+        "adresse": "Mairie de Lapouyade",
+        "lat": 45.08624,
+        "lng": -0.2873
+      },
+      "distribution": {
+        "jour": null,
+        "horaire": null
+      },
+      "web": {
+        "siteWeb": null,
+        "plateforme": null
+      },
+      "dateCreation": null,
+      "rnaId": null
+    },
+    {
+      "id": "BARP-JARDIN",
+      "nom": "AMAP Jardineyre",
+      "localisation": {
+        "ville": "Le Barp",
+        "codePostal": "33114",
+        "adresse": null,
+        "lat": 44.62937,
+        "lng": -0.7483
+      },
+      "distribution": {
+        "jour": null,
+        "horaire": null
+      },
+      "web": {
+        "siteWeb": "https://www.facebook.com/amap.jardineyre",
+        "plateforme": null
+      },
+      "dateCreation": null,
+      "rnaId": null
+    },
+    {
+      "id": "HAILLAN-AMA",
+      "nom": "AMAP Haillanaise",
+      "localisation": {
+        "ville": "Le Haillan",
+        "codePostal": "33185",
+        "adresse": "1 Square Condorcet (2025) - Anciennement: hall du forum des associations",
+        "lat": 44.87063,
+        "lng": -0.67561
+      },
+      "distribution": {
+        "jour": "Mardi",
+        "horaire": "18h00-19h30"
+      },
+      "web": {
+        "siteWeb": "http://amap-hallanaise.e-monsite.com/",
+        "plateforme": "AmapJ"
+      },
+      "dateCreation": "2010-12-16",
+      "rnaId": "W332011476"
+    },
+    {
+      "id": "PORGE-AMAP",
+      "nom": "AMAP LE PORGE",
+      "localisation": {
+        "ville": "Le Porge",
+        "codePostal": "33680",
+        "adresse": "Salle de l'ancienne gare",
+        "lat": 44.87279,
+        "lng": -1.09272
+      },
+      "distribution": {
+        "jour": "Jeudi",
+        "horaire": "19h00-19h45"
+      },
+      "web": {
+        "siteWeb": "http://leporgeamap.over-blog.com/",
+        "plateforme": null
+      },
+      "dateCreation": "2010-07-09",
+      "rnaId": "W334001239"
+    },
+    {
+      "id": "TAILLAN-AMA",
+      "nom": "AMAP Taillanaise",
+      "localisation": {
+        "ville": "Le Taillan-Médoc",
+        "codePostal": "33320",
+        "adresse": "7 Rue Stehelin - CCAS",
+        "lat": 44.90682,
+        "lng": -0.667
+      },
+      "distribution": {
+        "jour": "Mardi",
+        "horaire": "18h15-19h15"
+      },
+      "web": {
+        "siteWeb": "https://www.facebook.com/AmapTaillanaise",
+        "plateforme": "AmapJ"
+      },
+      "dateCreation": "2012-04-02",
+      "rnaId": "W332013756"
+    },
+    {
+      "id": "LEOGNAN-PEC",
+      "nom": "AMAP Pêche de vigne",
+      "localisation": {
+        "ville": "Léognan",
+        "codePostal": "33850",
+        "adresse": "Chalet du Lac Bleu Léognan",
+        "lat": 44.72347,
+        "lng": -0.60979
+      },
+      "distribution": {
+        "jour": "Mercredi",
+        "horaire": "18h30-19h30 (tous les 15 jours)"
+      },
+      "web": {
+        "siteWeb": "https://www.amappechedevigne.fr/",
+        "plateforme": "CAMAP"
+      },
+      "dateCreation": "2008-09-26",
+      "rnaId": "W332007172"
+    },
+    {
+      "id": "LISTRAC-AMA",
+      "nom": "Listrac'amap",
+      "localisation": {
+        "ville": "Listrac-Médoc",
+        "codePostal": "33480",
+        "adresse": "1 Chemin de Berniquet",
+        "lat": 45.06905,
+        "lng": -0.80449
+      },
+      "distribution": {
+        "jour": "Lundi",
+        "horaire": "18h30"
+      },
+      "web": {
+        "siteWeb": null,
+        "plateforme": "AmapJ"
+      },
+      "dateCreation": "2021-05-21",
+      "rnaId": "W334005739"
+    },
+    {
+      "id": "LORMONT-AMA",
+      "nom": "AMAP Lormont",
+      "localisation": {
+        "ville": "Lormont",
+        "codePostal": "33310",
+        "adresse": null,
+        "lat": 44.87492,
+        "lng": -0.51851
+      },
+      "distribution": {
+        "jour": null,
+        "horaire": null
+      },
+      "web": {
+        "siteWeb": null,
+        "plateforme": null
+      },
+      "dateCreation": "2012-01-11",
+      "rnaId": "W332013336"
+    },
+    {
+      "id": "LOUPIAC-GRA",
+      "nom": "Amap Loupiac (Les grains d'or)",
+      "localisation": {
+        "ville": "Loupiac",
+        "codePostal": "33410",
+        "adresse": null,
+        "lat": 44.63023,
+        "lng": -0.307
+      },
+      "distribution": {
+        "jour": null,
+        "horaire": null
+      },
+      "web": {
+        "siteWeb": null,
+        "plateforme": null
+      },
+      "dateCreation": null,
+      "rnaId": null
+    },
+    {
+      "id": "MACAU-CAUDA",
+      "nom": "L'AMAP'Caudaise",
+      "localisation": {
+        "ville": "Macau",
+        "codePostal": "33460",
+        "adresse": "Salle François Mitterrand, 10 rue Camille Godard",
+        "lat": 45.008,
+        "lng": -0.61502
+      },
+      "distribution": {
+        "jour": "Mercredi",
+        "horaire": "18h30-19h30"
+      },
+      "web": {
+        "siteWeb": "https://amapmacau.simplesite.com/",
+        "plateforme": null
+      },
+      "dateCreation": "2012-03-11",
+      "rnaId": "W332013648"
+    },
+    {
+      "id": "MARCHEP-OLI",
+      "nom": "AMAP du jeudi / Les Oliviers Marcheprime",
+      "localisation": {
+        "ville": "Marcheprime",
+        "codePostal": "33380",
+        "adresse": "Quartier du centre culturel La Caravelle - Association Amicale Les Oliviers, 1 rue Victor Rigal",
+        "lat": 44.62345,
+        "lng": -0.90102
+      },
+      "distribution": {
+        "jour": "Dimanche (variable)",
+        "horaire": null
+      },
+      "web": {
+        "siteWeb": "https://www.facebook.com/amap.Bassin.Arcachon.Marcheprime/",
+        "plateforme": null
+      },
+      "dateCreation": "2021-07-29",
+      "rnaId": "W336007299"
+    },
+    {
+      "id": "MARCHEP-POR",
+      "nom": "AMAP Les paniers des portes du bassin",
+      "localisation": {
+        "ville": "Marcheprime",
+        "codePostal": "33380",
+        "adresse": "Complexe Émilie Andeol (2025) - Anciennement: maison des associations, 12 Rue Jacques Blieck",
+        "lat": 44.62345,
+        "lng": -0.90102
+      },
+      "distribution": {
+        "jour": "Mercredi",
+        "horaire": "18h00-19h30"
+      },
+      "web": {
+        "siteWeb": "http://www.amap-marcheprime.fr/",
+        "plateforme": null
+      },
+      "dateCreation": "2014-10-30",
+      "rnaId": "W336002829"
+    },
+    {
+      "id": "MARTIGN-AMA",
+      "nom": "Martign'AMAP",
+      "localisation": {
+        "ville": "Martignas-sur-Jalle",
+        "codePostal": "33127",
+        "adresse": "plaine des sports Colette Besson ; MGDD",
+        "lat": 44.84054,
+        "lng": -0.77615
+      },
+      "distribution": {
+        "jour": "Mardi",
+        "horaire": "19h00-20h00"
+      },
+      "web": {
+        "siteWeb": "http://martignamap.e-monsite.com/",
+        "plateforme": "CAMAP"
+      },
+      "dateCreation": "2012-03-30",
+      "rnaId": "W332013745"
+    },
+    {
+      "id": "MARTIL-VENT",
+      "nom": "AMAP de Tout Vent / Notre Dame des Champs",
+      "localisation": {
+        "ville": "Martillac",
+        "codePostal": "33650",
+        "adresse": "Salle à côté de l'église",
+        "lat": 44.71417,
+        "lng": -0.54223
+      },
+      "distribution": {
+        "jour": "Lundi",
+        "horaire": "18h30-19h30"
+      },
+      "web": {
+        "siteWeb": null,
+        "plateforme": null
+      },
+      "dateCreation": null,
+      "rnaId": null
+    },
+    {
+      "id": "MERIG-BEUTR",
+      "nom": "AMAP de Beutre (distincte d'Arlac)",
+      "localisation": {
+        "ville": "Mérignac",
+        "codePostal": "33700",
+        "adresse": "Devant le centre social de Beutre, Avenue de l'Argonne",
+        "lat": 44.83131,
+        "lng": -0.67945
+      },
+      "distribution": {
+        "jour": null,
+        "horaire": "18h30"
+      },
+      "web": {
+        "siteWeb": null,
+        "plateforme": "AmapJ"
+      },
+      "dateCreation": "2020-03-03",
+      "rnaId": "W332029246"
+    },
+    {
+      "id": "MERIG-ARLAC",
+      "nom": "AMAP Arlac",
+      "localisation": {
+        "ville": "Mérignac",
+        "codePostal": "33700",
+        "adresse": "Maison des Habitants d'Arlac, Avenue de la Chapelle Sainte-Bernadette",
+        "lat": 44.83131,
+        "lng": -0.67945
+      },
+      "distribution": {
+        "jour": "Mercredi",
+        "horaire": null
+      },
+      "web": {
+        "siteWeb": "http://amap-arlac.fr/",
+        "plateforme": "AmapJ"
+      },
+      "dateCreation": null,
+      "rnaId": null
+    },
+    {
+      "id": "MERIG-FANTA",
+      "nom": "AMAP de Mérignac Fantaisie",
+      "localisation": {
+        "ville": "Mérignac",
+        "codePostal": "33700",
+        "adresse": "8 Chemin/Rue de la Tour de Veyrines",
+        "lat": 44.83131,
+        "lng": -0.67945
+      },
+      "distribution": {
+        "jour": "Mardi",
+        "horaire": "18h30-19h30"
+      },
+      "web": {
+        "siteWeb": null,
+        "plateforme": "AmapJ"
+      },
+      "dateCreation": "2009-03-17",
+      "rnaId": "W332008191"
+    },
+    {
+      "id": "MERIG-GLACI",
+      "nom": "AMAP La Glacière",
+      "localisation": {
+        "ville": "Mérignac",
+        "codePostal": "33700",
+        "adresse": "5 Rue Georges Mandel (2025) - Anciennement: 56 rue Armand Gayral",
+        "lat": 44.83549,
+        "lng": -0.62126
+      },
+      "distribution": {
+        "jour": "Vendredi",
+        "horaire": "18h30-19h30"
+      },
+      "web": {
+        "siteWeb": "https://www.amap-laglaciere.fr/",
+        "plateforme": "AmapJ"
+      },
+      "dateCreation": null,
+      "rnaId": null
+    },
+    {
+      "id": "MERIG-BURCK",
+      "nom": "AMAP Le Burck",
+      "localisation": {
+        "ville": "Mérignac",
+        "codePostal": "33700",
+        "adresse": null,
+        "lat": 44.83131,
+        "lng": -0.67945
+      },
+      "distribution": {
+        "jour": null,
+        "horaire": null
+      },
+      "web": {
+        "siteWeb": "https://www.facebook.com/amapleburck/",
+        "plateforme": "AmapJ"
+      },
+      "dateCreation": "2019-04-29",
+      "rnaId": "W332027922"
+    },
+    {
+      "id": "MERIG-GENER",
+      "nom": "AMAP Mérignac (générique)",
+      "localisation": {
+        "ville": "Mérignac",
+        "codePostal": "33700",
+        "adresse": "8 rue de la tour de Veyrines (si = Fantaisie)",
+        "lat": 44.82587,
+        "lng": -0.64521
+      },
+      "distribution": {
+        "jour": "Mardi",
+        "horaire": "18h30-19h30"
+      },
+      "web": {
+        "siteWeb": "https://amapmerignac.wix.com/merignac",
+        "plateforme": null
+      },
+      "dateCreation": null,
+      "rnaId": null
+    },
+    {
+      "id": "MERIG-TARAV",
+      "nom": "AMAP Taravao",
+      "localisation": {
+        "ville": "Mérignac",
+        "codePostal": "33700",
+        "adresse": "Avenue de la Chapelle Sainte-Bernadette",
+        "lat": 44.82281,
+        "lng": -0.62308
+      },
+      "distribution": {
+        "jour": "Vendredi",
+        "horaire": "18h00"
+      },
+      "web": {
+        "siteWeb": "https://amap-taravao.fr/",
+        "plateforme": "AmapJ"
+      },
+      "dateCreation": null,
+      "rnaId": null
+    },
+    {
+      "id": "MERIG-2VILL",
+      "nom": "Aux paniers des deux villes",
+      "localisation": {
+        "ville": "Mérignac",
+        "codePostal": "33700",
+        "adresse": "11 rue Erik Satie (Bordeaux selon B)",
+        "lat": 44.84541,
+        "lng": -0.631
+      },
+      "distribution": {
+        "jour": "Jeudi",
+        "horaire": "18h30-19h30"
+      },
+      "web": {
+        "siteWeb": "http://auxpaniersdes2villes.over-blog.com/",
+        "plateforme": null
+      },
+      "dateCreation": null,
+      "rnaId": null
+    },
+    {
+      "id": "MERIG-PASSE",
+      "nom": "La passerelle vers la terre",
+      "localisation": {
+        "ville": "Mérignac",
+        "codePostal": "33700",
+        "adresse": "Centre social Le Puzzle, rue Jean Giono, à Capeyron",
+        "lat": 44.83131,
+        "lng": -0.67945
+      },
+      "distribution": {
+        "jour": "Mercredi",
+        "horaire": "18h30-19h30"
+      },
+      "web": {
+        "siteWeb": "https://amap-merignac-capeyron.jimdofree.com/",
+        "plateforme": null
+      },
+      "dateCreation": null,
+      "rnaId": null
+    },
+    {
+      "id": "PAIL-ARTOLI",
+      "nom": "AMAP de l'Artolie (Paillet)",
+      "localisation": {
+        "ville": "Paillet",
+        "codePostal": "33550",
+        "adresse": "salle du foyer rural, en face de la mairie",
+        "lat": 44.68577,
+        "lng": -0.36424
+      },
+      "distribution": {
+        "jour": "Jeudi",
+        "horaire": "18h30-19h30"
+      },
+      "web": {
+        "siteWeb": "https://www.facebook.com/AmapArtolie/",
+        "plateforme": null
+      },
+      "dateCreation": null,
+      "rnaId": null
+    },
+    {
+      "id": "PAILLET-PAN",
+      "nom": "Paniers Paillet",
+      "localisation": {
+        "ville": "Paillet",
+        "codePostal": "33550",
+        "adresse": null,
+        "lat": 44.68577,
+        "lng": -0.36424
+      },
+      "distribution": {
+        "jour": null,
+        "horaire": null
+      },
+      "web": {
+        "siteWeb": null,
+        "plateforme": null
+      },
+      "dateCreation": null,
+      "rnaId": null
+    },
+    {
+      "id": "PAREM-ESTE",
+      "nom": "AMAP Les Esteys",
+      "localisation": {
+        "ville": "Parempuyre",
+        "codePostal": "33290",
+        "adresse": "Athénée municipale à Parempuyre",
+        "lat": 44.95457,
+        "lng": -0.59995
+      },
+      "distribution": {
+        "jour": "Mercredi",
+        "horaire": "18h30-19h30"
+      },
+      "web": {
+        "siteWeb": null,
+        "plateforme": "AmapJ"
+      },
+      "dateCreation": null,
+      "rnaId": null
+    },
+    {
+      "id": "PESSAC-ADEL",
+      "nom": "AMAP Terre d'ADELES",
+      "localisation": {
+        "ville": "Pessac",
+        "codePostal": "33600",
+        "adresse": "Variables selon saison: centre social de Saige (nov-avril) / jardin d'Adèles 36 av Magellan (mai-oct)",
+        "lat": 44.78569,
+        "lng": -0.68271
+      },
+      "distribution": {
+        "jour": "Mercredi + Vendredi",
+        "horaire": "14h-16h (mer) / 17h-19h (ven)"
+      },
+      "web": {
+        "siteWeb": "https://terredadeles.fr/wiki/doku.php?id=accueil",
+        "plateforme": null
+      },
+      "dateCreation": null,
+      "rnaId": null
+    },
+    {
+      "id": "POMPI-POMPI",
+      "nom": "AMAP Le Pompin'ambour",
+      "localisation": {
+        "ville": "Pompignac",
+        "codePostal": "33370",
+        "adresse": "37 Lot. Parc de Cadouin (2025) - Anciennement: ferme du Plessis, 11 chemin du Maine",
+        "lat": 44.85448,
+        "lng": -0.44861
+      },
+      "distribution": {
+        "jour": "Mardi",
+        "horaire": "18h00-19h30"
+      },
+      "web": {
+        "siteWeb": "http://www.amap.pompignac.com/",
+        "plateforme": null
+      },
+      "dateCreation": "2008-10-28",
+      "rnaId": "W332007357"
+    },
+    {
+      "id": "PRIGN-BROUE",
+      "nom": "AMAP Brouettes et Paniers",
+      "localisation": {
+        "ville": "Prignac et Marcamps",
+        "codePostal": "33710",
+        "adresse": "Patricia Lalanne, 37 Chemin de la Croix Blanche (2025) + salle des fêtes place de la mairie + Bayon",
+        "lat": 45.03466,
+        "lng": -0.49405
+      },
+      "distribution": {
+        "jour": "Mardi (+ Lundi Bayon)",
+        "horaire": "19h00-20h00 (mar) / 18h30-19h30 (lun Bayon)"
+      },
+      "web": {
+        "siteWeb": "http://brouettesetpaniers.com/",
+        "plateforme": "AmapJ"
+      },
+      "dateCreation": null,
+      "rnaId": null
+    },
+    {
+      "id": "PUJOLS-CIRO",
+      "nom": "AMAP de Pujols sur Ciron",
+      "localisation": {
+        "ville": "Pujols-sur-Ciron",
+        "codePostal": "33210",
+        "adresse": null,
+        "lat": 44.56247,
+        "lng": -0.35385
+      },
+      "distribution": {
+        "jour": null,
+        "horaire": null
+      },
+      "web": {
+        "siteWeb": "https://www.facebook.com/profile.php?id=100063703625882",
+        "plateforme": null
+      },
+      "dateCreation": null,
+      "rnaId": null
+    },
+    {
+      "id": "QUIN-CUEILL",
+      "nom": "La Cueillette de Quinsac",
+      "localisation": {
+        "ville": "Quinsac",
+        "codePostal": "33360",
+        "adresse": "Salle des fêtes de Quinsac",
+        "lat": 44.75569,
+        "lng": -0.48913
+      },
+      "distribution": {
+        "jour": "Lundi",
+        "horaire": "19h30-20h30"
+      },
+      "web": {
+        "siteWeb": "https://www.lacueillettedequinsac.fr/",
+        "plateforme": null
+      },
+      "dateCreation": null,
+      "rnaId": null
+    },
+    {
+      "id": "REIGNAC-JAR",
+      "nom": "Le Jardin en Equilibre",
+      "localisation": {
+        "ville": "Reignac",
+        "codePostal": "33860",
+        "adresse": null,
+        "lat": 45.23413,
+        "lng": -0.50767
+      },
+      "distribution": {
+        "jour": null,
+        "horaire": null
+      },
+      "web": {
+        "siteWeb": null,
+        "plateforme": null
+      },
+      "dateCreation": null,
+      "rnaId": null
+    },
+    {
+      "id": "SILLAC-AMAP",
+      "nom": "AMAPILLAC",
+      "localisation": {
+        "ville": "Saint Jean d'Illac",
+        "codePostal": "33127",
+        "adresse": "Club House du Complexe sportif \"Pierre Favre\"",
+        "lat": 44.80369,
+        "lng": -0.81574
+      },
+      "distribution": {
+        "jour": "Mercredi",
+        "horaire": "18h30-19h30"
+      },
+      "web": {
+        "siteWeb": "http://amapillac.over-blog.fr/",
+        "plateforme": "AmapJ"
+      },
+      "dateCreation": "2011-06-14",
+      "rnaId": "W332012356"
+    },
+    {
+      "id": "CUZAC-JARDI",
+      "nom": "AMAP des Jardins du Cubzaguais",
+      "localisation": {
+        "ville": "Saint-André-de-Cubzac",
+        "codePostal": "33240",
+        "adresse": "Salle de la Dauge",
+        "lat": 44.9983,
+        "lng": -0.39346
+      },
+      "distribution": {
+        "jour": "Mardi",
+        "horaire": "18h30-20h00"
+      },
+      "web": {
+        "siteWeb": "https://www.facebook.com/jardinsducubzaguais/",
+        "plateforme": null
+      },
+      "dateCreation": null,
+      "rnaId": null
+    },
+    {
+      "id": "SAUBIN-TOUR",
+      "nom": "Le Panier Des Tourterelles",
+      "localisation": {
+        "ville": "Saint-Aubin-de-Médoc",
+        "codePostal": "33160",
+        "adresse": "Espace Villepreux - salle Concorde, Route du Tronquet",
+        "lat": 44.91342,
+        "lng": -0.72467
+      },
+      "distribution": {
+        "jour": "Jeudi",
+        "horaire": "19h00-20h00"
+      },
+      "web": {
+        "siteWeb": "http://panier.tourterelles.free.fr/amap/",
+        "plateforme": null
+      },
+      "dateCreation": null,
+      "rnaId": null
+    },
+    {
+      "id": "SLAUR-AMAP",
+      "nom": "Amap St Laurent d'Arce",
+      "localisation": {
+        "ville": "Saint-Laurent-d'Arce",
+        "codePostal": "33240",
+        "adresse": null,
+        "lat": 45.03533,
+        "lng": -0.47133
+      },
+      "distribution": {
+        "jour": null,
+        "horaire": null
+      },
+      "web": {
+        "siteWeb": null,
+        "plateforme": null
+      },
+      "dateCreation": null,
+      "rnaId": null
+    },
+    {
+      "id": "SLOUB-LOUBE",
+      "nom": "Le Panier Loubésien",
+      "localisation": {
+        "ville": "Saint-Loubès",
+        "codePostal": "33450",
+        "adresse": "Salle du club de football",
+        "lat": 44.90992,
+        "lng": -0.39992
+      },
+      "distribution": {
+        "jour": null,
+        "horaire": null
+      },
+      "web": {
+        "siteWeb": "http://lepanierloubesien.fr/",
+        "plateforme": "CAMAP"
+      },
+      "dateCreation": null,
+      "rnaId": null
+    },
+    {
+      "id": "SMAC-COTEAU",
+      "nom": "AMAP des coteaux Macariens",
+      "localisation": {
+        "ville": "Saint-Macaire",
+        "codePostal": "33490",
+        "adresse": null,
+        "lat": 44.56542,
+        "lng": -0.22644
+      },
+      "distribution": {
+        "jour": "Jeudi",
+        "horaire": "18h30-19h30"
+      },
+      "web": {
+        "siteWeb": "https://www.facebook.com/amap.descoteauxmacariens.7",
+        "plateforme": null
+      },
+      "dateCreation": "2010-05-19",
+      "rnaId": "W333001839"
+    },
+    {
+      "id": "SMLAC-CREAM",
+      "nom": "CREAMAP Blaye",
+      "localisation": {
+        "ville": "Saint-Martin-Lacaussade",
+        "codePostal": "33390",
+        "adresse": "Maison des Pellerins de St-Martin-Lacaussade",
+        "lat": 45.14657,
+        "lng": -0.64283
+      },
+      "distribution": {
+        "jour": "Jeudi",
+        "horaire": "18h30-19h30"
+      },
+      "web": {
+        "siteWeb": null,
+        "plateforme": null
+      },
+      "dateCreation": null,
+      "rnaId": null
+    },
+    {
+      "id": "SMEDAR-JALL",
+      "nom": "AMAP des Jalles",
+      "localisation": {
+        "ville": "Saint-Médard-en-Jalles",
+        "codePostal": "33160",
+        "adresse": "CAPOUEST, 26 Rue Aurel Chazeau",
+        "lat": 44.90869,
+        "lng": -0.80556
+      },
+      "distribution": {
+        "jour": "Jeudi",
+        "horaire": "19h00-20h00"
+      },
+      "web": {
+        "siteWeb": "https://amapdesjalles.fr/",
+        "plateforme": "AmapJ"
+      },
+      "dateCreation": "2012-03-26",
+      "rnaId": "W332013721"
+    },
+    {
+      "id": "SMORIL-VIGN",
+      "nom": "Le panier des vignes",
+      "localisation": {
+        "ville": "Saint-Morillon",
+        "codePostal": "33650",
+        "adresse": "sous le préau de la salle des fêtes (à côté école et bibliothèque)",
+        "lat": 44.6499,
+        "lng": -0.50268
+      },
+      "distribution": {
+        "jour": "Mercredi",
+        "horaire": "18h30-19h30"
+      },
+      "web": {
+        "siteWeb": "https://www.facebook.com/amappanierdesvignes",
+        "plateforme": null
+      },
+      "dateCreation": "2010-10-15",
+      "rnaId": "W332011165"
+    },
+    {
+      "id": "SFOY-FOYEN",
+      "nom": "Le Panier Foyen",
+      "localisation": {
+        "ville": "Sainte-Foy-la-Grande",
+        "codePostal": "33220",
+        "adresse": "Au chai, 65 rue Denfert-Rochereau",
+        "lat": 44.84165,
+        "lng": 0.214969
+      },
+      "distribution": {
+        "jour": "Mardi",
+        "horaire": "18h30-19h30"
+      },
+      "web": {
+        "siteWeb": "https://www.lepanierfoyen.fr/",
+        "plateforme": null
+      },
+      "dateCreation": null,
+      "rnaId": null
+    },
+    {
+      "id": "SHELEN-ESQU",
+      "nom": "AMAP de l'Esquirot",
+      "localisation": {
+        "ville": "Sainte-Hélène",
+        "codePostal": "33480",
+        "adresse": "Rue des Anciens Combattants d'Afrique du Nord (2025) - Anciennement: Grange derrière salle des fêtes",
+        "lat": 44.96529,
+        "lng": -0.87846
+      },
+      "distribution": {
+        "jour": "Mardi (+ Jeudi)",
+        "horaire": "18h30-19h30 (mar) / 18h00-19h00 (jeu)"
+      },
+      "web": {
+        "siteWeb": "https://www.facebook.com/amapdelesquirot/",
+        "plateforme": null
+      },
+      "dateCreation": "2013-09-21",
+      "rnaId": "W334001687"
+    },
+    {
+      "id": "SALLES-SILL",
+      "nom": "AMAP Les Jardins de Sillac",
+      "localisation": {
+        "ville": "Salles",
+        "codePostal": "33770",
+        "adresse": "Multi-sites: ferme de Sillac Salles (mardi) + espace Gemme Sanguinet (vendredi) ; SALLES",
+        "lat": 44.53636,
+        "lng": -0.89165
+      },
+      "distribution": {
+        "jour": "Mardi + Vendredi",
+        "horaire": "19h00-20h00"
+      },
+      "web": {
+        "siteWeb": "https://www.lesjardinsdesillac.fr/amap/",
+        "plateforme": "CAMAP"
+      },
+      "dateCreation": null,
+      "rnaId": null
+    },
+    {
+      "id": "SAUCATS-AMA",
+      "nom": "AMAP de Saucats",
+      "localisation": {
+        "ville": "Saucats",
+        "codePostal": "33650",
+        "adresse": null,
+        "lat": 44.6528,
+        "lng": -0.59589
+      },
+      "distribution": {
+        "jour": null,
+        "horaire": null
+      },
+      "web": {
+        "siteWeb": "https://amapsaucats.wordpress.com/ (KO)",
+        "plateforme": null
+      },
+      "dateCreation": "2017-06-30",
+      "rnaId": "W332022042"
+    },
+    {
+      "id": "TALENCE-PET",
+      "nom": "Panier d'Epeautre Talençais (AMAP Talence Pétal)",
+      "localisation": {
+        "ville": "Talence",
+        "codePostal": "33400",
+        "adresse": "2 groupes: Salle Brama 56 Av Sainte-Marie + atelier dôme de Thouars (Salle des éclaireurs, château de Thouars)",
+        "lat": 44.80597,
+        "lng": -0.58922
+      },
+      "distribution": {
+        "jour": "Mercredi",
+        "horaire": "Brama: 19h-20h / Thouars: 18h30-20h"
+      },
+      "web": {
+        "siteWeb": "https://cpa-petal.org/petal/",
+        "plateforme": "CAMAP"
+      },
+      "dateCreation": "2005-10-10",
+      "rnaId": "W332006555"
+    },
+    {
+      "id": "TRESSES-TAB",
+      "nom": "AMAP Tresses à table",
+      "localisation": {
+        "ville": "Tresses",
+        "codePostal": "33370",
+        "adresse": "Salle du marronnier (2025) - Anciennement: derrière salle de la fontaine",
+        "lat": 44.84789,
+        "lng": -0.43306
+      },
+      "distribution": {
+        "jour": "Mardi",
+        "horaire": "18h30-19h30"
+      },
+      "web": {
+        "siteWeb": "https://tressesatable.wixsite.com/tressesatable",
+        "plateforme": "CAMAP"
+      },
+      "dateCreation": "2009-05-14",
+      "rnaId": "W332008519"
+    },
+    {
+      "id": "VILLORN-RUC",
+      "nom": "AMAP La ruche / Aux Paniers de Chambéry",
+      "localisation": {
+        "ville": "Villenave-d'Ornon",
+        "codePostal": "33140",
+        "adresse": "31 rue Léon Gambetta chez Laurent Némery ; Stade Pierre Brossolette",
+        "lat": 44.76414,
+        "lng": -0.55091
+      },
+      "distribution": {
+        "jour": "Vendredi",
+        "horaire": "18h45-20h00"
+      },
+      "web": {
+        "siteWeb": "http://amaplaruchevo.blogspot.com/p/presentation-de-lamap.html",
+        "plateforme": "CAMAP"
+      },
+      "dateCreation": "2012-10-22",
+      "rnaId": "W332014579"
+    },
+    {
+      "id": "VILLORN-MAR",
+      "nom": "AMAP Le Panier de Marjolaine",
+      "localisation": {
+        "ville": "Villenave-d'Ornon",
+        "codePostal": "33140",
+        "adresse": "12 Rue du Commandant Charcot (2025) - Anciennement: Maison Pour Tous Canteloup",
+        "lat": 44.78199,
+        "lng": -0.57217
+      },
+      "distribution": {
+        "jour": "Mercredi (+ Jeudi été)",
+        "horaire": "18h30-19h30 (mer juin/sep/oct, jeu juil/août)"
+      },
+      "web": {
+        "siteWeb": "https://www.facebook.com/amapmarjolainevillenavedornon/",
+        "plateforme": null
+      },
+      "dateCreation": null,
+      "rnaId": null
+    },
+    {
+      "id": "GAR-O-BIO",
+      "nom": "Gar' ô Bio",
+      "localisation": {
+        "ville": "Bordeaux",
+        "codePostal": "33800",
+        "adresse": "Halle des douves",
+        "lat": 44.80091,
+        "lng": -0.56942
+      },
+      "distribution": {
+        "jour": "Mercredi",
+        "horaire": "18h30-19h30"
+      },
+      "web": {
+        "siteWeb": "https://amapgarobio.wixsite.com/amap",
+        "plateforme": "CAMAP"
+      },
+      "dateCreation": null,
+      "rnaId": null
+    },
+    {
+      "id": "BDX-SUD",
+      "nom": "Amap Bordeaux Sud",
+      "localisation": {
+        "ville": "33800",
+        "codePostal": null,
+        "adresse": "Bordeaux",
+        "lat": null,
+        "lng": 44.822542
+      },
+      "distribution": {
+        "jour": "Place du Cardinal Donnet",
+        "horaire": null
+      },
+      "web": {
+        "siteWeb": null,
+        "plateforme": "CAMAP"
+      },
+      "dateCreation": null,
+      "rnaId": "code_postal_ville"
+    },
+    {
+      "id": "BDX-SACRE",
+      "nom": "AMAP SACRE COEUR",
+      "localisation": {
+        "ville": "33800",
+        "codePostal": null,
+        "adresse": "Bordeaux",
+        "lat": null,
+        "lng": 44.823528
+      },
+      "distribution": {
+        "jour": "81 rue fieffe",
+        "horaire": null
+      },
+      "web": {
+        "siteWeb": null,
+        "plateforme": "CAMAP"
+      },
+      "dateCreation": null,
+      "rnaId": "code_postal_ville"
+    }
+  ]
+}

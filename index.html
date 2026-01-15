@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carte des AMAPs de Gironde</title>
+    
+    <!-- Leaflet CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    
+    <!-- Google Fonts - Polices chaleureuses -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&family=Source+Sans+3:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="app-container">
+        <!-- Header -->
+        <header class="header">
+            <div class="header-content">
+                <div class="header-title">
+                    <span class="logo">🥬</span>
+                    <div class="title-text">
+                        <h1>AMAPs de Gironde</h1>
+                        <p>Cartographie du réseau depuis 2005</p>
+                    </div>
+                </div>
+                
+                <div class="search-box">
+                    <input type="text" id="searchInput" placeholder="Rechercher une AMAP ou une ville...">
+                    <svg class="search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <circle cx="11" cy="11" r="8"></circle>
+                        <path d="m21 21-4.3-4.3"></path>
+                    </svg>
+                </div>
+            </div>
+        </header>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <!-- Carte principale -->
+            <div class="map-container">
+                <div id="map"></div>
+            </div>
+            
+            <!-- Slider temporel compact -->
+            <div class="timeline-compact">
+                <span class="timeline-year" id="yearMin">2005</span>
+                <input type="range" 
+                       id="timelineSlider" 
+                       class="timeline-slider"
+                       min="2005" 
+                       max="2024" 
+                       value="2024"
+                       step="1">
+                <span class="timeline-year timeline-year-current" id="yearCurrent">2024</span>
+            </div>
+            
+            <!-- Liste des AMAPs -->
+            <section class="list-panel">
+                <div class="list-header">
+                    <h2>
+                        <span>📋</span>
+                        Liste des AMAPs
+                    </h2>
+                    <span class="result-count" id="resultCount">0 résultats</span>
+                </div>
+                
+                <div class="table-container">
+                    <table id="amapsTable">
+                        <thead>
+                            <tr>
+                                <th>Nom</th>
+                                <th>Ville</th>
+                                <th>Jour</th>
+                                <th>Horaire</th>
+                                <th>Action</th>
+                            </tr>
+                        </thead>
+                        <tbody id="amapsBody">
+                            <!-- Contenu dynamique -->
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+        </main>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <p>
+                Données issues du réseau Inter-AMAP Gironde · 
+                <a href="https://miramap.org" target="_blank" rel="noopener">Miramap</a>
+            </p>
+        </footer>
+    </div>
+
+    <!-- Modal détail -->
+    <div id="modal" class="modal hidden">
+        <div class="modal-backdrop"></div>
+        <div class="modal-content">
+            <button class="modal-close" id="modalClose">&times;</button>
+            <div id="modalBody">
+                <!-- Contenu dynamique -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Leaflet JS -->
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    
+    <!-- App JS -->
+    <script src="js/app.js"></script>
+</body>
+</html>
