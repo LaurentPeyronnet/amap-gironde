@@ -8,7 +8,7 @@
     <!-- Leaflet CSS -->
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
     
-    <!-- Google Fonts - Polices chaleureuses -->
+    <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&family=Source+Sans+3:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -25,16 +25,30 @@
                     <span class="logo">🥬</span>
                     <div class="title-text">
                         <h1>AMAPs de Gironde</h1>
-                        <p>Cartographie du réseau depuis 2005</p>
+                        <p>Réseau des AMAPs et producteurs</p>
                     </div>
                 </div>
                 
-                <div class="search-box">
-                    <input type="text" id="searchInput" placeholder="Rechercher une AMAP ou une ville...">
-                    <svg class="search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                        <circle cx="11" cy="11" r="8"></circle>
-                        <path d="m21 21-4.3-4.3"></path>
-                    </svg>
+                <div class="header-controls">
+                    <!-- Toggle AMAPs / Producteurs -->
+                    <div class="view-toggle">
+                        <button class="toggle-btn active" data-view="amaps">
+                            <span class="toggle-icon">🏠</span>
+                            <span>AMAPs</span>
+                        </button>
+                        <button class="toggle-btn" data-view="producteurs">
+                            <span class="toggle-icon">🌾</span>
+                            <span>Producteurs</span>
+                        </button>
+                    </div>
+                    
+                    <div class="search-box">
+                        <input type="text" id="searchInput" placeholder="Rechercher...">
+                        <svg class="search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <circle cx="11" cy="11" r="8"></circle>
+                            <path d="m21 21-4.3-4.3"></path>
+                        </svg>
+                    </div>
                 </div>
             </div>
         </header>
@@ -44,10 +58,15 @@
             <!-- Carte principale -->
             <div class="map-container">
                 <div id="map"></div>
+                <!-- Légende des icônes producteurs -->
+                <div class="map-legend" id="mapLegend">
+                    <div class="legend-title">Produits</div>
+                    <div class="legend-items" id="legendItems"></div>
+                </div>
             </div>
             
             <!-- Slider temporel compact -->
-            <div class="timeline-compact">
+            <div class="timeline-compact" id="timelinePanel">
                 <span class="timeline-year" id="yearMin">2005</span>
                 <input type="range" 
                        id="timelineSlider" 
@@ -59,14 +78,21 @@
                 <span class="timeline-year timeline-year-current" id="yearCurrent">2024</span>
             </div>
             
+            <!-- Filtre par catégorie de produit (pour producteurs) -->
+            <div class="category-filter hidden" id="categoryFilter">
+                <select id="filterCategory" class="filter-select">
+                    <option value="">Tous les produits</option>
+                </select>
+            </div>
+            
             <!-- Liste des AMAPs -->
-            <section class="list-panel">
+            <section class="list-panel" id="amapsList">
                 <div class="list-header">
                     <h2>
                         <span>📋</span>
                         Liste des AMAPs
                     </h2>
-                    <span class="result-count" id="resultCount">0 résultats</span>
+                    <span class="result-count" id="amapsResultCount">0 résultats</span>
                 </div>
                 
                 <div class="table-container">
@@ -76,13 +102,37 @@
                                 <th>Nom</th>
                                 <th>Ville</th>
                                 <th>Jour</th>
-                                <th>Horaire</th>
+                                <th>Producteurs</th>
                                 <th>Action</th>
                             </tr>
                         </thead>
-                        <tbody id="amapsBody">
-                            <!-- Contenu dynamique -->
-                        </tbody>
+                        <tbody id="amapsBody"></tbody>
+                    </table>
+                </div>
+            </section>
+            
+            <!-- Liste des Producteurs -->
+            <section class="list-panel hidden" id="producteursList">
+                <div class="list-header">
+                    <h2>
+                        <span>🌾</span>
+                        Liste des Producteurs
+                    </h2>
+                    <span class="result-count" id="producteursResultCount">0 résultats</span>
+                </div>
+                
+                <div class="table-container">
+                    <table id="producteursTable">
+                        <thead>
+                            <tr>
+                                <th>Produit</th>
+                                <th>Producteur</th>
+                                <th>Fréquence</th>
+                                <th>AMAPs</th>
+                                <th>Action</th>
+                            </tr>
+                        </thead>
+                        <tbody id="producteursBody"></tbody>
                     </table>
                 </div>
             </section>
@@ -102,9 +152,7 @@
         <div class="modal-backdrop"></div>
         <div class="modal-content">
             <button class="modal-close" id="modalClose">&times;</button>
-            <div id="modalBody">
-                <!-- Contenu dynamique -->
-            </div>
+            <div id="modalBody"></div>
         </div>
     </div>
 

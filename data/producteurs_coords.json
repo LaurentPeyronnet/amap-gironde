@@ -1,0 +1,361 @@
+{
+  "geocoded": "2026-01-16",
+  "source": "Nominatim (OpenStreetMap)",
+  "coords": {
+    "15 La Craberie, 33920 Civrac de Blaye": {
+      "lat": 45.11319,
+      "lng": -0.45589,
+      "precision": "adresse_complete"
+    },
+    "33710 Tauriac": {
+      "lat": 45.04966,
+      "lng": -0.5023,
+      "precision": "adresse_complete"
+    },
+    "Ferme Les Fontaines, 16360 Baignes": {
+      "lat": 45.38253,
+      "lng": -0.27188,
+      "precision": "adresse_complete"
+    },
+    "4 rue des Esleys, 33240 Saint-Gervais": {
+      "lat": 45.01793,
+      "lng": -0.46524,
+      "precision": "ville_cp"
+    },
+    "2 Le dit La Paillot, 33660 Saint Antoine sur l'Isle": {
+      "lat": 44.99285,
+      "lng": 0.01195,
+      "precision": "ville"
+    },
+    "11 bis rue Chambrelent, 33470 Gujan Mestras": {
+      "lat": 44.62719,
+      "lng": -1.0647,
+      "precision": "adresse_complete"
+    },
+    "26 La Chaux, 33230 Saint-Christophe de Double": {
+      "lat": 45.0735,
+      "lng": 0.05351,
+      "precision": "adresse_complete"
+    },
+    "Ferme de Chez Caillaud, 16480 St Laurent des Combes": {
+      "lat": 45.37233,
+      "lng": 0.03261,
+      "precision": "adresse_complete"
+    },
+    "15 Avenue Armand Béraud, 33440 Saint-Vincent-de-Paul": {
+      "lat": 44.98168,
+      "lng": -0.48133,
+      "precision": "adresse_complete"
+    },
+    "1 Menanteau, 33860 Marcillac": {
+      "lat": 45.25563,
+      "lng": -0.49309,
+      "precision": "adresse_complete"
+    },
+    "Château du Luc 16 Le Luc, 33710 Bayon": {
+      "lat": 45.05578,
+      "lng": -0.59979,
+      "precision": "ville"
+    },
+    "Cauvignac": {
+      "lat": 44.41807,
+      "lng": -0.07991,
+      "precision": "adresse_complete"
+    },
+    "Loupiac-de-La-Réole": {
+      "lat": 44.54749,
+      "lng": -0.04491,
+      "precision": "adresse_complete"
+    },
+    "Castets-et-Castillon": {
+      "lat": 44.55453,
+      "lng": -0.12784,
+      "precision": "adresse_complete"
+    },
+    "Noaillan": {
+      "lat": 44.48038,
+      "lng": -0.36786,
+      "precision": "adresse_complete"
+    },
+    "Illats": {
+      "lat": 44.59738,
+      "lng": -0.37356,
+      "precision": "adresse_complete"
+    },
+    "Barie": {
+      "lat": 44.57058,
+      "lng": -0.11555,
+      "precision": "adresse_complete"
+    },
+    "Lados": {
+      "lat": 44.46692,
+      "lng": -0.14857,
+      "precision": "adresse_complete"
+    },
+    "Préchac": {
+      "lat": 44.39875,
+      "lng": -0.35317,
+      "precision": "adresse_complete"
+    },
+    "Lugos": {
+      "lat": 44.48165,
+      "lng": -0.88272,
+      "precision": "adresse_complete"
+    },
+    "Grignols": {
+      "lat": 44.38774,
+      "lng": -0.04391,
+      "precision": "adresse_complete"
+    },
+    "Biganos": {
+      "lat": 44.64201,
+      "lng": -0.97662,
+      "precision": "adresse_complete"
+    },
+    "Romagne (Gironde )": {
+      "lat": 44.76092,
+      "lng": -0.19702,
+      "precision": "adresse_complete"
+    },
+    "Blanquefort": {
+      "lat": 44.9089,
+      "lng": -0.63004,
+      "precision": "adresse_complete"
+    },
+    "Buisson de Cadouin (Dordogne)": {
+      "lat": 44.79578,
+      "lng": 0.88534,
+      "precision": "adresse_complete"
+    },
+    "Monbahus (Lot et Garonne)": {
+      "lat": 44.54944,
+      "lng": 0.53578,
+      "precision": "adresse_complete"
+    },
+    "Montpon Ménestérol (Dordogne)": {
+      "lat": 45.00811,
+      "lng": 0.1621,
+      "precision": "adresse_complete"
+    },
+    "Beleymas (Dordogne)": {
+      "lat": 44.99347,
+      "lng": 0.50493,
+      "precision": "adresse_complete"
+    },
+    "Le Taillan": {
+      "lat": 44.90641,
+      "lng": -0.66103,
+      "precision": "adresse_complete"
+    },
+    "St Aquilin (Dordogne)": {
+      "lat": 45.186,
+      "lng": 0.49378,
+      "precision": "adresse_complete"
+    },
+    "CESTAS": {
+      "lat": 44.74116,
+      "lng": -0.68412,
+      "precision": "adresse_complete"
+    },
+    "Avensan": {
+      "lat": 45.03605,
+      "lng": -0.7576,
+      "precision": "adresse_complete"
+    },
+    "Bruges": {
+      "lat": 44.87741,
+      "lng": -0.60942,
+      "precision": "adresse_complete"
+    },
+    "Le Taillan Médoc": {
+      "lat": 44.9044,
+      "lng": -0.66934,
+      "precision": "adresse_complete"
+    },
+    "Savignac 33": {
+      "lat": 44.52246,
+      "lng": -0.10851,
+      "precision": "adresse_complete"
+    },
+    "Mérignac, 33": {
+      "lat": 44.84217,
+      "lng": -0.6469,
+      "precision": "adresse_complete"
+    },
+    "Moissac (Tarn-et-Garonne)": {
+      "lat": 44.10509,
+      "lng": 1.08467,
+      "precision": "adresse_complete"
+    },
+    "Pessac 33": {
+      "lat": 44.8305,
+      "lng": -0.5799,
+      "precision": "adresse_complete"
+    },
+    "24350 Grand-brassac": {
+      "lat": 45.29427,
+      "lng": 0.47865,
+      "precision": "adresse_complete"
+    },
+    "Les Esseintes 4 sables du pichot Ldt Labarthe 33190 CAMIRAN": {
+      "lat": 44.62858,
+      "lng": -0.07055,
+      "precision": "ville_cp"
+    },
+    "33240 Saint Germain de la Rivière": {
+      "lat": 44.95083,
+      "lng": -0.33322,
+      "precision": "adresse_complete"
+    },
+    "11 route de Valeyrac, 33590 Saint Vivien de Médoc": {
+      "lat": 45.44235,
+      "lng": -1.00727,
+      "precision": "adresse_complete"
+    },
+    "Sillas (sud-Gironde)": {
+      "lat": 44.37387,
+      "lng": -0.06176,
+      "precision": "adresse_complete"
+    },
+    "Valence": {
+      "lat": 44.93323,
+      "lng": 4.89208,
+      "precision": "adresse_complete"
+    },
+    "Saint Vincent de Paul 33": {
+      "lat": 44.95498,
+      "lng": -0.4693,
+      "precision": "adresse_complete"
+    },
+    "Île de Ré": {
+      "lat": 46.20054,
+      "lng": -1.40028,
+      "precision": "adresse_complete"
+    },
+    "Carbon-Blanc 33": {
+      "lat": 44.89377,
+      "lng": -0.50503,
+      "precision": "adresse_complete"
+    },
+    "Gours 33": {
+      "lat": 45.02117,
+      "lng": -0.21847,
+      "precision": "ville"
+    },
+    "Coutras 33": {
+      "lat": 45.04073,
+      "lng": -0.12895,
+      "precision": "adresse_complete"
+    },
+    "Créon 33": {
+      "lat": 44.77468,
+      "lng": -0.34829,
+      "precision": "adresse_complete"
+    },
+    "33620 Laruscade": {
+      "lat": 45.10725,
+      "lng": -0.33808,
+      "precision": "adresse_complete"
+    },
+    "Bassin d'Arcachon": {
+      "lat": 44.58428,
+      "lng": -1.13565,
+      "precision": "adresse_complete"
+    },
+    "Forêt de la Double": {
+      "lat": 45.12187,
+      "lng": 0.21172,
+      "precision": "adresse_complete"
+    },
+    "Latresne": {
+      "lat": 44.78464,
+      "lng": -0.49689,
+      "precision": "adresse_complete"
+    },
+    "1 Jean du Mieu Est, 33430 Sauviac": {
+      "lat": 44.40844,
+      "lng": -0.19556,
+      "precision": "ville_cp"
+    },
+    "Bravone 20230 Linguizzetta": {
+      "lat": 42.20062,
+      "lng": 9.53713,
+      "precision": "adresse_complete"
+    },
+    "Vérac 33": {
+      "lat": 44.99137,
+      "lng": -0.34115,
+      "precision": "adresse_complete"
+    },
+    "Chemin Camin de Langlet, 3320 Eysines": {
+      "lat": 44.88547,
+      "lng": -0.64869,
+      "precision": "ville"
+    },
+    "Cercoux (17270)": {
+      "lat": 45.12972,
+      "lng": -0.20482,
+      "precision": "adresse_complete"
+    },
+    "33430 Le Nizan": {
+      "lat": 44.47704,
+      "lng": -0.26948,
+      "precision": "adresse_complete"
+    },
+    "Courpiac": {
+      "lat": 44.75426,
+      "lng": -0.18236,
+      "precision": "adresse_complete"
+    },
+    "Arsac": {
+      "lat": 44.99719,
+      "lng": -0.68837,
+      "precision": "adresse_complete"
+    },
+    "Barie 33190": {
+      "lat": 44.57058,
+      "lng": -0.11555,
+      "precision": "adresse_complete"
+    },
+    "33160 Saint Aubin du Médoc": {
+      "lat": 44.93703,
+      "lng": -0.71919,
+      "precision": "adresse_complete"
+    },
+    "Mérignac": {
+      "lat": 44.842168,
+      "lng": -0.6469022,
+      "precision": "adresse_complete"
+    },
+    "Blanquefort 33": {
+      "lat": 44.9089,
+      "lng": -0.63004,
+      "precision": "ville"
+    },
+    "Nord Gironde": {
+      "lat": 45.15,
+      "lng": -0.35,
+      "precision": "region"
+    },
+    "Nord-Gironde": {
+      "lat": 45.15,
+      "lng": -0.35,
+      "precision": "region"
+    },
+    "Bessan 33": {
+      "lat": 44.82,
+      "lng": -0.58,
+      "precision": "approximatif"
+    },
+    "Andalousie": {
+      "lat": 37.38,
+      "lng": -5.99,
+      "precision": "region"
+    },
+    "Aureuil": {
+      "lat": 45.13,
+      "lng": 0.77,
+      "precision": "ville"
+    }
+  }
+}

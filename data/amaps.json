@@ -1,9 +1,11 @@
 {
   "metadata": {
-    "source": "AMAPs_Gironde_2025 - AMAP - 12_2025.csv",
-    "generated": "2026-01-15",
-    "count": 107,
-    "geocoded": 103,
+    "source": "AMAPs_Gironde_2025",
+    "generated": "2026-01-16",
+    "amapsCount": 107,
+    "amapsGeocoded": 103,
+    "producteursCount": 132,
+    "producteursGeocoded": 67,
     "withDate": 46,
     "dateMin": "2005-10-10",
     "dateMax": "2022-09-23"
@@ -28,7 +30,8 @@
         "plateforme": "AmapJ"
       },
       "dateCreation": "2013-07-24",
-      "rnaId": "W332015776"
+      "rnaId": "W332015776",
+      "producteurs": []
     },
     {
       "id": "ARTIG-ART",
@@ -49,7 +52,8 @@
         "plateforme": null
       },
       "dateCreation": "2010-08-02",
-      "rnaId": "W332010872"
+      "rnaId": "W332010872",
+      "producteurs": []
     },
     {
       "id": "BARSAC-ASTER",
@@ -70,7 +74,8 @@
         "plateforme": null
       },
       "dateCreation": "2013-01-23",
-      "rnaId": "W333002424"
+      "rnaId": "W333002424",
+      "producteurs": []
     },
     {
       "id": "BAYON-POTI",
@@ -91,7 +96,20 @@
         "plateforme": null
       },
       "dateCreation": "2017-04-28",
-      "rnaId": "W331001798"
+      "rnaId": "W331001798",
+      "producteurs": [
+        "PROD-001",
+        "PROD-002",
+        "PROD-003",
+        "PROD-004",
+        "PROD-005",
+        "PROD-006",
+        "PROD-007",
+        "PROD-008",
+        "PROD-009",
+        "PROD-010",
+        "PROD-011"
+      ]
     },
     {
       "id": "BAZAS-BAZAD",
@@ -112,7 +130,28 @@
         "plateforme": "CAMAP"
       },
       "dateCreation": null,
-      "rnaId": null
+      "rnaId": null,
+      "producteurs": [
+        "PROD-012",
+        "PROD-013",
+        "PROD-014",
+        "PROD-015",
+        "PROD-016",
+        "PROD-017",
+        "PROD-018",
+        "PROD-019",
+        "PROD-020",
+        "PROD-021",
+        "PROD-022",
+        "PROD-023",
+        "PROD-024",
+        "PROD-025",
+        "PROD-026",
+        "PROD-027",
+        "PROD-028",
+        "PROD-029",
+        "PROD-030"
+      ]
     },
     {
       "id": "BEGLES-RADIS",
@@ -133,7 +172,8 @@
         "plateforme": null
       },
       "dateCreation": null,
-      "rnaId": null
+      "rnaId": null,
+      "producteurs": []
     },
     {
       "id": "BEGLES-1",
@@ -154,7 +194,8 @@
         "plateforme": "CAMAP"
       },
       "dateCreation": null,
-      "rnaId": null
+      "rnaId": null,
+      "producteurs": []
     },
     {
       "id": "BEGLES-RDVB",
@@ -175,7 +216,8 @@
         "plateforme": "CAMAP"
       },
       "dateCreation": null,
-      "rnaId": null
+      "rnaId": null,
+      "producteurs": []
     },
     {
       "id": "BEGLES-COCCI",
@@ -196,7 +238,8 @@
         "plateforme": null
       },
       "dateCreation": "2010-09-20",
-      "rnaId": "W332011027"
+      "rnaId": "W332011027",
+      "producteurs": []
     },
     {
       "id": "BEGLES-EOLE",
@@ -217,7 +260,8 @@
         "plateforme": null
       },
       "dateCreation": "2008-11-26",
-      "rnaId": "W332007566"
+      "rnaId": "W332007566",
+      "producteurs": []
     },
     {
       "id": "BELIN-CASAL",
@@ -238,7 +282,8 @@
         "plateforme": null
       },
       "dateCreation": null,
-      "rnaId": null
+      "rnaId": null,
+      "producteurs": []
     },
     {
       "id": "BERSON-AMAP",
@@ -259,7 +304,8 @@
         "plateforme": null
       },
       "dateCreation": null,
-      "rnaId": null
+      "rnaId": null,
+      "producteurs": []
     },
     {
       "id": "BIGANOS-COEUR",
@@ -280,7 +326,8 @@
         "plateforme": "CAMAP"
       },
       "dateCreation": "2015-05-30",
-      "rnaId": "W336002939"
+      "rnaId": "W336002939",
+      "producteurs": []
     },
     {
       "id": "BLANQ-PLANET",
@@ -301,7 +348,30 @@
         "plateforme": "AmapJ"
       },
       "dateCreation": "2012-02-06",
-      "rnaId": "W332013490"
+      "rnaId": "W332013490",
+      "producteurs": [
+        "PROD-005",
+        "PROD-066",
+        "PROD-080",
+        "PROD-081",
+        "PROD-082",
+        "PROD-083",
+        "PROD-084",
+        "PROD-085",
+        "PROD-086",
+        "PROD-087",
+        "PROD-088",
+        "PROD-089",
+        "PROD-090",
+        "PROD-091",
+        "PROD-092",
+        "PROD-094",
+        "PROD-095",
+        "PROD-096",
+        "PROD-097",
+        "PROD-098",
+        "PROD-099"
+      ]
     },
     {
       "id": "BONZAC-PANIER",
@@ -322,7 +392,8 @@
         "plateforme": null
       },
       "dateCreation": null,
-      "rnaId": null
+      "rnaId": null,
+      "producteurs": []
     },
     {
       "id": "BDX-CENTRE",
@@ -343,7 +414,8 @@
         "plateforme": "AmapJ"
       },
       "dateCreation": "2021-03-21",
-      "rnaId": "W332030450"
+      "rnaId": "W332030450",
+      "producteurs": []
     },
     {
       "id": "BDX-EMILE",
@@ -364,7 +436,8 @@
         "plateforme": null
       },
       "dateCreation": "2021-01-22",
-      "rnaId": "W332030239"
+      "rnaId": "W332030239",
+      "producteurs": []
     },
     {
       "id": "BDX-DESCAS",
@@ -385,7 +458,8 @@
         "plateforme": null
       },
       "dateCreation": null,
-      "rnaId": null
+      "rnaId": null,
+      "producteurs": []
     },
     {
       "id": "BDX-BIOGU",
@@ -406,7 +480,8 @@
         "plateforme": "AmapJ"
       },
       "dateCreation": null,
-      "rnaId": null
+      "rnaId": null,
+      "producteurs": []
     },
     {
       "id": "BDX-5COEUR",
@@ -427,7 +502,8 @@
         "plateforme": null
       },
       "dateCreation": null,
-      "rnaId": null
+      "rnaId": null,
+      "producteurs": []
     },
     {
       "id": "BDX-ESP29",
@@ -448,7 +524,8 @@
         "plateforme": null
       },
       "dateCreation": null,
-      "rnaId": null
+      "rnaId": null,
+      "producteurs": []
     },
     {
       "id": "BDX-BACALAN",
@@ -469,7 +546,32 @@
         "plateforme": "CAMAP"
       },
       "dateCreation": null,
-      "rnaId": null
+      "rnaId": null,
+      "producteurs": [
+        "PROD-031",
+        "PROD-032",
+        "PROD-033",
+        "PROD-034",
+        "PROD-036",
+        "PROD-037",
+        "PROD-040",
+        "PROD-042",
+        "PROD-043",
+        "PROD-044",
+        "PROD-045",
+        "PROD-046",
+        "PROD-047",
+        "PROD-048",
+        "PROD-049",
+        "PROD-050",
+        "PROD-051",
+        "PROD-053",
+        "PROD-054",
+        "PROD-055",
+        "PROD-056",
+        "PROD-057",
+        "PROD-059"
+      ]
     },
     {
       "id": "BDX-CAUDER",
@@ -490,7 +592,8 @@
         "plateforme": "CAMAP"
       },
       "dateCreation": null,
-      "rnaId": null
+      "rnaId": null,
+      "producteurs": []
     },
     {
       "id": "BDX-GPARC",
@@ -511,7 +614,8 @@
         "plateforme": "CAMAP"
       },
       "dateCreation": null,
-      "rnaId": null
+      "rnaId": null,
+      "producteurs": []
     },
     {
       "id": "BDX-NANSOU",
@@ -532,7 +636,30 @@
         "plateforme": "CAMAP"
       },
       "dateCreation": null,
-      "rnaId": null
+      "rnaId": null,
+      "producteurs": [
+        "PROD-015",
+        "PROD-051",
+        "PROD-054",
+        "PROD-061",
+        "PROD-063",
+        "PROD-064",
+        "PROD-065",
+        "PROD-066",
+        "PROD-067",
+        "PROD-068",
+        "PROD-069",
+        "PROD-070",
+        "PROD-071",
+        "PROD-072",
+        "PROD-073",
+        "PROD-074",
+        "PROD-075",
+        "PROD-076",
+        "PROD-077",
+        "PROD-078",
+        "PROD-079"
+      ]
     },
     {
       "id": "BDX-STGENE",
@@ -553,7 +680,8 @@
         "plateforme": null
       },
       "dateCreation": null,
-      "rnaId": null
+      "rnaId": null,
+      "producteurs": []
     },
     {
       "id": "BDX-MOULIN",
@@ -574,7 +702,8 @@
         "plateforme": "AmapJ"
       },
       "dateCreation": null,
-      "rnaId": null
+      "rnaId": null,
+      "producteurs": []
     },
     {
       "id": "BRAUD-ESTUA",
@@ -595,7 +724,8 @@
         "plateforme": null
       },
       "dateCreation": null,
-      "rnaId": null
+      "rnaId": null,
+      "producteurs": []
     },
     {
       "id": "BRUGES-TERI",
@@ -616,7 +746,8 @@
         "plateforme": "AmapJ"
       },
       "dateCreation": "2018-08-21",
-      "rnaId": "W332023802"
+      "rnaId": "W332023802",
+      "producteurs": []
     },
     {
       "id": "CADAU-PLUS",
@@ -637,7 +768,8 @@
         "plateforme": "CAMAP"
       },
       "dateCreation": null,
-      "rnaId": null
+      "rnaId": null,
+      "producteurs": []
     },
     {
       "id": "CADIL-AFFAM",
@@ -658,7 +790,8 @@
         "plateforme": null
       },
       "dateCreation": null,
-      "rnaId": null
+      "rnaId": null,
+      "producteurs": []
     },
     {
       "id": "CANEJAN-CAL",
@@ -679,7 +812,8 @@
         "plateforme": "CAMAP"
       },
       "dateCreation": null,
-      "rnaId": null
+      "rnaId": null,
+      "producteurs": []
     },
     {
       "id": "CARIG-PRE",
@@ -700,7 +834,8 @@
         "plateforme": "AmapJ"
       },
       "dateCreation": null,
-      "rnaId": null
+      "rnaId": null,
+      "producteurs": []
     },
     {
       "id": "CASTEL-MAP",
@@ -721,7 +856,8 @@
         "plateforme": null
       },
       "dateCreation": "2010-07-06",
-      "rnaId": "W334001235"
+      "rnaId": "W334001235",
+      "producteurs": []
     },
     {
       "id": "CASTIL-VERT",
@@ -742,7 +878,8 @@
         "plateforme": null
       },
       "dateCreation": null,
-      "rnaId": null
+      "rnaId": null,
+      "producteurs": []
     },
     {
       "id": "CENON-HAUT",
@@ -763,7 +900,8 @@
         "plateforme": null
       },
       "dateCreation": "2022-09-23",
-      "rnaId": "W332032407"
+      "rnaId": "W332032407",
+      "producteurs": []
     },
     {
       "id": "CENON-GOURM",
@@ -784,7 +922,8 @@
         "plateforme": "CAMAP"
       },
       "dateCreation": null,
-      "rnaId": null
+      "rnaId": null,
+      "producteurs": []
     },
     {
       "id": "CISSAC-AMAP",
@@ -805,7 +944,8 @@
         "plateforme": null
       },
       "dateCreation": null,
-      "rnaId": null
+      "rnaId": null,
+      "producteurs": []
     },
     {
       "id": "COUTRAS-AMA",
@@ -826,7 +966,8 @@
         "plateforme": null
       },
       "dateCreation": null,
-      "rnaId": null
+      "rnaId": null,
+      "producteurs": []
     },
     {
       "id": "CREON-AMAP",
@@ -847,7 +988,8 @@
         "plateforme": null
       },
       "dateCreation": "2008-10-22",
-      "rnaId": "W332007329"
+      "rnaId": "W332007329",
+      "producteurs": []
     },
     {
       "id": "CUSSAC-FORT",
@@ -868,7 +1010,8 @@
         "plateforme": null
       },
       "dateCreation": null,
-      "rnaId": null
+      "rnaId": null,
+      "producteurs": []
     },
     {
       "id": "EYSIN-PAPIL",
@@ -889,7 +1032,8 @@
         "plateforme": null
       },
       "dateCreation": "2010-05-06",
-      "rnaId": "W332010535"
+      "rnaId": "W332010535",
+      "producteurs": []
     },
     {
       "id": "EYSIN-MIGRO",
@@ -910,7 +1054,8 @@
         "plateforme": "AmapJ"
       },
       "dateCreation": "2011-10-24",
-      "rnaId": "W332012950"
+      "rnaId": "W332012950",
+      "producteurs": []
     },
     {
       "id": "FLOIRAC-PAN",
@@ -931,7 +1076,8 @@
         "plateforme": null
       },
       "dateCreation": null,
-      "rnaId": null
+      "rnaId": null,
+      "producteurs": []
     },
     {
       "id": "GRADI-MALAR",
@@ -952,7 +1098,8 @@
         "plateforme": null
       },
       "dateCreation": "2009-12-11",
-      "rnaId": "W332009718"
+      "rnaId": "W332009718",
+      "producteurs": []
     },
     {
       "id": "GRADI-CABAS",
@@ -973,7 +1120,8 @@
         "plateforme": "AmapJ"
       },
       "dateCreation": null,
-      "rnaId": null
+      "rnaId": null,
+      "producteurs": []
     },
     {
       "id": "GUJAN-SUDB",
@@ -994,7 +1142,8 @@
         "plateforme": null
       },
       "dateCreation": "2009-01-08",
-      "rnaId": "W336001665"
+      "rnaId": "W336001665",
+      "producteurs": []
     },
     {
       "id": "ILLATS-LAVO",
@@ -1015,7 +1164,8 @@
         "plateforme": null
       },
       "dateCreation": "2010-03-03",
-      "rnaId": "W333001782"
+      "rnaId": "W333001782",
+      "producteurs": []
     },
     {
       "id": "IZON-PANIER",
@@ -1036,7 +1186,8 @@
         "plateforme": null
       },
       "dateCreation": "2020-09-01",
-      "rnaId": "W335007221"
+      "rnaId": "W335007221",
+      "producteurs": []
     },
     {
       "id": "LABREDE-BAI",
@@ -1057,7 +1208,8 @@
         "plateforme": null
       },
       "dateCreation": "2013-03-25",
-      "rnaId": "W332015272"
+      "rnaId": "W332015272",
+      "producteurs": []
     },
     {
       "id": "LAREOLE-AMA",
@@ -1078,7 +1230,8 @@
         "plateforme": null
       },
       "dateCreation": null,
-      "rnaId": null
+      "rnaId": null,
+      "producteurs": []
     },
     {
       "id": "LACANAU-AMA",
@@ -1099,7 +1252,8 @@
         "plateforme": null
       },
       "dateCreation": "2009-06-11",
-      "rnaId": "W334001039"
+      "rnaId": "W334001039",
+      "producteurs": []
     },
     {
       "id": "LANGOI-AMAP",
@@ -1120,7 +1274,8 @@
         "plateforme": null
       },
       "dateCreation": null,
-      "rnaId": null
+      "rnaId": null,
+      "producteurs": []
     },
     {
       "id": "LANGON-RIVE",
@@ -1141,7 +1296,8 @@
         "plateforme": null
       },
       "dateCreation": "2011-12-07",
-      "rnaId": "W333002208"
+      "rnaId": "W333002208",
+      "producteurs": []
     },
     {
       "id": "LANTON-AGUE",
@@ -1162,7 +1318,8 @@
         "plateforme": null
       },
       "dateCreation": null,
-      "rnaId": null
+      "rnaId": null,
+      "producteurs": []
     },
     {
       "id": "LAPOU-AMAP",
@@ -1183,7 +1340,8 @@
         "plateforme": null
       },
       "dateCreation": null,
-      "rnaId": null
+      "rnaId": null,
+      "producteurs": []
     },
     {
       "id": "BARP-JARDIN",
@@ -1204,7 +1362,8 @@
         "plateforme": null
       },
       "dateCreation": null,
-      "rnaId": null
+      "rnaId": null,
+      "producteurs": []
     },
     {
       "id": "HAILLAN-AMA",
@@ -1225,7 +1384,8 @@
         "plateforme": "AmapJ"
       },
       "dateCreation": "2010-12-16",
-      "rnaId": "W332011476"
+      "rnaId": "W332011476",
+      "producteurs": []
     },
     {
       "id": "PORGE-AMAP",
@@ -1246,7 +1406,8 @@
         "plateforme": null
       },
       "dateCreation": "2010-07-09",
-      "rnaId": "W334001239"
+      "rnaId": "W334001239",
+      "producteurs": []
     },
     {
       "id": "TAILLAN-AMA",
@@ -1267,7 +1428,8 @@
         "plateforme": "AmapJ"
       },
       "dateCreation": "2012-04-02",
-      "rnaId": "W332013756"
+      "rnaId": "W332013756",
+      "producteurs": []
     },
     {
       "id": "LEOGNAN-PEC",
@@ -1288,7 +1450,8 @@
         "plateforme": "CAMAP"
       },
       "dateCreation": "2008-09-26",
-      "rnaId": "W332007172"
+      "rnaId": "W332007172",
+      "producteurs": []
     },
     {
       "id": "LISTRAC-AMA",
@@ -1309,7 +1472,8 @@
         "plateforme": "AmapJ"
       },
       "dateCreation": "2021-05-21",
-      "rnaId": "W334005739"
+      "rnaId": "W334005739",
+      "producteurs": []
     },
     {
       "id": "LORMONT-AMA",
@@ -1330,7 +1494,8 @@
         "plateforme": null
       },
       "dateCreation": "2012-01-11",
-      "rnaId": "W332013336"
+      "rnaId": "W332013336",
+      "producteurs": []
     },
     {
       "id": "LOUPIAC-GRA",
@@ -1351,7 +1516,8 @@
         "plateforme": null
       },
       "dateCreation": null,
-      "rnaId": null
+      "rnaId": null,
+      "producteurs": []
     },
     {
       "id": "MACAU-CAUDA",
@@ -1372,7 +1538,8 @@
         "plateforme": null
       },
       "dateCreation": "2012-03-11",
-      "rnaId": "W332013648"
+      "rnaId": "W332013648",
+      "producteurs": []
     },
     {
       "id": "MARCHEP-OLI",
@@ -1393,7 +1560,8 @@
         "plateforme": null
       },
       "dateCreation": "2021-07-29",
-      "rnaId": "W336007299"
+      "rnaId": "W336007299",
+      "producteurs": []
     },
     {
       "id": "MARCHEP-POR",
@@ -1414,7 +1582,8 @@
         "plateforme": null
       },
       "dateCreation": "2014-10-30",
-      "rnaId": "W336002829"
+      "rnaId": "W336002829",
+      "producteurs": []
     },
     {
       "id": "MARTIGN-AMA",
@@ -1435,7 +1604,8 @@
         "plateforme": "CAMAP"
       },
       "dateCreation": "2012-03-30",
-      "rnaId": "W332013745"
+      "rnaId": "W332013745",
+      "producteurs": []
     },
     {
       "id": "MARTIL-VENT",
@@ -1456,7 +1626,8 @@
         "plateforme": null
       },
       "dateCreation": null,
-      "rnaId": null
+      "rnaId": null,
+      "producteurs": []
     },
     {
       "id": "MERIG-BEUTR",
@@ -1477,7 +1648,8 @@
         "plateforme": "AmapJ"
       },
       "dateCreation": "2020-03-03",
-      "rnaId": "W332029246"
+      "rnaId": "W332029246",
+      "producteurs": []
     },
     {
       "id": "MERIG-ARLAC",
@@ -1498,7 +1670,8 @@
         "plateforme": "AmapJ"
       },
       "dateCreation": null,
-      "rnaId": null
+      "rnaId": null,
+      "producteurs": []
     },
     {
       "id": "MERIG-FANTA",
@@ -1519,7 +1692,8 @@
         "plateforme": "AmapJ"
       },
       "dateCreation": "2009-03-17",
-      "rnaId": "W332008191"
+      "rnaId": "W332008191",
+      "producteurs": []
     },
     {
       "id": "MERIG-GLACI",
@@ -1540,7 +1714,8 @@
         "plateforme": "AmapJ"
       },
       "dateCreation": null,
-      "rnaId": null
+      "rnaId": null,
+      "producteurs": []
     },
     {
       "id": "MERIG-BURCK",
@@ -1561,7 +1736,8 @@
         "plateforme": "AmapJ"
       },
       "dateCreation": "2019-04-29",
-      "rnaId": "W332027922"
+      "rnaId": "W332027922",
+      "producteurs": []
     },
     {
       "id": "MERIG-GENER",
@@ -1582,7 +1758,8 @@
         "plateforme": null
       },
       "dateCreation": null,
-      "rnaId": null
+      "rnaId": null,
+      "producteurs": []
     },
     {
       "id": "MERIG-TARAV",
@@ -1603,7 +1780,8 @@
         "plateforme": "AmapJ"
       },
       "dateCreation": null,
-      "rnaId": null
+      "rnaId": null,
+      "producteurs": []
     },
     {
       "id": "MERIG-2VILL",
@@ -1624,7 +1802,8 @@
         "plateforme": null
       },
       "dateCreation": null,
-      "rnaId": null
+      "rnaId": null,
+      "producteurs": []
     },
     {
       "id": "MERIG-PASSE",
@@ -1645,7 +1824,8 @@
         "plateforme": null
       },
       "dateCreation": null,
-      "rnaId": null
+      "rnaId": null,
+      "producteurs": []
     },
     {
       "id": "PAIL-ARTOLI",
@@ -1666,7 +1846,8 @@
         "plateforme": null
       },
       "dateCreation": null,
-      "rnaId": null
+      "rnaId": null,
+      "producteurs": []
     },
     {
       "id": "PAILLET-PAN",
@@ -1687,7 +1868,8 @@
         "plateforme": null
       },
       "dateCreation": null,
-      "rnaId": null
+      "rnaId": null,
+      "producteurs": []
     },
     {
       "id": "PAREM-ESTE",
@@ -1708,7 +1890,8 @@
         "plateforme": "AmapJ"
       },
       "dateCreation": null,
-      "rnaId": null
+      "rnaId": null,
+      "producteurs": []
     },
     {
       "id": "PESSAC-ADEL",
@@ -1729,7 +1912,8 @@
         "plateforme": null
       },
       "dateCreation": null,
-      "rnaId": null
+      "rnaId": null,
+      "producteurs": []
     },
     {
       "id": "POMPI-POMPI",
@@ -1750,7 +1934,8 @@
         "plateforme": null
       },
       "dateCreation": "2008-10-28",
-      "rnaId": "W332007357"
+      "rnaId": "W332007357",
+      "producteurs": []
     },
     {
       "id": "PRIGN-BROUE",
@@ -1771,7 +1956,8 @@
         "plateforme": "AmapJ"
       },
       "dateCreation": null,
-      "rnaId": null
+      "rnaId": null,
+      "producteurs": []
     },
     {
       "id": "PUJOLS-CIRO",
@@ -1792,7 +1978,8 @@
         "plateforme": null
       },
       "dateCreation": null,
-      "rnaId": null
+      "rnaId": null,
+      "producteurs": []
     },
     {
       "id": "QUIN-CUEILL",
@@ -1813,7 +2000,8 @@
         "plateforme": null
       },
       "dateCreation": null,
-      "rnaId": null
+      "rnaId": null,
+      "producteurs": []
     },
     {
       "id": "REIGNAC-JAR",
@@ -1834,7 +2022,8 @@
         "plateforme": null
       },
       "dateCreation": null,
-      "rnaId": null
+      "rnaId": null,
+      "producteurs": []
     },
     {
       "id": "SILLAC-AMAP",
@@ -1855,7 +2044,8 @@
         "plateforme": "AmapJ"
       },
       "dateCreation": "2011-06-14",
-      "rnaId": "W332012356"
+      "rnaId": "W332012356",
+      "producteurs": []
     },
     {
       "id": "CUZAC-JARDI",
@@ -1876,7 +2066,8 @@
         "plateforme": null
       },
       "dateCreation": null,
-      "rnaId": null
+      "rnaId": null,
+      "producteurs": []
     },
     {
       "id": "SAUBIN-TOUR",
@@ -1897,7 +2088,8 @@
         "plateforme": null
       },
       "dateCreation": null,
-      "rnaId": null
+      "rnaId": null,
+      "producteurs": []
     },
     {
       "id": "SLAUR-AMAP",
@@ -1918,7 +2110,8 @@
         "plateforme": null
       },
       "dateCreation": null,
-      "rnaId": null
+      "rnaId": null,
+      "producteurs": []
     },
     {
       "id": "SLOUB-LOUBE",
@@ -1939,7 +2132,8 @@
         "plateforme": "CAMAP"
       },
       "dateCreation": null,
-      "rnaId": null
+      "rnaId": null,
+      "producteurs": []
     },
     {
       "id": "SMAC-COTEAU",
@@ -1960,7 +2154,8 @@
         "plateforme": null
       },
       "dateCreation": "2010-05-19",
-      "rnaId": "W333001839"
+      "rnaId": "W333001839",
+      "producteurs": []
     },
     {
       "id": "SMLAC-CREAM",
@@ -1981,7 +2176,8 @@
         "plateforme": null
       },
       "dateCreation": null,
-      "rnaId": null
+      "rnaId": null,
+      "producteurs": []
     },
     {
       "id": "SMEDAR-JALL",
@@ -2002,7 +2198,8 @@
         "plateforme": "AmapJ"
       },
       "dateCreation": "2012-03-26",
-      "rnaId": "W332013721"
+      "rnaId": "W332013721",
+      "producteurs": []
     },
     {
       "id": "SMORIL-VIGN",
@@ -2023,7 +2220,8 @@
         "plateforme": null
       },
       "dateCreation": "2010-10-15",
-      "rnaId": "W332011165"
+      "rnaId": "W332011165",
+      "producteurs": []
     },
     {
       "id": "SFOY-FOYEN",
@@ -2044,7 +2242,8 @@
         "plateforme": null
       },
       "dateCreation": null,
-      "rnaId": null
+      "rnaId": null,
+      "producteurs": []
     },
     {
       "id": "SHELEN-ESQU",
@@ -2065,7 +2264,8 @@
         "plateforme": null
       },
       "dateCreation": "2013-09-21",
-      "rnaId": "W334001687"
+      "rnaId": "W334001687",
+      "producteurs": []
     },
     {
       "id": "SALLES-SILL",
@@ -2086,7 +2286,8 @@
         "plateforme": "CAMAP"
       },
       "dateCreation": null,
-      "rnaId": null
+      "rnaId": null,
+      "producteurs": []
     },
     {
       "id": "SAUCATS-AMA",
@@ -2107,7 +2308,8 @@
         "plateforme": null
       },
       "dateCreation": "2017-06-30",
-      "rnaId": "W332022042"
+      "rnaId": "W332022042",
+      "producteurs": []
     },
     {
       "id": "TALENCE-PET",
@@ -2128,7 +2330,8 @@
         "plateforme": "CAMAP"
       },
       "dateCreation": "2005-10-10",
-      "rnaId": "W332006555"
+      "rnaId": "W332006555",
+      "producteurs": []
     },
     {
       "id": "TRESSES-TAB",
@@ -2149,7 +2352,8 @@
         "plateforme": "CAMAP"
       },
       "dateCreation": "2009-05-14",
-      "rnaId": "W332008519"
+      "rnaId": "W332008519",
+      "producteurs": []
     },
     {
       "id": "VILLORN-RUC",
@@ -2170,7 +2374,8 @@
         "plateforme": "CAMAP"
       },
       "dateCreation": "2012-10-22",
-      "rnaId": "W332014579"
+      "rnaId": "W332014579",
+      "producteurs": []
     },
     {
       "id": "VILLORN-MAR",
@@ -2191,7 +2396,8 @@
         "plateforme": null
       },
       "dateCreation": null,
-      "rnaId": null
+      "rnaId": null,
+      "producteurs": []
     },
     {
       "id": "GAR-O-BIO",
@@ -2212,7 +2418,24 @@
         "plateforme": "CAMAP"
       },
       "dateCreation": null,
-      "rnaId": null
+      "rnaId": null,
+      "producteurs": [
+        "PROD-015",
+        "PROD-054",
+        "PROD-059",
+        "PROD-119",
+        "PROD-120",
+        "PROD-121",
+        "PROD-122",
+        "PROD-123",
+        "PROD-124",
+        "PROD-126",
+        "PROD-127",
+        "PROD-128",
+        "PROD-129",
+        "PROD-130",
+        "PROD-131"
+      ]
     },
     {
       "id": "BDX-SUD",
@@ -2233,7 +2456,8 @@
         "plateforme": "CAMAP"
       },
       "dateCreation": null,
-      "rnaId": "code_postal_ville"
+      "rnaId": "code_postal_ville",
+      "producteurs": []
     },
     {
       "id": "BDX-SACRE",
@@ -2254,7 +2478,2782 @@
         "plateforme": "CAMAP"
       },
       "dateCreation": null,
-      "rnaId": "code_postal_ville"
+      "rnaId": "code_postal_ville",
+      "producteurs": []
+    }
+  ],
+  "producteurs": [
+    {
+      "id": "PROD-001",
+      "nom": "Jean-Luc et Pierre Pinaud",
+      "societe": null,
+      "produit": "légumes",
+      "categorie": "legumes",
+      "frequence": "hebdo",
+      "localisation": {
+        "adresse": "15 La Craberie, 33920 Civrac de Blaye",
+        "lat": 45.11319,
+        "lng": -0.45589,
+        "precision": "adresse_complete"
+      },
+      "web": {
+        "siteWeb": null
+      },
+      "infos": null,
+      "amaps": [
+        "BAYON-POTI"
+      ]
+    },
+    {
+      "id": "PROD-002",
+      "nom": "La Fournée d'Ahonie",
+      "societe": null,
+      "produit": "pain",
+      "categorie": "pain",
+      "frequence": "hebdo",
+      "localisation": {
+        "adresse": "33710 Tauriac",
+        "lat": 45.04966,
+        "lng": -0.5023,
+        "precision": "adresse_complete"
+      },
+      "web": {
+        "siteWeb": null
+      },
+      "infos": null,
+      "amaps": [
+        "BAYON-POTI"
+      ]
+    },
+    {
+      "id": "PROD-003",
+      "nom": "Gil-Hughes et Bénédicte Garnier",
+      "societe": null,
+      "produit": "volaille",
+      "categorie": "volaille",
+      "frequence": null,
+      "localisation": {
+        "adresse": "Ferme Les Fontaines, 16360 Baignes",
+        "lat": 45.38253,
+        "lng": -0.27188,
+        "precision": "adresse_complete"
+      },
+      "web": {
+        "siteWeb": "http://lafermelesfontaines.fr"
+      },
+      "infos": null,
+      "amaps": [
+        "BAYON-POTI"
+      ]
+    },
+    {
+      "id": "PROD-004",
+      "nom": "David CREVEL",
+      "societe": "SCEA La Peyronne",
+      "produit": "boeuf, veau",
+      "categorie": "oeuf",
+      "frequence": "3 / an",
+      "localisation": {
+        "adresse": "4 rue des Esleys, 33240 Saint-Gervais",
+        "lat": 45.01793,
+        "lng": -0.46524,
+        "precision": "ville_cp"
+      },
+      "web": {
+        "siteWeb": "www.lapeyronne.fr/"
+      },
+      "infos": null,
+      "amaps": [
+        "BAYON-POTI"
+      ]
+    },
+    {
+      "id": "PROD-005",
+      "nom": "Pascal et Dominique SANCIER",
+      "societe": null,
+      "produit": "agneau",
+      "categorie": "viande",
+      "frequence": "1 / 3 mois",
+      "localisation": {
+        "adresse": "2 Le dit La Paillot, 33660 Saint Antoine sur l'Isle",
+        "lat": 44.99285,
+        "lng": 0.01195,
+        "precision": "ville"
+      },
+      "web": {
+        "siteWeb": null
+      },
+      "infos": null,
+      "amaps": [
+        "BAYON-POTI",
+        "BLANQ-PLANET"
+      ]
+    },
+    {
+      "id": "PROD-006",
+      "nom": "Damien FELIX",
+      "societe": null,
+      "produit": "poisson",
+      "categorie": "poisson",
+      "frequence": "2 à 3 /an",
+      "localisation": {
+        "adresse": "11 bis rue Chambrelent, 33470 Gujan Mestras",
+        "lat": 44.62719,
+        "lng": -1.0647,
+        "precision": "adresse_complete"
+      },
+      "web": {
+        "siteWeb": "le-helena.overblog.com"
+      },
+      "infos": null,
+      "amaps": [
+        "BAYON-POTI"
+      ]
+    },
+    {
+      "id": "PROD-007",
+      "nom": "Eric Guttierez",
+      "societe": null,
+      "produit": "fromage de brebis",
+      "categorie": "viande",
+      "frequence": "/15 jours",
+      "localisation": {
+        "adresse": "26 La Chaux, 33230 Saint-Christophe de Double",
+        "lat": 45.0735,
+        "lng": 0.05351,
+        "precision": "adresse_complete"
+      },
+      "web": {
+        "siteWeb": null
+      },
+      "infos": null,
+      "amaps": [
+        "BAYON-POTI"
+      ]
+    },
+    {
+      "id": "PROD-008",
+      "nom": "Alice DECROIX et Gaëtan BOUTEMY",
+      "societe": null,
+      "produit": "céréales",
+      "categorie": "pain",
+      "frequence": "3 à 4 /an",
+      "localisation": {
+        "adresse": "Ferme de Chez Caillaud, 16480 St Laurent des Combes",
+        "lat": 45.37233,
+        "lng": 0.03261,
+        "precision": "adresse_complete"
+      },
+      "web": {
+        "siteWeb": null
+      },
+      "infos": null,
+      "amaps": [
+        "BAYON-POTI"
+      ]
+    },
+    {
+      "id": "PROD-009",
+      "nom": "Dominique Gayerie",
+      "societe": null,
+      "produit": "pomme, poire",
+      "categorie": "fruits",
+      "frequence": "1 / 3sem en saison",
+      "localisation": {
+        "adresse": "15 Avenue Armand Béraud, 33440 Saint-Vincent-de-Paul",
+        "lat": 44.98168,
+        "lng": -0.48133,
+        "precision": "adresse_complete"
+      },
+      "web": {
+        "siteWeb": null
+      },
+      "infos": null,
+      "amaps": [
+        "BAYON-POTI"
+      ]
+    },
+    {
+      "id": "PROD-010",
+      "nom": "Viviane CERRATO",
+      "societe": "Les ruchers de Viviane",
+      "produit": "miel",
+      "categorie": "miel",
+      "frequence": "1 / 3sem en saison",
+      "localisation": {
+        "adresse": "1 Menanteau, 33860 Marcillac",
+        "lat": 45.25563,
+        "lng": -0.49309,
+        "precision": "adresse_complete"
+      },
+      "web": {
+        "siteWeb": "www.lesruchersdeviviane.com"
+      },
+      "infos": null,
+      "amaps": [
+        "BAYON-POTI"
+      ]
+    },
+    {
+      "id": "PROD-011",
+      "nom": "Lionel LORENTE",
+      "societe": null,
+      "produit": "vin",
+      "categorie": "vin",
+      "frequence": "1 / mois",
+      "localisation": {
+        "adresse": "Château du Luc 16 Le Luc, 33710 Bayon",
+        "lat": 45.05578,
+        "lng": -0.59979,
+        "precision": "ville"
+      },
+      "web": {
+        "siteWeb": null
+      },
+      "infos": null,
+      "amaps": [
+        "BAYON-POTI"
+      ]
+    },
+    {
+      "id": "PROD-012",
+      "nom": "Sébastien IROLA",
+      "societe": "La miellerie d'Aubiac",
+      "produit": "miel",
+      "categorie": "miel",
+      "frequence": null,
+      "localisation": {
+        "adresse": null,
+        "lat": null,
+        "lng": null,
+        "precision": null
+      },
+      "web": {
+        "siteWeb": null
+      },
+      "infos": null,
+      "amaps": [
+        "BAZAS-BAZAD"
+      ]
+    },
+    {
+      "id": "PROD-013",
+      "nom": "Fabienne et Luc",
+      "societe": "Les raisins de Fabienne et Luc",
+      "produit": "raisin",
+      "categorie": "fruits",
+      "frequence": null,
+      "localisation": {
+        "adresse": "Cauvignac",
+        "lat": 44.41807,
+        "lng": -0.07991,
+        "precision": "adresse_complete"
+      },
+      "web": {
+        "siteWeb": null
+      },
+      "infos": null,
+      "amaps": [
+        "BAZAS-BAZAD"
+      ]
+    },
+    {
+      "id": "PROD-014",
+      "nom": "Les Jardins Des-Brouillards",
+      "societe": "Les Jardins Des-Brouillards",
+      "produit": "fraises, framboises, groseilles, myrtilles",
+      "categorie": "fruits",
+      "frequence": "hebdo (fin mai et sept)",
+      "localisation": {
+        "adresse": "Loupiac-de-La-Réole",
+        "lat": 44.54749,
+        "lng": -0.04491,
+        "precision": "adresse_complete"
+      },
+      "web": {
+        "siteWeb": null
+      },
+      "infos": null,
+      "amaps": [
+        "BAZAS-BAZAD"
+      ]
+    },
+    {
+      "id": "PROD-015",
+      "nom": "La ferme du Bosquet",
+      "societe": "La ferme du Bosquet",
+      "produit": "poulet",
+      "categorie": "volaille",
+      "frequence": "1 / mois",
+      "localisation": {
+        "adresse": "Castets-et-Castillon",
+        "lat": 44.55453,
+        "lng": -0.12784,
+        "precision": "adresse_complete"
+      },
+      "web": {
+        "siteWeb": "https://www.facebook.com/FermeduBosquet/?locale=fr_FR"
+      },
+      "infos": null,
+      "amaps": [
+        "BAZAS-BAZAD",
+        "BDX-NANSOU",
+        "GAR-O-BIO"
+      ]
+    },
+    {
+      "id": "PROD-016",
+      "nom": "La Chèvrerie de la Mêle",
+      "societe": "La Chèvrerie de la Mêle",
+      "produit": "fromage de chèvre",
+      "categorie": "fromage",
+      "frequence": "hebdo",
+      "localisation": {
+        "adresse": "Noaillan",
+        "lat": 44.48038,
+        "lng": -0.36786,
+        "precision": "adresse_complete"
+      },
+      "web": {
+        "siteWeb": null
+      },
+      "infos": null,
+      "amaps": [
+        "BAZAS-BAZAD"
+      ]
+    },
+    {
+      "id": "PROD-017",
+      "nom": "Les oiseaux du Paradis",
+      "societe": "Les oiseaux du Paradis",
+      "produit": "oeufs",
+      "categorie": "oeuf",
+      "frequence": "hebdo",
+      "localisation": {
+        "adresse": "Illats",
+        "lat": 44.59738,
+        "lng": -0.37356,
+        "precision": "adresse_complete"
+      },
+      "web": {
+        "siteWeb": null
+      },
+      "infos": null,
+      "amaps": [
+        "BAZAS-BAZAD",
+        "PODENSAC"
+      ]
+    },
+    {
+      "id": "PROD-018",
+      "nom": "Le Fournil des Dam's",
+      "societe": "Le Fournil des Dam's",
+      "produit": "pain",
+      "categorie": "pain",
+      "frequence": "hebdo",
+      "localisation": {
+        "adresse": "Barie",
+        "lat": 44.57058,
+        "lng": -0.11555,
+        "precision": "adresse_complete"
+      },
+      "web": {
+        "siteWeb": null
+      },
+      "infos": null,
+      "amaps": [
+        "BAZAS-BAZAD"
+      ]
+    },
+    {
+      "id": "PROD-019",
+      "nom": "Les Jardins de Bouet",
+      "societe": "Les Jardins de Bouet",
+      "produit": "légumes",
+      "categorie": "legumes",
+      "frequence": "hebdo",
+      "localisation": {
+        "adresse": "Lados",
+        "lat": 44.46692,
+        "lng": -0.14857,
+        "precision": "adresse_complete"
+      },
+      "web": {
+        "siteWeb": null
+      },
+      "infos": null,
+      "amaps": [
+        "BAZAS-BAZAD",
+        "PODENSAC"
+      ]
+    },
+    {
+      "id": "PROD-020",
+      "nom": "Angélique et Jean Christophe cultivateurs",
+      "societe": null,
+      "produit": "légumes",
+      "categorie": "legumes",
+      "frequence": "hebdo",
+      "localisation": {
+        "adresse": "Aureuil",
+        "lat": 45.13,
+        "lng": 0.77,
+        "precision": "ville"
+      },
+      "web": {
+        "siteWeb": null
+      },
+      "infos": null,
+      "amaps": [
+        "BAZAS-BAZAD"
+      ]
+    },
+    {
+      "id": "PROD-021",
+      "nom": "Pascale MONTAUBAN affineuse en partenariat avec bergers transhumants des Pyrénées",
+      "societe": null,
+      "produit": "fromage de brebis (vente de gros)",
+      "categorie": "viande",
+      "frequence": "ponctuel",
+      "localisation": {
+        "adresse": null,
+        "lat": null,
+        "lng": null,
+        "precision": null
+      },
+      "web": {
+        "siteWeb": null
+      },
+      "infos": null,
+      "amaps": [
+        "BAZAS-BAZAD"
+      ]
+    },
+    {
+      "id": "PROD-022",
+      "nom": "Vincent CALLENS et sa femme Emilie",
+      "societe": "Château Haut-Piquat",
+      "produit": "vin",
+      "categorie": "vin",
+      "frequence": "ponctuel",
+      "localisation": {
+        "adresse": "Préchac",
+        "lat": 44.39875,
+        "lng": -0.35317,
+        "precision": "adresse_complete"
+      },
+      "web": {
+        "siteWeb": "https://www.chateau-haut-piquat.fr/"
+      },
+      "infos": null,
+      "amaps": [
+        "BAZAS-BAZAD"
+      ]
+    },
+    {
+      "id": "PROD-023",
+      "nom": "Severines CAZABAT",
+      "societe": "Un Air de Safran",
+      "produit": "safran",
+      "categorie": "autre",
+      "frequence": null,
+      "localisation": {
+        "adresse": "Lugos",
+        "lat": 44.48165,
+        "lng": -0.88272,
+        "precision": "adresse_complete"
+      },
+      "web": {
+        "siteWeb": "https://www.facebook.com/unairdezafran/?locale=fr_FR"
+      },
+      "infos": null,
+      "amaps": [
+        "BAZAS-BAZAD"
+      ]
+    },
+    {
+      "id": "PROD-024",
+      "nom": "Ondine FILIPPI-CODACCIONI",
+      "societe": "Oleathera",
+      "produit": "huile",
+      "categorie": "huile",
+      "frequence": null,
+      "localisation": {
+        "adresse": "Barie",
+        "lat": 44.57058,
+        "lng": -0.11555,
+        "precision": "adresse_complete"
+      },
+      "web": {
+        "siteWeb": "https://oleathera.com/"
+      },
+      "infos": null,
+      "amaps": [
+        "BAZAS-BAZAD"
+      ]
+    },
+    {
+      "id": "PROD-025",
+      "nom": "Didier Brocas",
+      "societe": "Sapori d'Italia",
+      "produit": "produits italiens",
+      "categorie": "autre",
+      "frequence": "ponctuel",
+      "localisation": {
+        "adresse": "St Lons les mines",
+        "lat": null,
+        "lng": null,
+        "precision": null
+      },
+      "web": {
+        "siteWeb": null
+      },
+      "infos": null,
+      "amaps": [
+        "BAZAS-BAZAD"
+      ]
+    },
+    {
+      "id": "PROD-026",
+      "nom": "Dominique et Théo ALAIN",
+      "societe": null,
+      "produit": "boeuf",
+      "categorie": "oeuf",
+      "frequence": "ponctuel",
+      "localisation": {
+        "adresse": "Grignols",
+        "lat": 44.38774,
+        "lng": -0.04391,
+        "precision": "adresse_complete"
+      },
+      "web": {
+        "siteWeb": null
+      },
+      "infos": null,
+      "amaps": [
+        "BAZAS-BAZAD"
+      ]
+    },
+    {
+      "id": "PROD-027",
+      "nom": "Julie",
+      "societe": "A travers champs",
+      "produit": "champignons",
+      "categorie": "champignon",
+      "frequence": "ponctuel",
+      "localisation": {
+        "adresse": "Bordeaux dans un blockhaus de la seconde guerre mondiale",
+        "lat": null,
+        "lng": null,
+        "precision": null
+      },
+      "web": {
+        "siteWeb": "https://www.atraverschamps.com/"
+      },
+      "infos": null,
+      "amaps": [
+        "BAZAS-BAZAD"
+      ]
+    },
+    {
+      "id": "PROD-028",
+      "nom": "Jean-Baptiste VIN RAMARONY",
+      "societe": "Château Sauveterre",
+      "produit": "vin",
+      "categorie": "vin",
+      "frequence": "ponctuel",
+      "localisation": {
+        "adresse": null,
+        "lat": null,
+        "lng": null,
+        "precision": null
+      },
+      "web": {
+        "siteWeb": "https://www.chateau-sauveterre.com/"
+      },
+      "infos": null,
+      "amaps": [
+        "BAZAS-BAZAD"
+      ]
+    },
+    {
+      "id": "PROD-029",
+      "nom": "Laurent RUSSAC",
+      "societe": "Brasserie Popihn",
+      "produit": "bière",
+      "categorie": "vin",
+      "frequence": "ponctuel",
+      "localisation": {
+        "adresse": null,
+        "lat": null,
+        "lng": null,
+        "precision": null
+      },
+      "web": {
+        "siteWeb": null
+      },
+      "infos": null,
+      "amaps": [
+        "BAZAS-BAZAD"
+      ]
+    },
+    {
+      "id": "PROD-030",
+      "nom": "Jeanne et Arnaud Duprat",
+      "societe": "Les Parcs de l'Impératrice",
+      "produit": "huîtres",
+      "categorie": "poisson",
+      "frequence": "ponctuel",
+      "localisation": {
+        "adresse": "Biganos",
+        "lat": 44.64201,
+        "lng": -0.97662,
+        "precision": "adresse_complete"
+      },
+      "web": {
+        "siteWeb": "https://lesparcsdelimperatrice.fr/"
+      },
+      "infos": null,
+      "amaps": [
+        "BAZAS-BAZAD"
+      ]
+    },
+    {
+      "id": "PROD-031",
+      "nom": "Saucats",
+      "societe": null,
+      "produit": "miel",
+      "categorie": "miel",
+      "frequence": null,
+      "localisation": {
+        "adresse": null,
+        "lat": null,
+        "lng": null,
+        "precision": null
+      },
+      "web": {
+        "siteWeb": null
+      },
+      "infos": null,
+      "amaps": [
+        "BDX-BACALAN"
+      ]
+    },
+    {
+      "id": "PROD-032",
+      "nom": "Les Carrières de Saint Laurent d'Arce engagées dans une démarche d'éco-extraction",
+      "societe": null,
+      "produit": "sel",
+      "categorie": "autre",
+      "frequence": "ponctuel",
+      "localisation": {
+        "adresse": null,
+        "lat": null,
+        "lng": null,
+        "precision": null
+      },
+      "web": {
+        "siteWeb": null
+      },
+      "infos": null,
+      "amaps": [
+        "BDX-BACALAN"
+      ]
+    },
+    {
+      "id": "PROD-033",
+      "nom": "Parempuyre",
+      "societe": null,
+      "produit": "légumes",
+      "categorie": "legumes",
+      "frequence": null,
+      "localisation": {
+        "adresse": null,
+        "lat": null,
+        "lng": null,
+        "precision": null
+      },
+      "web": {
+        "siteWeb": null
+      },
+      "infos": null,
+      "amaps": [
+        "BDX-BACALAN"
+      ]
+    },
+    {
+      "id": "PROD-034",
+      "nom": "Josie Riffaud",
+      "societe": "La Belle Bleue",
+      "produit": "fromage de chèvre",
+      "categorie": "fromage",
+      "frequence": null,
+      "localisation": {
+        "adresse": "Romagne (Gironde )",
+        "lat": 44.76092,
+        "lng": -0.19702,
+        "precision": "adresse_complete"
+      },
+      "web": {
+        "siteWeb": null
+      },
+      "infos": null,
+      "amaps": [
+        "BDX-BACALAN"
+      ]
+    },
+    {
+      "id": "PROD-035",
+      "nom": "Julien SARRES berger",
+      "societe": "éleveur",
+      "produit": "agneau",
+      "categorie": "viande",
+      "frequence": "ponctuel",
+      "localisation": {
+        "adresse": null,
+        "lat": null,
+        "lng": null,
+        "precision": null
+      },
+      "web": {
+        "siteWeb": null
+      },
+      "infos": "Blanquefort",
+      "amaps": []
+    },
+    {
+      "id": "PROD-036",
+      "nom": "Jérémy CORBEAU",
+      "societe": null,
+      "produit": "canard",
+      "categorie": "autre",
+      "frequence": "ponctuel",
+      "localisation": {
+        "adresse": "Buisson de Cadouin (Dordogne)",
+        "lat": 44.79578,
+        "lng": 0.88534,
+        "precision": "adresse_complete"
+      },
+      "web": {
+        "siteWeb": null
+      },
+      "infos": null,
+      "amaps": [
+        "BDX-BACALAN"
+      ]
+    },
+    {
+      "id": "PROD-037",
+      "nom": "Alain BOTTECCHIA",
+      "societe": null,
+      "produit": "kiwi",
+      "categorie": "fruits",
+      "frequence": "ponctuel",
+      "localisation": {
+        "adresse": "Monbahus (Lot et Garonne)",
+        "lat": 44.54944,
+        "lng": 0.53578,
+        "precision": "adresse_complete"
+      },
+      "web": {
+        "siteWeb": null
+      },
+      "infos": null,
+      "amaps": [
+        "BDX-BACALAN"
+      ]
+    },
+    {
+      "id": "PROD-038",
+      "nom": "Charles PINAUD",
+      "societe": "ostréiculteur sur le bassin",
+      "produit": "huîtres",
+      "categorie": "poisson",
+      "frequence": "ponctuel",
+      "localisation": {
+        "adresse": null,
+        "lat": null,
+        "lng": null,
+        "precision": null
+      },
+      "web": {
+        "siteWeb": null
+      },
+      "infos": null,
+      "amaps": []
+    },
+    {
+      "id": "PROD-039",
+      "nom": "Bernard SIMIAN Apiculteur récoltant",
+      "societe": null,
+      "produit": "miel",
+      "categorie": "miel",
+      "frequence": "ponctuel",
+      "localisation": {
+        "adresse": "Ludon en Gironde ruches sont implantées à Listrac",
+        "lat": null,
+        "lng": null,
+        "precision": null
+      },
+      "web": {
+        "siteWeb": null
+      },
+      "infos": null,
+      "amaps": []
+    },
+    {
+      "id": "PROD-040",
+      "nom": "Tiffany BESSEDE",
+      "societe": "Atelier de la Chocolatière",
+      "produit": "chocolat",
+      "categorie": "autre",
+      "frequence": "ponctuel",
+      "localisation": {
+        "adresse": "Montpon Ménestérol (Dordogne)",
+        "lat": 45.00811,
+        "lng": 0.1621,
+        "precision": "adresse_complete"
+      },
+      "web": {
+        "siteWeb": "https://www.atelierlachocolatiere.com/"
+      },
+      "infos": null,
+      "amaps": [
+        "BDX-BACALAN"
+      ]
+    },
+    {
+      "id": "PROD-041",
+      "nom": "Clément FLEURENCEAU",
+      "societe": "paysan-boulanger",
+      "produit": "pain",
+      "categorie": "pain",
+      "frequence": "ponctuel",
+      "localisation": {
+        "adresse": null,
+        "lat": null,
+        "lng": null,
+        "precision": null
+      },
+      "web": {
+        "siteWeb": null
+      },
+      "infos": null,
+      "amaps": []
+    },
+    {
+      "id": "PROD-042",
+      "nom": "Vanessa VITAL",
+      "societe": "Le potager de Vanessa",
+      "produit": "légumes",
+      "categorie": "legumes",
+      "frequence": "hebdo",
+      "localisation": {
+        "adresse": "Le Taillan",
+        "lat": 44.90641,
+        "lng": -0.66103,
+        "precision": "adresse_complete"
+      },
+      "web": {
+        "siteWeb": "https://www.facebook.com/LePotagerde Vanessa/?locale=fr_FR"
+      },
+      "infos": null,
+      "amaps": [
+        "BDX-BACALAN"
+      ]
+    },
+    {
+      "id": "PROD-043",
+      "nom": "Harm VAN DER HORST",
+      "societe": "Minoterie Suire",
+      "produit": "farine",
+      "categorie": "pain",
+      "frequence": "ponctuel",
+      "localisation": {
+        "adresse": null,
+        "lat": null,
+        "lng": null,
+        "precision": null
+      },
+      "web": {
+        "siteWeb": null
+      },
+      "infos": null,
+      "amaps": [
+        "BDX-BACALAN"
+      ]
+    },
+    {
+      "id": "PROD-044",
+      "nom": "Stéphanie et Jules CHAMOY-RAFFOU",
+      "societe": "GAEC les caprices du Vergt",
+      "produit": "fromage de chèvre",
+      "categorie": "fromage",
+      "frequence": "ponctuel",
+      "localisation": {
+        "adresse": "St Aquilin (Dordogne)",
+        "lat": 45.186,
+        "lng": 0.49378,
+        "precision": "adresse_complete"
+      },
+      "web": {
+        "siteWeb": "https://gaec-les-caprices-du-vergt.business.site/"
+      },
+      "infos": null,
+      "amaps": [
+        "BDX-BACALAN"
+      ]
+    },
+    {
+      "id": "PROD-045",
+      "nom": "Mathias CANGI NA",
+      "societe": "Spiruline Gascogne",
+      "produit": "spiruline",
+      "categorie": "autre",
+      "frequence": "ponctuel",
+      "localisation": {
+        "adresse": "CESTAS",
+        "lat": 44.74116,
+        "lng": -0.68412,
+        "precision": "adresse_complete"
+      },
+      "web": {
+        "siteWeb": "https://www.spirulinegascogne.fr/"
+      },
+      "infos": null,
+      "amaps": [
+        "BDX-BACALAN"
+      ]
+    },
+    {
+      "id": "PROD-046",
+      "nom": "Norbert DEPAIRE Vigneron",
+      "societe": null,
+      "produit": "vin",
+      "categorie": "vin",
+      "frequence": "ponctuel",
+      "localisation": {
+        "adresse": null,
+        "lat": null,
+        "lng": null,
+        "precision": null
+      },
+      "web": {
+        "siteWeb": null
+      },
+      "infos": null,
+      "amaps": [
+        "BDX-BACALAN"
+      ]
+    },
+    {
+      "id": "PROD-047",
+      "nom": "La ferme de Vertessec",
+      "societe": "La ferme de Vertessec",
+      "produit": "légumes",
+      "categorie": "legumes",
+      "frequence": "hebdo",
+      "localisation": {
+        "adresse": "Avensan",
+        "lat": 45.03605,
+        "lng": -0.7576,
+        "precision": "adresse_complete"
+      },
+      "web": {
+        "siteWeb": "https://www.lafermedevertessec.com/"
+      },
+      "infos": null,
+      "amaps": [
+        "BDX-BACALAN"
+      ]
+    },
+    {
+      "id": "PROD-048",
+      "nom": "Fraisiflor",
+      "societe": "Fraisiflor",
+      "produit": "fraises",
+      "categorie": "fruits",
+      "frequence": "ponctuel",
+      "localisation": {
+        "adresse": "Bruges",
+        "lat": 44.87741,
+        "lng": -0.60942,
+        "precision": "adresse_complete"
+      },
+      "web": {
+        "siteWeb": "https://fraisiflor.fr/"
+      },
+      "infos": null,
+      "amaps": [
+        "BDX-BACALAN"
+      ]
+    },
+    {
+      "id": "PROD-049",
+      "nom": "Potager à Laville",
+      "societe": "Potager à Laville",
+      "produit": "légumes",
+      "categorie": "legumes",
+      "frequence": "hebdo",
+      "localisation": {
+        "adresse": "Bruges",
+        "lat": 44.87741,
+        "lng": -0.60942,
+        "precision": "adresse_complete"
+      },
+      "web": {
+        "siteWeb": "https://potageralaville.fr/"
+      },
+      "infos": null,
+      "amaps": [
+        "BDX-BACALAN"
+      ]
+    },
+    {
+      "id": "PROD-050",
+      "nom": "Le poulailler bio majolan",
+      "societe": "Le poulailler bio majolan",
+      "produit": "volailles et oeufs",
+      "categorie": "volaille",
+      "frequence": "hebdo",
+      "localisation": {
+        "adresse": "Le Taillan Médoc",
+        "lat": 44.9044,
+        "lng": -0.66934,
+        "precision": "adresse_complete"
+      },
+      "web": {
+        "siteWeb": "https://www.facebook.com/lepoulaillerbio/"
+      },
+      "infos": null,
+      "amaps": [
+        "BDX-BACALAN"
+      ]
+    },
+    {
+      "id": "PROD-051",
+      "nom": "Rémi Mougin ; Alexandre Mougin",
+      "societe": "La Cabane aux Chèvres",
+      "produit": "fromage de chèvre",
+      "categorie": "fromage",
+      "frequence": "/15 jours",
+      "localisation": {
+        "adresse": "Savignac 33",
+        "lat": 44.52246,
+        "lng": -0.10851,
+        "precision": "adresse_complete"
+      },
+      "web": {
+        "siteWeb": "https://www.facebook.com/LaCabaneAuxChevres/?locale=fr_FR"
+      },
+      "infos": null,
+      "amaps": [
+        "BDX-BACALAN",
+        "BDX-NANSOU"
+      ]
+    },
+    {
+      "id": "PROD-052",
+      "nom": "Gianni Codoro",
+      "societe": "Ferme les 4 GiConnection",
+      "produit": "produits laitiers",
+      "categorie": "fromage",
+      "frequence": "/15 jours",
+      "localisation": {
+        "adresse": "Mérignac",
+        "lat": 44.842168,
+        "lng": -0.6469022,
+        "precision": "adresse_complete"
+      },
+      "web": {
+        "siteWeb": null
+      },
+      "infos": null,
+      "amaps": [
+        "https://ferme4g.wixsite.com/ferme4g"
+      ]
+    },
+    {
+      "id": "PROD-053",
+      "nom": "Christian et Véronique Gibrac",
+      "societe": "Ferme de Borie Basse",
+      "produit": "fromage de brebis",
+      "categorie": "viande",
+      "frequence": "ponctuel",
+      "localisation": {
+        "adresse": "Moissac (Tarn-et-Garonne)",
+        "lat": 44.10509,
+        "lng": 1.08467,
+        "precision": "adresse_complete"
+      },
+      "web": {
+        "siteWeb": null
+      },
+      "infos": null,
+      "amaps": [
+        "BDX-BACALAN"
+      ]
+    },
+    {
+      "id": "PROD-054",
+      "nom": "Le Fils des artisans",
+      "societe": "Le Fils des artisans",
+      "produit": "pain",
+      "categorie": "pain",
+      "frequence": "hebdo",
+      "localisation": {
+        "adresse": "Pessac 33",
+        "lat": 44.8305,
+        "lng": -0.5799,
+        "precision": "adresse_complete"
+      },
+      "web": {
+        "siteWeb": "https://lefilsdesartisans.fr/"
+      },
+      "infos": null,
+      "amaps": [
+        "BDX-BACALAN",
+        "BDX-NANSOU",
+        "GAR-O-BIO",
+        "GRADIG-PANIER",
+        "ST-MEDARD"
+      ]
+    },
+    {
+      "id": "PROD-055",
+      "nom": "Diane",
+      "societe": null,
+      "produit": "volailles et oeufs",
+      "categorie": "volaille",
+      "frequence": null,
+      "localisation": {
+        "adresse": null,
+        "lat": null,
+        "lng": null,
+        "precision": null
+      },
+      "web": {
+        "siteWeb": null
+      },
+      "infos": null,
+      "amaps": [
+        "BDX-BACALAN"
+      ]
+    },
+    {
+      "id": "PROD-056",
+      "nom": "Sébastien Boutreau et Véronique Roy",
+      "societe": "La Ferme de Chez Soi",
+      "produit": "boeuf, veau",
+      "categorie": "oeuf",
+      "frequence": null,
+      "localisation": {
+        "adresse": null,
+        "lat": null,
+        "lng": null,
+        "precision": null
+      },
+      "web": {
+        "siteWeb": null
+      },
+      "infos": null,
+      "amaps": [
+        "BDX-BACALAN"
+      ]
+    },
+    {
+      "id": "PROD-057",
+      "nom": "Laurent Labebegurie",
+      "societe": "Le Jardin de Laurent",
+      "produit": "légumes",
+      "categorie": "legumes",
+      "frequence": null,
+      "localisation": {
+        "adresse": "Blanquefort 33",
+        "lat": 44.9089,
+        "lng": -0.63004,
+        "precision": "ville"
+      },
+      "web": {
+        "siteWeb": null
+      },
+      "infos": null,
+      "amaps": [
+        "BDX-BACALAN"
+      ]
+    },
+    {
+      "id": "PROD-058",
+      "nom": "Camille",
+      "societe": "originaire de Bordeaux",
+      "produit": "huile d'olive",
+      "categorie": "huile",
+      "frequence": "ponctuel",
+      "localisation": {
+        "adresse": null,
+        "lat": null,
+        "lng": null,
+        "precision": null
+      },
+      "web": {
+        "siteWeb": "contact@latelierdolivier.fr"
+      },
+      "infos": "Andalousie",
+      "amaps": []
+    },
+    {
+      "id": "PROD-059",
+      "nom": "France Barthelemy",
+      "societe": "Tisanes du Jardin",
+      "produit": "tisanes",
+      "categorie": "plantes",
+      "frequence": "ponctuel",
+      "localisation": {
+        "adresse": null,
+        "lat": null,
+        "lng": null,
+        "precision": null
+      },
+      "web": {
+        "siteWeb": null
+      },
+      "infos": null,
+      "amaps": [
+        "BDX-BACALAN",
+        "GAR-O-BIO"
+      ]
+    },
+    {
+      "id": "PROD-061",
+      "nom": "Guillaume ROUSSEAU",
+      "societe": "Ferme de la Double",
+      "produit": "farine",
+      "categorie": "pain",
+      "frequence": "hebdo",
+      "localisation": {
+        "adresse": "24350 Grand-brassac",
+        "lat": 45.29427,
+        "lng": 0.47865,
+        "precision": "adresse_complete"
+      },
+      "web": {
+        "siteWeb": "www.fermedeladouble.fr"
+      },
+      "infos": null,
+      "amaps": [
+        "BDX-NANSOU"
+      ]
+    },
+    {
+      "id": "PROD-062",
+      "nom": "Dupebe Bernard",
+      "societe": "Lucas et Axel",
+      "produit": "fromage de chèvre",
+      "categorie": "fromage",
+      "frequence": "/15 jours",
+      "localisation": {
+        "adresse": null,
+        "lat": null,
+        "lng": null,
+        "precision": null
+      },
+      "web": {
+        "siteWeb": null
+      },
+      "infos": null,
+      "amaps": []
+    },
+    {
+      "id": "PROD-063",
+      "nom": "Laurent Disson",
+      "societe": "Le jardin de La Rivière",
+      "produit": "légumes",
+      "categorie": "legumes",
+      "frequence": "hebdo",
+      "localisation": {
+        "adresse": "33240 Saint Germain de la Rivière",
+        "lat": 44.95083,
+        "lng": -0.33322,
+        "precision": "adresse_complete"
+      },
+      "web": {
+        "siteWeb": null
+      },
+      "infos": null,
+      "amaps": [
+        "BDX-NANSOU"
+      ]
+    },
+    {
+      "id": "PROD-064",
+      "nom": "Olivier ARGELAS",
+      "societe": "L'Atelier des marées",
+      "produit": "poisson",
+      "categorie": "poisson",
+      "frequence": "1 / mois",
+      "localisation": {
+        "adresse": "Criée d'Arcachon 33",
+        "lat": null,
+        "lng": null,
+        "precision": null
+      },
+      "web": {
+        "siteWeb": null
+      },
+      "infos": null,
+      "amaps": [
+        "BDX-NANSOU"
+      ]
+    },
+    {
+      "id": "PROD-065",
+      "nom": "Gaylord AUBERT",
+      "societe": "Les jardins de la Chenal'hie",
+      "produit": "légumes",
+      "categorie": "legumes",
+      "frequence": "hebdo",
+      "localisation": {
+        "adresse": "11 route de Valeyrac, 33590 Saint Vivien de Médoc",
+        "lat": 45.44235,
+        "lng": -1.00727,
+        "precision": "adresse_complete"
+      },
+      "web": {
+        "siteWeb": "https://www.facebook.com/p/Les-Jardins-de-la-Chenalhie-100083197553012/"
+      },
+      "infos": null,
+      "amaps": [
+        "BDX-NANSOU"
+      ]
+    },
+    {
+      "id": "PROD-066",
+      "nom": "Jean-Michel LAURENT",
+      "societe": "SCEA du Verdier",
+      "produit": "volailles et oeufs",
+      "categorie": "volaille",
+      "frequence": null,
+      "localisation": {
+        "adresse": null,
+        "lat": null,
+        "lng": null,
+        "precision": null
+      },
+      "web": {
+        "siteWeb": null
+      },
+      "infos": null,
+      "amaps": [
+        "BDX-NANSOU",
+        "BLANQ-PLANET"
+      ]
+    },
+    {
+      "id": "PROD-067",
+      "nom": "Nicolas VIEL",
+      "societe": "Du Miel et des Abeilles",
+      "produit": "miel",
+      "categorie": "miel",
+      "frequence": "ponctuel",
+      "localisation": {
+        "adresse": null,
+        "lat": null,
+        "lng": null,
+        "precision": null
+      },
+      "web": {
+        "siteWeb": null
+      },
+      "infos": null,
+      "amaps": [
+        "BDX-NANSOU"
+      ]
+    },
+    {
+      "id": "PROD-068",
+      "nom": "Philippe POIRIER",
+      "societe": null,
+      "produit": "fromage de brebis",
+      "categorie": "viande",
+      "frequence": null,
+      "localisation": {
+        "adresse": null,
+        "lat": null,
+        "lng": null,
+        "precision": null
+      },
+      "web": {
+        "siteWeb": null
+      },
+      "infos": null,
+      "amaps": [
+        "BDX-NANSOU"
+      ]
+    },
+    {
+      "id": "PROD-069",
+      "nom": "Vergers LAFINOU",
+      "societe": null,
+      "produit": "pomme",
+      "categorie": "fruits",
+      "frequence": null,
+      "localisation": {
+        "adresse": null,
+        "lat": null,
+        "lng": null,
+        "precision": null
+      },
+      "web": {
+        "siteWeb": null
+      },
+      "infos": null,
+      "amaps": [
+        "BDX-NANSOU"
+      ]
+    },
+    {
+      "id": "PROD-070",
+      "nom": "Le Temps des Abeilles",
+      "societe": null,
+      "produit": "miel",
+      "categorie": "miel",
+      "frequence": null,
+      "localisation": {
+        "adresse": null,
+        "lat": null,
+        "lng": null,
+        "precision": null
+      },
+      "web": {
+        "siteWeb": null
+      },
+      "infos": null,
+      "amaps": [
+        "BDX-NANSOU"
+      ]
+    },
+    {
+      "id": "PROD-071",
+      "nom": "PRE JOLY",
+      "societe": null,
+      "produit": "agneau",
+      "categorie": "viande",
+      "frequence": null,
+      "localisation": {
+        "adresse": null,
+        "lat": null,
+        "lng": null,
+        "precision": null
+      },
+      "web": {
+        "siteWeb": null
+      },
+      "infos": null,
+      "amaps": [
+        "BDX-NANSOU"
+      ]
+    },
+    {
+      "id": "PROD-072",
+      "nom": "CEL'A NATURE",
+      "societe": null,
+      "produit": "cosmétique",
+      "categorie": "autre",
+      "frequence": null,
+      "localisation": {
+        "adresse": null,
+        "lat": null,
+        "lng": null,
+        "precision": null
+      },
+      "web": {
+        "siteWeb": null
+      },
+      "infos": null,
+      "amaps": [
+        "BDX-NANSOU"
+      ]
+    },
+    {
+      "id": "PROD-073",
+      "nom": "LES RUCHERS DU GRAND CHAMP",
+      "societe": null,
+      "produit": "miel",
+      "categorie": "miel",
+      "frequence": null,
+      "localisation": {
+        "adresse": null,
+        "lat": null,
+        "lng": null,
+        "precision": null
+      },
+      "web": {
+        "siteWeb": null
+      },
+      "infos": null,
+      "amaps": [
+        "BDX-NANSOU"
+      ]
+    },
+    {
+      "id": "PROD-074",
+      "nom": "AUTOUR DES PLANTES",
+      "societe": null,
+      "produit": "plantes aromatiques",
+      "categorie": "plantes",
+      "frequence": null,
+      "localisation": {
+        "adresse": null,
+        "lat": null,
+        "lng": null,
+        "precision": null
+      },
+      "web": {
+        "siteWeb": null
+      },
+      "infos": null,
+      "amaps": [
+        "BDX-NANSOU"
+      ]
+    },
+    {
+      "id": "PROD-075",
+      "nom": "La Liberterre",
+      "societe": null,
+      "produit": "légumes",
+      "categorie": "legumes",
+      "frequence": null,
+      "localisation": {
+        "adresse": null,
+        "lat": null,
+        "lng": null,
+        "precision": null
+      },
+      "web": {
+        "siteWeb": null
+      },
+      "infos": null,
+      "amaps": [
+        "BDX-NANSOU"
+      ]
+    },
+    {
+      "id": "PROD-076",
+      "nom": "Graines d'Olive",
+      "societe": null,
+      "produit": "huile d'olive",
+      "categorie": "huile",
+      "frequence": null,
+      "localisation": {
+        "adresse": null,
+        "lat": null,
+        "lng": null,
+        "precision": null
+      },
+      "web": {
+        "siteWeb": null
+      },
+      "infos": null,
+      "amaps": [
+        "BDX-NANSOU"
+      ]
+    },
+    {
+      "id": "PROD-077",
+      "nom": "Yoann DARRAS",
+      "societe": "A travers champs",
+      "produit": "champignons",
+      "categorie": "champignon",
+      "frequence": null,
+      "localisation": {
+        "adresse": null,
+        "lat": null,
+        "lng": null,
+        "precision": null
+      },
+      "web": {
+        "siteWeb": "https://www.atraverschamps.com/"
+      },
+      "infos": null,
+      "amaps": [
+        "BDX-NANSOU"
+      ]
+    },
+    {
+      "id": "PROD-078",
+      "nom": "GAEC la Bérda d'Ambrézi",
+      "societe": null,
+      "produit": "agneau",
+      "categorie": "viande",
+      "frequence": null,
+      "localisation": {
+        "adresse": "Sillas (sud-Gironde)",
+        "lat": 44.37387,
+        "lng": -0.06176,
+        "precision": "adresse_complete"
+      },
+      "web": {
+        "siteWeb": null
+      },
+      "infos": null,
+      "amaps": [
+        "BDX-NANSOU"
+      ]
+    },
+    {
+      "id": "PROD-079",
+      "nom": "Saborita",
+      "societe": "Saborita",
+      "produit": "produits italiens",
+      "categorie": "autre",
+      "frequence": "ponctuel",
+      "localisation": {
+        "adresse": "Valence",
+        "lat": 44.93323,
+        "lng": 4.89208,
+        "precision": "adresse_complete"
+      },
+      "web": {
+        "siteWeb": "https://saborita.fr/"
+      },
+      "infos": null,
+      "amaps": [
+        "BDX-NANSOU"
+      ]
+    },
+    {
+      "id": "PROD-080",
+      "nom": "Dominique",
+      "societe": null,
+      "produit": "légumes maraîcher",
+      "categorie": "legumes",
+      "frequence": "hebdo",
+      "localisation": {
+        "adresse": "Saint Vincent de Paul 33",
+        "lat": 44.95498,
+        "lng": -0.4693,
+        "precision": "adresse_complete"
+      },
+      "web": {
+        "siteWeb": null
+      },
+      "infos": null,
+      "amaps": [
+        "BLANQ-PLANET"
+      ]
+    },
+    {
+      "id": "PROD-081",
+      "nom": "Eloi Keller",
+      "societe": null,
+      "produit": "sel",
+      "categorie": "autre",
+      "frequence": null,
+      "localisation": {
+        "adresse": "Île de Ré",
+        "lat": 46.20054,
+        "lng": -1.40028,
+        "precision": "adresse_complete"
+      },
+      "web": {
+        "siteWeb": "https://eloikeller.fr/"
+      },
+      "infos": null,
+      "amaps": [
+        "BLANQ-PLANET"
+      ]
+    },
+    {
+      "id": "PROD-082",
+      "nom": "Caravane des senteurs",
+      "societe": null,
+      "produit": "tisanes",
+      "categorie": "plantes",
+      "frequence": null,
+      "localisation": {
+        "adresse": "Carbon-Blanc 33",
+        "lat": 44.89377,
+        "lng": -0.50503,
+        "precision": "adresse_complete"
+      },
+      "web": {
+        "siteWeb": null
+      },
+      "infos": null,
+      "amaps": [
+        "BLANQ-PLANET"
+      ]
+    },
+    {
+      "id": "PROD-083",
+      "nom": "Icare Massoubre",
+      "societe": "Craft Nation",
+      "produit": "bière artisanale",
+      "categorie": "vin",
+      "frequence": null,
+      "localisation": {
+        "adresse": "Gours 33",
+        "lat": 45.02117,
+        "lng": -0.21847,
+        "precision": "ville"
+      },
+      "web": {
+        "siteWeb": null
+      },
+      "infos": null,
+      "amaps": [
+        "BLANQ-PLANET"
+      ]
+    },
+    {
+      "id": "PROD-084",
+      "nom": "La ferme des Jarouilles",
+      "societe": "La ferme des Jarouilles",
+      "produit": "légumes",
+      "categorie": "legumes",
+      "frequence": "hebdo",
+      "localisation": {
+        "adresse": "Coutras 33",
+        "lat": 45.04073,
+        "lng": -0.12895,
+        "precision": "adresse_complete"
+      },
+      "web": {
+        "siteWeb": "https://lafermedesjarouilles.fr/"
+      },
+      "infos": null,
+      "amaps": [
+        "BLANQ-PLANET"
+      ]
+    },
+    {
+      "id": "PROD-085",
+      "nom": "Laurent Flandrais",
+      "societe": "Fromage de brebis Laurent F",
+      "produit": "fromage de brebis",
+      "categorie": "viande",
+      "frequence": "/15 jours",
+      "localisation": {
+        "adresse": "Nord Gironde",
+        "lat": 45.15,
+        "lng": -0.35,
+        "precision": "region"
+      },
+      "web": {
+        "siteWeb": null
+      },
+      "infos": null,
+      "amaps": [
+        "BLANQ-PLANET"
+      ]
+    },
+    {
+      "id": "PROD-086",
+      "nom": "Ferme des pairies de Pallard",
+      "societe": "Ferme des pairies de Pallard",
+      "produit": "fromage de chèvre",
+      "categorie": "fromage",
+      "frequence": "/15 jours",
+      "localisation": {
+        "adresse": "Nord-Gironde",
+        "lat": 45.15,
+        "lng": -0.35,
+        "precision": "region"
+      },
+      "web": {
+        "siteWeb": null
+      },
+      "infos": null,
+      "amaps": [
+        "BLANQ-PLANET"
+      ]
+    },
+    {
+      "id": "PROD-087",
+      "nom": "Château Bessan - famille Verdier",
+      "societe": null,
+      "produit": "vin",
+      "categorie": "vin",
+      "frequence": null,
+      "localisation": {
+        "adresse": "Bessan 33",
+        "lat": 44.82,
+        "lng": -0.58,
+        "precision": "approximatif"
+      },
+      "web": {
+        "siteWeb": "https://www.chateau-bessan.fr/"
+      },
+      "infos": null,
+      "amaps": [
+        "BLANQ-PLANET"
+      ]
+    },
+    {
+      "id": "PROD-088",
+      "nom": "Brasserie Saint-Léon",
+      "societe": "Brasserie Saint-Léon",
+      "produit": "bière artisanale",
+      "categorie": "vin",
+      "frequence": null,
+      "localisation": {
+        "adresse": "Créon 33",
+        "lat": 44.77468,
+        "lng": -0.34829,
+        "precision": "adresse_complete"
+      },
+      "web": {
+        "siteWeb": "https://www.facebook.com/BrasserieSaintLeon/?locale=fr_FR"
+      },
+      "infos": null,
+      "amaps": [
+        "BLANQ-PLANET"
+      ]
+    },
+    {
+      "id": "PROD-089",
+      "nom": "La Ferme de Laruscade",
+      "societe": "La Ferme de Laruscade",
+      "produit": "boeuf",
+      "categorie": "oeuf",
+      "frequence": "ponctuel",
+      "localisation": {
+        "adresse": "33620 Laruscade",
+        "lat": 45.10725,
+        "lng": -0.33808,
+        "precision": "adresse_complete"
+      },
+      "web": {
+        "siteWeb": "https://www.larusc.fr/"
+      },
+      "infos": null,
+      "amaps": [
+        "BLANQ-PLANET"
+      ]
+    },
+    {
+      "id": "PROD-090",
+      "nom": "Paul et Henri",
+      "societe": null,
+      "produit": "huîtres",
+      "categorie": "poisson",
+      "frequence": "ponctuel",
+      "localisation": {
+        "adresse": "Bassin d'Arcachon",
+        "lat": 44.58428,
+        "lng": -1.13565,
+        "precision": "adresse_complete"
+      },
+      "web": {
+        "siteWeb": null
+      },
+      "infos": null,
+      "amaps": [
+        "BLANQ-PLANET"
+      ]
+    },
+    {
+      "id": "PROD-091",
+      "nom": "Sandrine",
+      "societe": "Safran de Guyenne",
+      "produit": "safran",
+      "categorie": "autre",
+      "frequence": "ponctuel",
+      "localisation": {
+        "adresse": null,
+        "lat": null,
+        "lng": null,
+        "precision": null
+      },
+      "web": {
+        "siteWeb": "https://safrandeguyenne.com/"
+      },
+      "infos": null,
+      "amaps": [
+        "BLANQ-PLANET"
+      ]
+    },
+    {
+      "id": "PROD-092",
+      "nom": "Thérèse Kohlner",
+      "societe": null,
+      "produit": "noix",
+      "categorie": "fruits",
+      "frequence": "ponctuel",
+      "localisation": {
+        "adresse": "Forêt de la Double",
+        "lat": 45.12187,
+        "lng": 0.21172,
+        "precision": "adresse_complete"
+      },
+      "web": {
+        "siteWeb": null
+      },
+      "infos": null,
+      "amaps": [
+        "BLANQ-PLANET"
+      ]
+    },
+    {
+      "id": "PROD-093",
+      "nom": "La Collective des Pains - Brice",
+      "societe": "Anne et Flora",
+      "produit": "pain",
+      "categorie": "pain",
+      "frequence": null,
+      "localisation": {
+        "adresse": null,
+        "lat": null,
+        "lng": null,
+        "precision": null
+      },
+      "web": {
+        "siteWeb": null
+      },
+      "infos": null,
+      "amaps": [
+        "https://www.instagram.com/la_collective_des_pains/?hl=fr"
+      ]
+    },
+    {
+      "id": "PROD-094",
+      "nom": "Lucie ANDRON",
+      "societe": "Les Jardins de Lucie",
+      "produit": "œufs",
+      "categorie": "autre",
+      "frequence": null,
+      "localisation": {
+        "adresse": null,
+        "lat": null,
+        "lng": null,
+        "precision": null
+      },
+      "web": {
+        "siteWeb": "https://www.facebook.com/LesjardinsdelucieLucie/?locale=fr_FR"
+      },
+      "infos": null,
+      "amaps": [
+        "BLANQ-PLANET"
+      ]
+    },
+    {
+      "id": "PROD-095",
+      "nom": "Michael BONNEAU",
+      "societe": "Les Jardins de Bonneau",
+      "produit": "légumes",
+      "categorie": "legumes",
+      "frequence": null,
+      "localisation": {
+        "adresse": null,
+        "lat": null,
+        "lng": null,
+        "precision": null
+      },
+      "web": {
+        "siteWeb": "https://www.facebook.com/lesjardinsdemichael33"
+      },
+      "infos": null,
+      "amaps": [
+        "BLANQ-PLANET"
+      ]
+    },
+    {
+      "id": "PROD-096",
+      "nom": "Myriam CARRAZ",
+      "societe": "Les Chèvres du Captalat",
+      "produit": "fromage de chèvre",
+      "categorie": "fromage",
+      "frequence": "hebdo",
+      "localisation": {
+        "adresse": "1 Jean du Mieu Est, 33430 Sauviac",
+        "lat": 44.40844,
+        "lng": -0.19556,
+        "precision": "ville_cp"
+      },
+      "web": {
+        "siteWeb": "https://www.facebook.com/LesChevresduCaptalat/?locale=fr_FR"
+      },
+      "infos": null,
+      "amaps": [
+        "BLANQ-PLANET"
+      ]
+    },
+    {
+      "id": "PROD-097",
+      "nom": "Les champis de l'Antre-Deux-Mers",
+      "societe": null,
+      "produit": "champignons",
+      "categorie": "champignon",
+      "frequence": null,
+      "localisation": {
+        "adresse": null,
+        "lat": null,
+        "lng": null,
+        "precision": null
+      },
+      "web": {
+        "siteWeb": "https://www.facebook.com/profile.php?id=100063767155568"
+      },
+      "infos": null,
+      "amaps": [
+        "BLANQ-PLANET"
+      ]
+    },
+    {
+      "id": "PROD-098",
+      "nom": "Jean Guy DUMONT",
+      "societe": null,
+      "produit": "endives",
+      "categorie": "legumes",
+      "frequence": "ponctuel",
+      "localisation": {
+        "adresse": "Bravone 20230 Linguizzetta",
+        "lat": 42.20062,
+        "lng": 9.53713,
+        "precision": "adresse_complete"
+      },
+      "web": {
+        "siteWeb": null
+      },
+      "infos": null,
+      "amaps": [
+        "BLANQ-PLANET"
+      ]
+    },
+    {
+      "id": "PROD-099",
+      "nom": "Virginie et Didier Duclos",
+      "societe": "Fruité de Gironde",
+      "produit": "confiture",
+      "categorie": "autre",
+      "frequence": "ponctuel",
+      "localisation": {
+        "adresse": null,
+        "lat": null,
+        "lng": null,
+        "precision": null
+      },
+      "web": {
+        "siteWeb": null
+      },
+      "infos": null,
+      "amaps": [
+        "BLANQ-PLANET"
+      ]
+    },
+    {
+      "id": "PROD-100",
+      "nom": "Aurélien Gazeau",
+      "societe": "Ferme de Goujon",
+      "produit": "fromage de chèvre",
+      "categorie": "fromage",
+      "frequence": null,
+      "localisation": {
+        "adresse": null,
+        "lat": null,
+        "lng": null,
+        "precision": null
+      },
+      "web": {
+        "siteWeb": null
+      },
+      "infos": null,
+      "amaps": [
+        "BORDEAUX-FLOIRAC"
+      ]
+    },
+    {
+      "id": "PROD-101",
+      "nom": "Cécile Goudeneche",
+      "societe": "La chèvre des vignes",
+      "produit": "fromage de chèvre",
+      "categorie": "fromage",
+      "frequence": null,
+      "localisation": {
+        "adresse": null,
+        "lat": null,
+        "lng": null,
+        "precision": null
+      },
+      "web": {
+        "siteWeb": "https://www.lachevre desvignes.fr/"
+      },
+      "infos": null,
+      "amaps": [
+        "BORDEAUX-FLOIRAC"
+      ]
+    },
+    {
+      "id": "PROD-102",
+      "nom": "Lucile Muller et Arafat Sharipudun",
+      "societe": "La ferme du plateau",
+      "produit": "légumes",
+      "categorie": "legumes",
+      "frequence": null,
+      "localisation": {
+        "adresse": null,
+        "lat": null,
+        "lng": null,
+        "precision": null
+      },
+      "web": {
+        "siteWeb": null
+      },
+      "infos": null,
+      "amaps": [
+        "BORDEAUX-FLOIRAC"
+      ]
+    },
+    {
+      "id": "PROD-103",
+      "nom": "Yohan Musseau",
+      "societe": "La ferme de Chez Cailleau",
+      "produit": "légumes",
+      "categorie": "legumes",
+      "frequence": null,
+      "localisation": {
+        "adresse": null,
+        "lat": null,
+        "lng": null,
+        "precision": null
+      },
+      "web": {
+        "siteWeb": null
+      },
+      "infos": null,
+      "amaps": [
+        "BORDEAUX-FLOIRAC"
+      ]
+    },
+    {
+      "id": "PROD-104",
+      "nom": "Maxime Vaissière",
+      "societe": "La Ferme des Music'Halls",
+      "produit": "légumes",
+      "categorie": "legumes",
+      "frequence": null,
+      "localisation": {
+        "adresse": null,
+        "lat": null,
+        "lng": null,
+        "precision": null
+      },
+      "web": {
+        "siteWeb": "https://lafermedesmusicalls.fr/"
+      },
+      "infos": null,
+      "amaps": [
+        "BORDEAUX-FLOIRAC"
+      ]
+    },
+    {
+      "id": "PROD-105",
+      "nom": "Nouveau maraîcher",
+      "societe": null,
+      "produit": "légumes",
+      "categorie": "legumes",
+      "frequence": null,
+      "localisation": {
+        "adresse": "Vérac 33",
+        "lat": 44.99137,
+        "lng": -0.34115,
+        "precision": "adresse_complete"
+      },
+      "web": {
+        "siteWeb": null
+      },
+      "infos": null,
+      "amaps": [
+        "BORDEAUX-FLOIRAC"
+      ]
+    },
+    {
+      "id": "PROD-106",
+      "nom": "Aurore et Philippe SOURNAC",
+      "societe": "GAEC Sournac",
+      "produit": "volailles et oeufs",
+      "categorie": "volaille",
+      "frequence": "/15 jours",
+      "localisation": {
+        "adresse": "Chemin Camin de Langlet, 3320 Eysines",
+        "lat": 44.88547,
+        "lng": -0.64869,
+        "precision": "ville"
+      },
+      "web": {
+        "siteWeb": null
+      },
+      "infos": null,
+      "amaps": [
+        "EYSINES"
+      ]
+    },
+    {
+      "id": "PROD-107",
+      "nom": "Mireille FONTAN",
+      "societe": "La Ferme de Mireille",
+      "produit": "œufs",
+      "categorie": "autre",
+      "frequence": "hebdo",
+      "localisation": {
+        "adresse": "Cercoux (17270)",
+        "lat": 45.12972,
+        "lng": -0.20482,
+        "precision": "adresse_complete"
+      },
+      "web": {
+        "siteWeb": null
+      },
+      "infos": null,
+      "amaps": [
+        "EYSINES"
+      ]
+    },
+    {
+      "id": "PROD-108",
+      "nom": "Charles Labrouche",
+      "societe": "La Chèvre de Charles",
+      "produit": "fromage de chèvre",
+      "categorie": "fromage",
+      "frequence": "hebdo",
+      "localisation": {
+        "adresse": "33430 Le Nizan",
+        "lat": 44.47704,
+        "lng": -0.26948,
+        "precision": "adresse_complete"
+      },
+      "web": {
+        "siteWeb": "https://www.facebook.com/lachevredecharles/?locale=fr_FR"
+      },
+      "infos": null,
+      "amaps": [
+        "EYSINES"
+      ]
+    },
+    {
+      "id": "PROD-109",
+      "nom": "Marlène SERRANO",
+      "societe": "Le Jardin de Marlène",
+      "produit": "légumes",
+      "categorie": "legumes",
+      "frequence": "hebdo",
+      "localisation": {
+        "adresse": "Courpiac",
+        "lat": 44.75426,
+        "lng": -0.18236,
+        "precision": "adresse_complete"
+      },
+      "web": {
+        "siteWeb": "https://www.facebook.com/LeJardindeMarlene/?locale=fr_FR"
+      },
+      "infos": null,
+      "amaps": [
+        "EYSINES"
+      ]
+    },
+    {
+      "id": "PROD-110",
+      "nom": "Philippe Barret",
+      "societe": "Le Potager de Phil",
+      "produit": "légumes",
+      "categorie": "legumes",
+      "frequence": "hebdo",
+      "localisation": {
+        "adresse": "Arsac",
+        "lat": 44.99719,
+        "lng": -0.68837,
+        "precision": "adresse_complete"
+      },
+      "web": {
+        "siteWeb": "https://www.facebook.com/profile.php?id=100063629631989"
+      },
+      "infos": null,
+      "amaps": [
+        "EYSINES"
+      ]
+    },
+    {
+      "id": "PROD-111",
+      "nom": "Marie et Laurent BRUNEL",
+      "societe": "La Ferme de Beaupré Delsey",
+      "produit": "fromage de brebis",
+      "categorie": "viande",
+      "frequence": "hebdo",
+      "localisation": {
+        "adresse": "Barie 33190",
+        "lat": 44.57058,
+        "lng": -0.11555,
+        "precision": "adresse_complete"
+      },
+      "web": {
+        "siteWeb": "https://lafermedebeaupredelsey.fr/"
+      },
+      "infos": null,
+      "amaps": [
+        "EYSINES"
+      ]
+    },
+    {
+      "id": "PROD-112",
+      "nom": "Elodie Molina",
+      "societe": "Graine de pain",
+      "produit": "pain",
+      "categorie": "pain",
+      "frequence": "hebdo",
+      "localisation": {
+        "adresse": "33160 Saint Aubin du Médoc",
+        "lat": 44.93703,
+        "lng": -0.71919,
+        "precision": "adresse_complete"
+      },
+      "web": {
+        "siteWeb": "https://grainedepain33.fr/"
+      },
+      "infos": null,
+      "amaps": [
+        "EYSINES"
+      ]
+    },
+    {
+      "id": "PROD-113",
+      "nom": "Jerome SUBERVIE",
+      "societe": "Brasserie Artisanale d'Eysines",
+      "produit": "bière artisanale",
+      "categorie": "vin",
+      "frequence": "ponctuel",
+      "localisation": {
+        "adresse": null,
+        "lat": null,
+        "lng": null,
+        "precision": null
+      },
+      "web": {
+        "siteWeb": null
+      },
+      "infos": null,
+      "amaps": [
+        "EYSINES"
+      ]
+    },
+    {
+      "id": "PROD-114",
+      "nom": "Brasserie Mascaret",
+      "societe": "Brasserie Mascaret",
+      "produit": "bière artisanale",
+      "categorie": "vin",
+      "frequence": "ponctuel",
+      "localisation": {
+        "adresse": null,
+        "lat": null,
+        "lng": null,
+        "precision": null
+      },
+      "web": {
+        "siteWeb": null
+      },
+      "infos": null,
+      "amaps": [
+        "EYSINES"
+      ]
+    },
+    {
+      "id": "PROD-115",
+      "nom": "Filets de Mat'Lo",
+      "societe": "Filets de Mat'Lo",
+      "produit": "poisson",
+      "categorie": "poisson",
+      "frequence": "ponctuel",
+      "localisation": {
+        "adresse": null,
+        "lat": null,
+        "lng": null,
+        "precision": null
+      },
+      "web": {
+        "siteWeb": "https://filetsdematlo.fr/"
+      },
+      "infos": null,
+      "amaps": [
+        "EYSINES"
+      ]
+    },
+    {
+      "id": "PROD-117",
+      "nom": "Eduardo Saguar",
+      "societe": "Sapori d'Italia",
+      "produit": "produits italiens",
+      "categorie": "autre",
+      "frequence": "ponctuel",
+      "localisation": {
+        "adresse": null,
+        "lat": null,
+        "lng": null,
+        "precision": null
+      },
+      "web": {
+        "siteWeb": "https://www.saporditalia.fr/"
+      },
+      "infos": null,
+      "amaps": [
+        "EYSINES"
+      ]
+    },
+    {
+      "id": "PROD-119",
+      "nom": "JARDIN du BERLINCAN",
+      "societe": null,
+      "produit": "légumes",
+      "categorie": "legumes",
+      "frequence": null,
+      "localisation": {
+        "adresse": null,
+        "lat": null,
+        "lng": null,
+        "precision": null
+      },
+      "web": {
+        "siteWeb": null
+      },
+      "infos": null,
+      "amaps": [
+        "GAR-O-BIO"
+      ]
+    },
+    {
+      "id": "PROD-120",
+      "nom": "EARL Le Petit Ribier",
+      "societe": null,
+      "produit": "légumes",
+      "categorie": "legumes",
+      "frequence": null,
+      "localisation": {
+        "adresse": null,
+        "lat": null,
+        "lng": null,
+        "precision": null
+      },
+      "web": {
+        "siteWeb": null
+      },
+      "infos": null,
+      "amaps": [
+        "GAR-O-BIO"
+      ]
+    },
+    {
+      "id": "PROD-121",
+      "nom": "La Poul'é bio",
+      "societe": null,
+      "produit": "volailles et oeufs",
+      "categorie": "volaille",
+      "frequence": null,
+      "localisation": {
+        "adresse": null,
+        "lat": null,
+        "lng": null,
+        "precision": null
+      },
+      "web": {
+        "siteWeb": null
+      },
+      "infos": null,
+      "amaps": [
+        "GAR-O-BIO"
+      ]
+    },
+    {
+      "id": "PROD-122",
+      "nom": "Brasserie Winterholer",
+      "societe": null,
+      "produit": "bière artisanale",
+      "categorie": "vin",
+      "frequence": null,
+      "localisation": {
+        "adresse": null,
+        "lat": null,
+        "lng": null,
+        "precision": null
+      },
+      "web": {
+        "siteWeb": null
+      },
+      "infos": null,
+      "amaps": [
+        "GAR-O-BIO"
+      ]
+    },
+    {
+      "id": "PROD-123",
+      "nom": "Annie VEDRENNE",
+      "societe": null,
+      "produit": "miel",
+      "categorie": "miel",
+      "frequence": null,
+      "localisation": {
+        "adresse": null,
+        "lat": null,
+        "lng": null,
+        "precision": null
+      },
+      "web": {
+        "siteWeb": null
+      },
+      "infos": null,
+      "amaps": [
+        "GAR-O-BIO"
+      ]
+    },
+    {
+      "id": "PROD-124",
+      "nom": "Christophe GUENON",
+      "societe": null,
+      "produit": "fromage de chèvre",
+      "categorie": "fromage",
+      "frequence": null,
+      "localisation": {
+        "adresse": null,
+        "lat": null,
+        "lng": null,
+        "precision": null
+      },
+      "web": {
+        "siteWeb": null
+      },
+      "infos": null,
+      "amaps": [
+        "GAR-O-BIO"
+      ]
+    },
+    {
+      "id": "PROD-126",
+      "nom": "Boulangerie SERONA",
+      "societe": null,
+      "produit": "pain",
+      "categorie": "pain",
+      "frequence": null,
+      "localisation": {
+        "adresse": null,
+        "lat": null,
+        "lng": null,
+        "precision": null
+      },
+      "web": {
+        "siteWeb": null
+      },
+      "infos": null,
+      "amaps": [
+        "GAR-O-BIO"
+      ]
+    },
+    {
+      "id": "PROD-127",
+      "nom": "Octobulle",
+      "societe": null,
+      "produit": "cosmétique",
+      "categorie": "autre",
+      "frequence": null,
+      "localisation": {
+        "adresse": null,
+        "lat": null,
+        "lng": null,
+        "precision": null
+      },
+      "web": {
+        "siteWeb": "https://www.octobulle.fr/"
+      },
+      "infos": null,
+      "amaps": [
+        "GAR-O-BIO"
+      ]
+    },
+    {
+      "id": "PROD-128",
+      "nom": "ITALDELIZIE",
+      "societe": null,
+      "produit": "produits italiens",
+      "categorie": "autre",
+      "frequence": null,
+      "localisation": {
+        "adresse": null,
+        "lat": null,
+        "lng": null,
+        "precision": null
+      },
+      "web": {
+        "siteWeb": null
+      },
+      "infos": null,
+      "amaps": [
+        "GAR-O-BIO"
+      ]
+    },
+    {
+      "id": "PROD-129",
+      "nom": "LA CHOKOLATIERE",
+      "societe": null,
+      "produit": "chocolat",
+      "categorie": "autre",
+      "frequence": null,
+      "localisation": {
+        "adresse": null,
+        "lat": null,
+        "lng": null,
+        "precision": null
+      },
+      "web": {
+        "siteWeb": null
+      },
+      "infos": null,
+      "amaps": [
+        "GAR-O-BIO"
+      ]
+    },
+    {
+      "id": "PROD-130",
+      "nom": "Marie-Laure Ravidat",
+      "societe": null,
+      "produit": "tisanes",
+      "categorie": "plantes",
+      "frequence": null,
+      "localisation": {
+        "adresse": null,
+        "lat": null,
+        "lng": null,
+        "precision": null
+      },
+      "web": {
+        "siteWeb": null
+      },
+      "infos": null,
+      "amaps": [
+        "GAR-O-BIO"
+      ]
+    },
+    {
+      "id": "PROD-131",
+      "nom": "Sacha LACOUR-ARJEAU",
+      "societe": "À travers champs",
+      "produit": "champignons",
+      "categorie": "champignon",
+      "frequence": null,
+      "localisation": {
+        "adresse": null,
+        "lat": null,
+        "lng": null,
+        "precision": null
+      },
+      "web": {
+        "siteWeb": "https://www.atraverschamps.com/"
+      },
+      "infos": null,
+      "amaps": [
+        "GAR-O-BIO"
+      ]
+    },
+    {
+      "id": "PROD-132",
+      "nom": "Ferme Terre d'Amour",
+      "societe": null,
+      "produit": "légumes",
+      "categorie": "legumes",
+      "frequence": null,
+      "localisation": {
+        "adresse": null,
+        "lat": null,
+        "lng": null,
+        "precision": null
+      },
+      "web": {
+        "siteWeb": null
+      },
+      "infos": null,
+      "amaps": [
+        "GRADIG-PANIER"
+      ]
+    },
+    {
+      "id": "PROD-133",
+      "nom": "La Ferme Gaillant",
+      "societe": null,
+      "produit": "légumes",
+      "categorie": "legumes",
+      "frequence": null,
+      "localisation": {
+        "adresse": null,
+        "lat": null,
+        "lng": null,
+        "precision": null
+      },
+      "web": {
+        "siteWeb": null
+      },
+      "infos": null,
+      "amaps": [
+        "GRADIG-PANIER"
+      ]
+    },
+    {
+      "id": "PROD-134",
+      "nom": "Jean-Claude Castagna",
+      "societe": "Domaine de la Grave",
+      "produit": "vin",
+      "categorie": "vin",
+      "frequence": null,
+      "localisation": {
+        "adresse": null,
+        "lat": null,
+        "lng": null,
+        "precision": null
+      },
+      "web": {
+        "siteWeb": "https://www.domainedelagrave.com/"
+      },
+      "infos": null,
+      "amaps": [
+        "GRADIG-PANIER"
+      ]
+    },
+    {
+      "id": "PROD-135",
+      "nom": "Domaine Emile Grelier",
+      "societe": null,
+      "produit": "vin",
+      "categorie": "vin",
+      "frequence": null,
+      "localisation": {
+        "adresse": null,
+        "lat": null,
+        "lng": null,
+        "precision": null
+      },
+      "web": {
+        "siteWeb": null
+      },
+      "infos": null,
+      "amaps": [
+        "GRADIG-PANIER"
+      ]
+    },
+    {
+      "id": "PROD-136",
+      "nom": "AQUIBIO PAIN",
+      "societe": null,
+      "produit": "pain",
+      "categorie": "pain",
+      "frequence": null,
+      "localisation": {
+        "adresse": null,
+        "lat": null,
+        "lng": null,
+        "precision": null
+      },
+      "web": {
+        "siteWeb": null
+      },
+      "infos": null,
+      "amaps": [
+        "GRADIG-PANIER"
+      ]
     }
   ]
 }

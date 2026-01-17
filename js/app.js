@@ -1,24 +1,40 @@
 /**
- * AMAPs Gironde - Carte Interactive avec Timeline et Liste
- * Version sans données personnelles
+ * AMAPs Gironde - Carte Interactive
+ * AMAPs et Producteurs
  */
 
 // ============================================
 // Configuration
 // ============================================
 const CONFIG = {
-    // Centre de la Gironde (proche Bordeaux)
     mapCenter: [44.84, -0.58],
     mapZoom: 9,
     
-    // Couleurs des marqueurs
-    markerColors: {
-        default: '#e07b39',     // Orange terre cuite
-        hover: '#5a8f3e',       // Vert feuille
-        border: '#c4a35a'       // Ocre/blé
+    // Couleurs pour les AMAPs
+    amapColors: {
+        default: '#e07b39',
+        hover: '#5a8f3e',
+        border: '#c4a35a'
     },
     
-    // Style de carte
+    // Couleurs et icônes par catégorie de produit
+    productCategories: {
+        legumes: { color: '#4caf50', icon: '🥬', label: 'Légumes' },
+        pain: { color: '#d4a373', icon: '🍞', label: 'Pain/Céréales' },
+        volaille: { color: '#ff9800', icon: '🐔', label: 'Volaille' },
+        oeuf: { color: '#ffeb3b', icon: '🥚', label: 'Œufs' },
+        viande: { color: '#c62828', icon: '🥩', label: 'Viande' },
+        poisson: { color: '#03a9f4', icon: '🐟', label: 'Poisson' },
+        fromage: { color: '#ffc107', icon: '🧀', label: 'Fromage' },
+        miel: { color: '#ff8f00', icon: '🍯', label: 'Miel' },
+        vin: { color: '#7b1fa2', icon: '🍷', label: 'Vin/Bière' },
+        fruits: { color: '#e91e63', icon: '🍎', label: 'Fruits' },
+        champignon: { color: '#795548', icon: '🍄', label: 'Champignons' },
+        plantes: { color: '#8bc34a', icon: '🌿', label: 'Plantes' },
+        huile: { color: '#827717', icon: '🫒', label: 'Huile' },
+        autre: { color: '#607d8b', icon: '📦', label: 'Autre' }
+    },
+    
     tileLayer: {
         url: 'https://{s}.tile.openstreetmap.fr/osmfr/{z}/{x}/{y}.png',
         attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'
@@ -32,15 +48,15 @@ let state = {
     data: null,
     map: null,
     markers: [],
-    filteredAmaps: [],
+    connectionLines: [],
+    currentView: 'amaps', // 'amaps' ou 'producteurs'
     filters: {
         search: '',
-        yearMax: 2024
+        yearMax: 2024,
+        category: ''
     },
-    yearRange: {
-        min: 2005,
-        max: 2024
-    }
+    yearRange: { min: 2005, max: 2024 },
+    selectedAmap: null
 };
 
 // ============================================
@@ -54,6 +70,7 @@ async function init() {
         initMap();
         initTimeline();
         initEventListeners();
+        buildCategoryFilter();
         updateAll();
     } catch (error) {
         console.error('Erreur initialisation:', error);
@@ -68,15 +85,12 @@ async function loadData() {
     if (!response.ok) throw new Error('Erreur chargement données');
     state.data = await response.json();
     
-    // Extraire les bornes temporelles
     if (state.data.metadata.dateMin) {
         state.yearRange.min = parseInt(state.data.metadata.dateMin.substring(0, 4));
     }
     if (state.data.metadata.dateMax) {
         state.yearRange.max = parseInt(state.data.metadata.dateMax.substring(0, 4));
     }
-    
-    // Valeur initiale : toutes les AMAPs
     state.filters.yearMax = state.yearRange.max;
 }
 
@@ -87,11 +101,9 @@ function initMap() {
     state.map = L.map('map', {
         center: CONFIG.mapCenter,
         zoom: CONFIG.mapZoom,
-        scrollWheelZoom: true,
-        zoomControl: true
+        scrollWheelZoom: true
     });
     
-    // Tile layer
     L.tileLayer(CONFIG.tileLayer.url, {
         attribution: CONFIG.tileLayer.attribution,
         maxZoom: 18
@@ -101,75 +113,182 @@ function initMap() {
 }
 
 function updateMap() {
-    // Supprimer les marqueurs existants
-    state.markers.forEach(marker => state.map.removeLayer(marker));
-    state.markers = [];
+    clearMap();
     
-    // Ajouter les marqueurs filtrés
-    state.filteredAmaps.forEach(amap => {
+    if (state.currentView === 'amaps') {
+        updateAmapsMap();
+    } else {
+        updateProducteursMap();
+    }
+}
+
+function clearMap() {
+    state.markers.forEach(m => state.map.removeLayer(m));
+    state.markers = [];
+    clearConnectionLines();
+}
+
+function clearConnectionLines() {
+    state.connectionLines.forEach(l => state.map.removeLayer(l));
+    state.connectionLines = [];
+}
+
+// ============================================
+// Vue AMAPs
+// ============================================
+function updateAmapsMap() {
+    const filtered = filterAmaps();
+    
+    filtered.forEach(amap => {
         const lat = amap.localisation?.lat;
         const lng = amap.localisation?.lng;
         
         if (lat && lng) {
-            const marker = createMarker(amap, lat, lng);
+            const marker = L.circleMarker([lat, lng], {
+                radius: 9,
+                fillColor: CONFIG.amapColors.default,
+                color: CONFIG.amapColors.border,
+                weight: 2,
+                opacity: 1,
+                fillOpacity: 0.85
+            });
+            
+            marker.on('click', () => {
+                showAmapConnections(amap);
+                openAmapDetail(amap.id);
+            });
+            
+            marker.on('mouseover', function() {
+                this.setStyle({ fillColor: CONFIG.amapColors.hover, radius: 11 });
+            });
+            marker.on('mouseout', function() {
+                this.setStyle({ fillColor: CONFIG.amapColors.default, radius: 9 });
+            });
+            
+            marker.bindTooltip(amap.nom, { direction: 'top', offset: [0, -10] });
             marker.addTo(state.map);
             state.markers.push(marker);
         }
     });
+    
+    // Cacher la légende en vue AMAPs
+    document.getElementById('mapLegend').classList.remove('visible');
 }
 
-function createMarker(amap, lat, lng) {
-    const marker = L.circleMarker([lat, lng], {
-        radius: 9,
-        fillColor: CONFIG.markerColors.default,
-        color: CONFIG.markerColors.border,
-        weight: 2,
-        opacity: 1,
-        fillOpacity: 0.85
+function showAmapConnections(amap) {
+    clearConnectionLines();
+    
+    if (!amap.producteurs || amap.producteurs.length === 0) return;
+    
+    const amapLat = amap.localisation?.lat;
+    const amapLng = amap.localisation?.lng;
+    if (!amapLat || !amapLng) return;
+    
+    // Trouver les producteurs liés avec coordonnées
+    const producteursWithCoords = [];
+    amap.producteurs.forEach(prodId => {
+        const prod = state.data.producteurs.find(p => p.id === prodId);
+        if (prod && prod.localisation?.lat && prod.localisation?.lng) {
+            producteursWithCoords.push(prod);
+        }
     });
     
-    // Clic = ouvrir la modal détail
-    marker.on('click', () => openDetail(amap.id));
-    
-    // Interactions hover
-    marker.on('mouseover', function() {
-        this.setStyle({ 
-            fillColor: CONFIG.markerColors.hover,
-            radius: 11
-        });
-        this.bringToFront();
+    // Dessiner les lignes de connexion
+    producteursWithCoords.forEach(prod => {
+        const cat = CONFIG.productCategories[prod.categorie] || CONFIG.productCategories.autre;
+        const line = L.polyline(
+            [[amapLat, amapLng], [prod.localisation.lat, prod.localisation.lng]],
+            {
+                color: cat.color,
+                weight: 2,
+                opacity: 0.6,
+                dashArray: '5, 10'
+            }
+        );
+        line.addTo(state.map);
+        state.connectionLines.push(line);
     });
-    
-    marker.on('mouseout', function() {
-        this.setStyle({ 
-            fillColor: CONFIG.markerColors.default,
-            radius: 9
-        });
-    });
-    
-    // Tooltip au survol
-    marker.bindTooltip(amap.nom, {
-        direction: 'top',
-        offset: [0, -10],
-        className: 'amap-tooltip'
-    });
-    
-    return marker;
 }
 
 // ============================================
-// Timeline / Slider temporel compact
+// Vue Producteurs
+// ============================================
+function updateProducteursMap() {
+    const filtered = filterProducteurs();
+    const categoriesUsed = new Set();
+    
+    filtered.forEach(prod => {
+        const lat = prod.localisation?.lat;
+        const lng = prod.localisation?.lng;
+        
+        if (lat && lng) {
+            const cat = CONFIG.productCategories[prod.categorie] || CONFIG.productCategories.autre;
+            categoriesUsed.add(prod.categorie);
+            
+            // Créer une icône avec l'emoji du produit
+            const icon = L.divIcon({
+                className: 'producteur-marker',
+                html: `<div class="marker-icon" style="background:${cat.color};border-color:${cat.color}">${cat.icon}</div>`,
+                iconSize: [36, 36],
+                iconAnchor: [18, 18]
+            });
+            
+            const marker = L.marker([lat, lng], { icon });
+            
+            // Popup avec infos
+            const popupContent = `
+                <div class="popup-content">
+                    <strong>${cat.icon} ${prod.nom || prod.societe || 'Producteur'}</strong>
+                    <p>${prod.produit || ''}</p>
+                    ${prod.localisation?.adresse ? `<small>${prod.localisation.adresse}</small>` : ''}
+                </div>
+            `;
+            marker.bindPopup(popupContent);
+            marker.on('click', () => openProducteurDetail(prod.id));
+            
+            marker.addTo(state.map);
+            state.markers.push(marker);
+        } else {
+            // Producteur sans coordonnées
+            categoriesUsed.add(prod.categorie);
+        }
+    });
+    
+    // Afficher la légende
+    updateLegend(categoriesUsed);
+}
+
+function updateLegend(categories) {
+    const legend = document.getElementById('mapLegend');
+    const items = document.getElementById('legendItems');
+    
+    if (categories.size === 0) {
+        legend.classList.remove('visible');
+        return;
+    }
+    
+    items.innerHTML = Array.from(categories).map(cat => {
+        const c = CONFIG.productCategories[cat] || CONFIG.productCategories.autre;
+        return `<div class="legend-item">
+            <span class="legend-dot" style="background:${c.color}"></span>
+            <span>${c.icon} ${c.label}</span>
+        </div>`;
+    }).join('');
+    
+    legend.classList.add('visible');
+}
+
+// ============================================
+// Timeline
 // ============================================
 function initTimeline() {
     const slider = document.getElementById('timelineSlider');
     const { min, max } = state.yearRange;
     
-    // Configurer le slider
     slider.min = min;
     slider.max = max;
     slider.value = max;
     
-    // Labels
     document.getElementById('yearMin').textContent = min;
     document.getElementById('yearCurrent').textContent = max;
     
@@ -184,73 +303,131 @@ function updateSliderProgress(value) {
 }
 
 // ============================================
-// Liste des AMAPs
+// Filtres
 // ============================================
-function updateList() {
-    const tbody = document.getElementById('amapsBody');
+function buildCategoryFilter() {
+    const select = document.getElementById('filterCategory');
+    const categories = new Set();
     
-    tbody.innerHTML = state.filteredAmaps.map(amap => {
-        const ville = amap.localisation?.ville || '-';
-        const jour = amap.distribution?.jour || '-';
-        const horaire = amap.distribution?.horaire || '-';
-        
-        return `
-            <tr>
-                <td class="amap-name">${amap.nom}</td>
-                <td>${ville}</td>
-                <td><span class="badge badge-jour">${truncate(jour, 12)}</span></td>
-                <td>${horaire}</td>
-                <td>
-                    <button class="btn-view" onclick="openDetail('${amap.id}')">
-                        👁️ Voir
-                    </button>
-                </td>
-            </tr>
-        `;
-    }).join('');
+    state.data.producteurs.forEach(p => {
+        if (p.categorie) categories.add(p.categorie);
+    });
     
-    // Compteur
-    document.getElementById('resultCount').textContent = 
-        `${state.filteredAmaps.length} résultat${state.filteredAmaps.length > 1 ? 's' : ''}`;
+    select.innerHTML = '<option value="">Tous les produits</option>' +
+        Array.from(categories).sort().map(cat => {
+            const c = CONFIG.productCategories[cat] || CONFIG.productCategories.autre;
+            return `<option value="${cat}">${c.icon} ${c.label}</option>`;
+        }).join('');
+}
+
+function filterAmaps() {
+    let result = state.data.amaps;
+    
+    if (state.filters.search) {
+        const s = state.filters.search.toLowerCase();
+        result = result.filter(a => 
+            a.nom?.toLowerCase().includes(s) ||
+            a.localisation?.ville?.toLowerCase().includes(s)
+        );
+    }
+    
+    result = result.filter(a => {
+        if (!a.dateCreation) return true;
+        return parseInt(a.dateCreation.substring(0, 4)) <= state.filters.yearMax;
+    });
+    
+    return result;
+}
+
+function filterProducteurs() {
+    let result = state.data.producteurs;
+    
+    if (state.filters.search) {
+        const s = state.filters.search.toLowerCase();
+        result = result.filter(p => 
+            p.nom?.toLowerCase().includes(s) ||
+            p.produit?.toLowerCase().includes(s) ||
+            p.societe?.toLowerCase().includes(s)
+        );
+    }
+    
+    if (state.filters.category) {
+        result = result.filter(p => p.categorie === state.filters.category);
+    }
+    
+    return result;
 }
 
 // ============================================
-// Modal Détail
+// Listes
 // ============================================
-function openDetail(id) {
+function updateAmapsList() {
+    const filtered = filterAmaps();
+    const tbody = document.getElementById('amapsBody');
+    
+    tbody.innerHTML = filtered.map(amap => {
+        const ville = amap.localisation?.ville || '-';
+        const jour = amap.distribution?.jour || '-';
+        const nbProd = amap.producteurs?.length || 0;
+        
+        return `<tr>
+            <td class="item-name">${amap.nom}</td>
+            <td>${ville}</td>
+            <td><span class="badge badge-jour">${truncate(jour, 10)}</span></td>
+            <td><span class="badge badge-count">${nbProd}</span></td>
+            <td><button class="btn-view" onclick="openAmapDetail('${amap.id}')">Voir</button></td>
+        </tr>`;
+    }).join('');
+    
+    document.getElementById('amapsResultCount').textContent = `${filtered.length} résultat${filtered.length > 1 ? 's' : ''}`;
+}
+
+function updateProducteursList() {
+    const filtered = filterProducteurs();
+    const tbody = document.getElementById('producteursBody');
+    
+    tbody.innerHTML = filtered.map(prod => {
+        const cat = CONFIG.productCategories[prod.categorie] || CONFIG.productCategories.autre;
+        const nbAmaps = prod.amaps?.length || 0;
+        const freq = prod.frequence || '-';
+        
+        return `<tr>
+            <td>
+                <span class="badge badge-product" style="background:${cat.color}20;color:${cat.color}">
+                    ${cat.icon} ${truncate(prod.produit, 20)}
+                </span>
+            </td>
+            <td class="item-name">${prod.nom || prod.societe || '-'}</td>
+            <td>${truncate(freq, 15)}</td>
+            <td><span class="badge badge-count">${nbAmaps}</span></td>
+            <td><button class="btn-view" onclick="openProducteurDetail('${prod.id}')">Voir</button></td>
+        </tr>`;
+    }).join('');
+    
+    document.getElementById('producteursResultCount').textContent = `${filtered.length} résultat${filtered.length > 1 ? 's' : ''}`;
+}
+
+// ============================================
+// Modales détail
+// ============================================
+function openAmapDetail(id) {
     const amap = state.data.amaps.find(a => a.id === id);
     if (!amap) return;
     
-    const modal = document.getElementById('modal');
-    const body = document.getElementById('modalBody');
+    state.selectedAmap = amap;
+    showAmapConnections(amap);
     
-    body.innerHTML = createDetailContent(amap);
-    modal.classList.remove('hidden');
-    
-    // Bloquer le scroll du body
-    document.body.style.overflow = 'hidden';
-}
-
-function closeModal() {
-    const modal = document.getElementById('modal');
-    modal.classList.add('hidden');
-    document.body.style.overflow = '';
-}
-
-function createDetailContent(amap) {
     const loc = amap.localisation || {};
     const dist = amap.distribution || {};
     const web = amap.web || {};
-    const dateCreation = amap.dateCreation;
     
     let html = `
         <div class="detail-header">
-            <h2>${amap.nom}</h2>
+            <h2>🏠 ${amap.nom}</h2>
             <p class="subtitle">${loc.ville || ''}${loc.codePostal ? ` (${loc.codePostal})` : ''}</p>
         </div>
     `;
     
-    // Site web EN PRIORITÉ
     if (web.siteWeb) {
         html += `
             <div class="detail-website">
@@ -265,10 +442,27 @@ function createDetailContent(amap) {
         `;
     }
     
-    // Infos compactes
+    // Producteurs liés
+    if (amap.producteurs && amap.producteurs.length > 0) {
+        const prods = amap.producteurs.map(pid => state.data.producteurs.find(p => p.id === pid)).filter(Boolean);
+        html += `
+            <div class="detail-producteurs">
+                <h3>🌾 Producteurs (${prods.length})</h3>
+                <div class="producteur-list">
+                    ${prods.map(p => {
+                        const cat = CONFIG.productCategories[p.categorie] || CONFIG.productCategories.autre;
+                        return `<span class="producteur-tag" onclick="openProducteurDetail('${p.id}')">
+                            <span class="producteur-icon">${cat.icon}</span>
+                            ${truncate(p.nom || p.societe, 20)}
+                        </span>`;
+                    }).join('')}
+                </div>
+            </div>
+        `;
+    }
+    
     html += `<div class="detail-info">`;
     
-    // Distribution
     if (dist.jour) {
         html += `
             <div class="detail-info-item">
@@ -284,23 +478,20 @@ function createDetailContent(amap) {
         `;
     }
     
-    // Année création
-    if (dateCreation) {
-        const year = dateCreation.substring(0, 4);
+    if (amap.dateCreation) {
         html += `
             <div class="detail-info-item">
                 <span class="detail-info-icon">🌱</span>
                 <div class="detail-info-content">
                     <div class="detail-info-label">Création</div>
                     <div class="detail-info-value">
-                        <span class="detail-badge detail-badge-year">${year}</span>
+                        <span class="detail-badge detail-badge-year">${amap.dateCreation.substring(0, 4)}</span>
                     </div>
                 </div>
             </div>
         `;
     }
     
-    // Plateforme
     if (web.plateforme) {
         html += `
             <div class="detail-info-item">
@@ -315,13 +506,12 @@ function createDetailContent(amap) {
         `;
     }
     
-    // Adresse
     if (loc.adresse) {
         html += `
             <div class="detail-info-item full-width">
                 <span class="detail-info-icon">📍</span>
                 <div class="detail-info-content">
-                    <div class="detail-info-label">Lieu de distribution</div>
+                    <div class="detail-info-label">Adresse</div>
                     <div class="detail-info-value">${loc.adresse}</div>
                 </div>
             </div>
@@ -330,77 +520,158 @@ function createDetailContent(amap) {
     
     html += `</div>`;
     
-    return html;
+    showModal(html);
 }
 
-// ============================================
-// Filtrage
-// ============================================
-function filterAmaps() {
-    let result = state.data.amaps;
+function openProducteurDetail(id) {
+    const prod = state.data.producteurs.find(p => p.id === id);
+    if (!prod) return;
     
-    // Filtre par recherche textuelle
-    if (state.filters.search) {
-        const search = state.filters.search.toLowerCase();
-        result = result.filter(a => 
-            a.nom?.toLowerCase().includes(search) ||
-            a.localisation?.ville?.toLowerCase().includes(search)
-        );
+    const cat = CONFIG.productCategories[prod.categorie] || CONFIG.productCategories.autre;
+    
+    let html = `
+        <div class="detail-header">
+            <h2>${cat.icon} ${prod.nom || prod.societe || 'Producteur'}</h2>
+            <p class="subtitle">${prod.produit || ''}</p>
+        </div>
+    `;
+    
+    if (prod.web?.siteWeb) {
+        html += `
+            <div class="detail-website">
+                <a href="${prod.web.siteWeb}" target="_blank" rel="noopener" class="detail-website-link">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <circle cx="12" cy="12" r="10"></circle>
+                        <path d="M2 12h20M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
+                    </svg>
+                    Accéder au site web
+                </a>
+            </div>
+        `;
     }
     
-    // Filtre par date de création (timeline)
-    result = result.filter(a => {
-        if (!a.dateCreation) {
-            // Si pas de date, on les affiche par défaut
-            return true;
-        }
-        const year = parseInt(a.dateCreation.substring(0, 4));
-        return year <= state.filters.yearMax;
-    });
+    // AMAPs liées
+    if (prod.amaps && prod.amaps.length > 0) {
+        const amaps = prod.amaps.map(code => state.data.amaps.find(a => a.id === code)).filter(Boolean);
+        html += `
+            <div class="detail-producteurs">
+                <h3>🏠 Livre à ${amaps.length} AMAP${amaps.length > 1 ? 's' : ''}</h3>
+                <div class="producteur-list">
+                    ${amaps.map(a => `
+                        <span class="producteur-tag" onclick="openAmapDetail('${a.id}')">
+                            <span class="producteur-icon">🏠</span>
+                            ${truncate(a.nom, 25)}
+                        </span>
+                    `).join('')}
+                </div>
+            </div>
+        `;
+    }
     
-    state.filteredAmaps = result;
+    html += `<div class="detail-info">`;
+    
+    if (prod.frequence) {
+        html += `
+            <div class="detail-info-item">
+                <span class="detail-info-icon">🗓️</span>
+                <div class="detail-info-content">
+                    <div class="detail-info-label">Fréquence</div>
+                    <div class="detail-info-value">${prod.frequence}</div>
+                </div>
+            </div>
+        `;
+    }
+    
+    if (prod.societe && prod.societe !== prod.nom) {
+        html += `
+            <div class="detail-info-item">
+                <span class="detail-info-icon">🏢</span>
+                <div class="detail-info-content">
+                    <div class="detail-info-label">Société</div>
+                    <div class="detail-info-value">${prod.societe}</div>
+                </div>
+            </div>
+        `;
+    }
+    
+    if (prod.localisation?.adresse) {
+        html += `
+            <div class="detail-info-item full-width">
+                <span class="detail-info-icon">📍</span>
+                <div class="detail-info-content">
+                    <div class="detail-info-label">Localisation</div>
+                    <div class="detail-info-value">${prod.localisation.adresse}</div>
+                </div>
+            </div>
+        `;
+    }
+    
+    if (prod.infos) {
+        html += `
+            <div class="detail-info-item full-width">
+                <span class="detail-info-icon">ℹ️</span>
+                <div class="detail-info-content">
+                    <div class="detail-info-label">Informations</div>
+                    <div class="detail-info-value">${prod.infos}</div>
+                </div>
+            </div>
+        `;
+    }
+    
+    html += `</div>`;
+    
+    showModal(html);
 }
 
-// ============================================
-// Mise à jour globale
-// ============================================
-function updateAll() {
-    filterAmaps();
-    updateMap();
-    updateList();
-    updateCount();
+function showModal(content) {
+    document.getElementById('modalBody').innerHTML = content;
+    document.getElementById('modal').classList.remove('hidden');
+    document.body.style.overflow = 'hidden';
 }
 
-function updateCount() {
-    // Le compteur est maintenant dans resultCount
+function closeModal() {
+    document.getElementById('modal').classList.add('hidden');
+    document.body.style.overflow = '';
+    clearConnectionLines();
 }
 
 // ============================================
 // Event Listeners
 // ============================================
 function initEventListeners() {
+    // Toggle vue
+    document.querySelectorAll('.toggle-btn').forEach(btn => {
+        btn.addEventListener('click', () => {
+            document.querySelectorAll('.toggle-btn').forEach(b => b.classList.remove('active'));
+            btn.classList.add('active');
+            state.currentView = btn.dataset.view;
+            updateViewVisibility();
+            updateAll();
+        });
+    });
+    
     // Recherche
-    const searchInput = document.getElementById('searchInput');
-    searchInput.addEventListener('input', debounce(e => {
+    document.getElementById('searchInput').addEventListener('input', debounce(e => {
         state.filters.search = e.target.value;
         updateAll();
     }, 200));
     
     // Slider timeline
-    const slider = document.getElementById('timelineSlider');
-    slider.addEventListener('input', e => {
+    document.getElementById('timelineSlider').addEventListener('input', e => {
         const year = parseInt(e.target.value);
         state.filters.yearMax = year;
-        
-        // Mise à jour visuelle
         document.getElementById('yearCurrent').textContent = year;
         updateSliderProgress(year);
-        
-        // Mise à jour données
         updateAll();
     });
     
-    // Modal - fermeture
+    // Filtre catégorie
+    document.getElementById('filterCategory').addEventListener('change', e => {
+        state.filters.category = e.target.value;
+        updateAll();
+    });
+    
+    // Modal
     document.getElementById('modalClose').addEventListener('click', closeModal);
     document.querySelector('.modal-backdrop').addEventListener('click', closeModal);
     document.addEventListener('keydown', e => {
@@ -408,12 +679,33 @@ function initEventListeners() {
     });
 }
 
+function updateViewVisibility() {
+    const isAmaps = state.currentView === 'amaps';
+    
+    document.getElementById('amapsList').classList.toggle('hidden', !isAmaps);
+    document.getElementById('producteursList').classList.toggle('hidden', isAmaps);
+    document.getElementById('timelinePanel').classList.toggle('hidden', !isAmaps);
+    document.getElementById('categoryFilter').classList.toggle('hidden', isAmaps);
+}
+
+// ============================================
+// Mise à jour globale
+// ============================================
+function updateAll() {
+    updateMap();
+    if (state.currentView === 'amaps') {
+        updateAmapsList();
+    } else {
+        updateProducteursList();
+    }
+}
+
 // ============================================
 // Utilitaires
 // ============================================
-function truncate(str, maxLength) {
+function truncate(str, max) {
     if (!str) return '';
-    return str.length > maxLength ? str.slice(0, maxLength) + '...' : str;
+    return str.length > max ? str.slice(0, max) + '...' : str;
 }
 
 function debounce(fn, delay) {
@@ -424,5 +716,6 @@ function debounce(fn, delay) {
     };
 }
 
-// Exposer pour les onclick dans le HTML
-window.openDetail = openDetail;
+// Exposer les fonctions pour onclick
+window.openAmapDetail = openAmapDetail;
+window.openProducteurDetail = openProducteurDetail;
