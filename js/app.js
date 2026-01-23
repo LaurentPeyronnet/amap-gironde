@@ -154,7 +154,6 @@ function updateAmapsMap() {
             });
             
             marker.on('click', () => {
-                showAmapConnections(amap);
                 openAmapDetail(amap.id);
             });
             
@@ -173,41 +172,6 @@ function updateAmapsMap() {
     
     // Cacher la légende en vue AMAPs
     document.getElementById('mapLegend').classList.remove('visible');
-}
-
-function showAmapConnections(amap) {
-    clearConnectionLines();
-    
-    if (!amap.producteurs || amap.producteurs.length === 0) return;
-    
-    const amapLat = amap.localisation?.lat;
-    const amapLng = amap.localisation?.lng;
-    if (!amapLat || !amapLng) return;
-    
-    // Trouver les producteurs liés avec coordonnées
-    const producteursWithCoords = [];
-    amap.producteurs.forEach(prodId => {
-        const prod = state.data.producteurs.find(p => p.id === prodId);
-        if (prod && prod.localisation?.lat && prod.localisation?.lng) {
-            producteursWithCoords.push(prod);
-        }
-    });
-    
-    // Dessiner les lignes de connexion
-    producteursWithCoords.forEach(prod => {
-        const cat = CONFIG.productCategories[prod.categorie] || CONFIG.productCategories.autre;
-        const line = L.polyline(
-            [[amapLat, amapLng], [prod.localisation.lat, prod.localisation.lng]],
-            {
-                color: cat.color,
-                weight: 2,
-                opacity: 0.6,
-                dashArray: '5, 10'
-            }
-        );
-        line.addTo(state.map);
-        state.connectionLines.push(line);
-    });
 }
 
 // ============================================
@@ -368,13 +332,11 @@ function updateAmapsList() {
     tbody.innerHTML = filtered.map(amap => {
         const ville = amap.localisation?.ville || '-';
         const jour = amap.distribution?.jour || '-';
-        const nbProd = amap.producteurs?.length || 0;
         
         return `<tr>
             <td class="item-name">${amap.nom}</td>
             <td>${ville}</td>
             <td><span class="badge badge-jour">${truncate(jour, 10)}</span></td>
-            <td><span class="badge badge-count">${nbProd}</span></td>
             <td><button class="btn-view" onclick="openAmapDetail('${amap.id}')">Voir</button></td>
         </tr>`;
     }).join('');
@@ -388,7 +350,6 @@ function updateProducteursList() {
     
     tbody.innerHTML = filtered.map(prod => {
         const cat = CONFIG.productCategories[prod.categorie] || CONFIG.productCategories.autre;
-        const nbAmaps = prod.amaps?.length || 0;
         const freq = prod.frequence || '-';
         
         return `<tr>
@@ -399,7 +360,6 @@ function updateProducteursList() {
             </td>
             <td class="item-name">${prod.nom || prod.societe || '-'}</td>
             <td>${truncate(freq, 15)}</td>
-            <td><span class="badge badge-count">${nbAmaps}</span></td>
             <td><button class="btn-view" onclick="openProducteurDetail('${prod.id}')">Voir</button></td>
         </tr>`;
     }).join('');
@@ -415,7 +375,6 @@ function openAmapDetail(id) {
     if (!amap) return;
     
     state.selectedAmap = amap;
-    showAmapConnections(amap);
     
     const loc = amap.localisation || {};
     const dist = amap.distribution || {};
@@ -438,25 +397,6 @@ function openAmapDetail(id) {
                     </svg>
                     Accéder au site web
                 </a>
-            </div>
-        `;
-    }
-    
-    // Producteurs liés
-    if (amap.producteurs && amap.producteurs.length > 0) {
-        const prods = amap.producteurs.map(pid => state.data.producteurs.find(p => p.id === pid)).filter(Boolean);
-        html += `
-            <div class="detail-producteurs">
-                <h3>🌾 Producteurs (${prods.length})</h3>
-                <div class="producteur-list">
-                    ${prods.map(p => {
-                        const cat = CONFIG.productCategories[p.categorie] || CONFIG.productCategories.autre;
-                        return `<span class="producteur-tag" onclick="openProducteurDetail('${p.id}')">
-                            <span class="producteur-icon">${cat.icon}</span>
-                            ${truncate(p.nom || p.societe, 20)}
-                        </span>`;
-                    }).join('')}
-                </div>
             </div>
         `;
     }
@@ -550,24 +490,6 @@ function openProducteurDetail(id) {
         `;
     }
     
-    // AMAPs liées
-    if (prod.amaps && prod.amaps.length > 0) {
-        const amaps = prod.amaps.map(code => state.data.amaps.find(a => a.id === code)).filter(Boolean);
-        html += `
-            <div class="detail-producteurs">
-                <h3>🏠 Livre à ${amaps.length} AMAP${amaps.length > 1 ? 's' : ''}</h3>
-                <div class="producteur-list">
-                    ${amaps.map(a => `
-                        <span class="producteur-tag" onclick="openAmapDetail('${a.id}')">
-                            <span class="producteur-icon">🏠</span>
-                            ${truncate(a.nom, 25)}
-                        </span>
-                    `).join('')}
-                </div>
-            </div>
-        `;
-    }
-    
     html += `<div class="detail-info">`;
     
     if (prod.frequence) {
@@ -632,7 +554,6 @@ function showModal(content) {
 function closeModal() {
     document.getElementById('modal').classList.add('hidden');
     document.body.style.overflow = '';
-    clearConnectionLines();
 }
 
 // ============================================
