@@ -782,6 +782,60 @@ tbody tr:hover {
 }
 
 /* ============================================
+   AMAP Retour (confirmed response)
+   ============================================ */
+tr.amap-retour {
+    background: var(--accent-leaf-pale);
+}
+
+tr.amap-retour:hover {
+    background: #d5e8cd;
+}
+
+.badge-retour {
+    font-size: 0.7rem;
+    padding: 0;
+    background: none;
+    vertical-align: middle;
+}
+
+.detail-tags {
+    display: flex;
+    gap: var(--space-sm);
+    margin-top: var(--space-xs);
+    flex-wrap: wrap;
+}
+
+.detail-badge-retour {
+    background: var(--accent-leaf-pale);
+    color: var(--accent-leaf);
+    font-size: 0.8rem;
+}
+
+.detail-badge-etat {
+    font-size: 0.8rem;
+}
+
+.detail-badge-etat-actif {
+    background: var(--accent-leaf-pale);
+    color: var(--accent-leaf);
+}
+
+.detail-badge-etat-fermé {
+    background: #fde8e8;
+    color: #c62828;
+}
+
+.detail-badge-etat-désabonné {
+    background: #fff3e0;
+    color: #e65100;
+}
+
+.legend-dot {
+    box-sizing: border-box;
+}
+
+/* ============================================
    Footer
    ============================================ */
 .footer {

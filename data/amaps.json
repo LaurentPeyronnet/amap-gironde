@@ -156,7 +156,8 @@
       ],
       "etat": "actif",
       "derniereCom": "11/02/2026",
-      "contact": "Morane"
+      "contact": "Morane",
+      "retour": true
     },
     {
       "id": "BEGLES-RADIS",
@@ -203,7 +204,8 @@
       "producteurs": [],
       "etat": "actif",
       "derniereCom": "18/02/2026",
-      "contact": "Françoise GROSS"
+      "contact": "Françoise GROSS",
+      "retour": true
     },
     {
       "id": "BEGLES-RDVB",
@@ -272,7 +274,8 @@
       "rnaId": "W332007566",
       "producteurs": [],
       "etat": "actif",
-      "derniereCom": "10/02/2026"
+      "derniereCom": "10/02/2026",
+      "retour": true
     },
     {
       "id": "BELIN-CASAL",
@@ -341,7 +344,8 @@
       "producteurs": [],
       "etat": "actif",
       "derniereCom": "11/02/2026",
-      "contact": "COEUR BASSIN AMAP"
+      "contact": "COEUR BASSIN AMAP",
+      "retour": true
     },
     {
       "id": "BLANQ-PLANET",
@@ -501,7 +505,8 @@
       "rnaId": null,
       "producteurs": [],
       "etat": "actif",
-      "derniereCom": "12/02/2026"
+      "derniereCom": "12/02/2026",
+      "retour": true
     },
     {
       "id": "BDX-5COEUR",
@@ -594,7 +599,8 @@
       ],
       "etat": "actif",
       "derniereCom": "09/02/2026",
-      "contact": "LE PANIER MODERNE AMAP"
+      "contact": "LE PANIER MODERNE AMAP",
+      "retour": true
     },
     {
       "id": "BDX-CAUDER",
@@ -619,7 +625,8 @@
       "producteurs": [],
       "etat": "actif",
       "derniereCom": "18/02/2026",
-      "contact": "BONTEMPS Dominique"
+      "contact": "BONTEMPS Dominique",
+      "retour": true
     },
     {
       "id": "BDX-GPARC",
@@ -644,7 +651,8 @@
       "producteurs": [],
       "etat": "actif",
       "derniereCom": "09/02/2026",
-      "contact": "Marie"
+      "contact": "Marie",
+      "retour": true
     },
     {
       "id": "BDX-NANSOU",
@@ -781,7 +789,8 @@
       "etat": "actif",
       "derniereCom": "10/02/2026",
       "contact": "Danièle",
-      "miramap": true
+      "miramap": true,
+      "retour": true
     },
     {
       "id": "CADAU-PLUS",
@@ -806,7 +815,8 @@
       "producteurs": [],
       "etat": "actif",
       "derniereCom": "09/02/2026",
-      "contact": "SOULET Bénédicte, Labedan Marylene"
+      "contact": "SOULET Bénédicte, Labedan Marylene",
+      "retour": true
     },
     {
       "id": "CADIL-AFFAM",
@@ -831,7 +841,8 @@
       "producteurs": [],
       "etat": "actif",
       "derniereCom": "16/02/2026",
-      "miramap": true
+      "miramap": true,
+      "retour": true
     },
     {
       "id": "CANEJAN-CAL",
@@ -857,7 +868,8 @@
       "etat": "actif",
       "derniereCom": "10/02/2026",
       "contact": "RE Rose",
-      "nbAdherents": 30
+      "nbAdherents": 30,
+      "retour": true
     },
     {
       "id": "CARIG-PRE",
@@ -904,7 +916,8 @@
       "rnaId": "W334001235",
       "producteurs": [],
       "etat": "actif",
-      "derniereCom": "09/02/2026"
+      "derniereCom": "09/02/2026",
+      "retour": true
     },
     {
       "id": "CASTIL-VERT",
@@ -1041,7 +1054,8 @@
       "producteurs": [],
       "etat": "actif",
       "derniereCom": "10/02/2026",
-      "contact": "Caroline"
+      "contact": "Caroline",
+      "retour": true
     },
     {
       "id": "CUSSAC-FORT",
@@ -1088,7 +1102,8 @@
       "producteurs": [],
       "etat": "actif",
       "derniereCom": "22/02/2026",
-      "nbAdherents": 40
+      "nbAdherents": 40,
+      "retour": true
     },
     {
       "id": "EYSIN-MIGRO",
@@ -1112,7 +1127,8 @@
       "rnaId": "W332012950",
       "producteurs": [],
       "etat": "désabonné",
-      "derniereCom": "09/02/2026"
+      "derniereCom": "09/02/2026",
+      "retour": true
     },
     {
       "id": "FLOIRAC-PAN",
@@ -1272,7 +1288,8 @@
       "etat": "actif",
       "derniereCom": "10/02/2026",
       "contact": "Hervé",
-      "miramap": true
+      "miramap": true,
+      "retour": true
     },
     {
       "id": "LAREOLE-AMA",
@@ -1319,7 +1336,8 @@
       "producteurs": [],
       "etat": "actif",
       "derniereCom": "19/02/2026",
-      "contact": "Alexis Le Duc"
+      "contact": "Alexis Le Duc",
+      "retour": true
     },
     {
       "id": "LANGOI-AMAP",
@@ -1388,7 +1406,8 @@
       "producteurs": [],
       "etat": "actif",
       "derniereCom": "11/02/2026",
-      "contact": "Danielle Trannoy"
+      "contact": "Danielle Trannoy",
+      "retour": true
     },
     {
       "id": "LAPOU-AMAP",
@@ -1460,7 +1479,8 @@
       "etat": "actif",
       "derniereCom": "14/02/2026",
       "contact": "Sandra Normand-Bouyssou",
-      "miramap": true
+      "miramap": true,
+      "retour": true
     },
     {
       "id": "PORGE-AMAP",
@@ -1529,7 +1549,8 @@
       "producteurs": [],
       "etat": "actif",
       "derniereCom": "12/02/2026",
-      "contact": "Vincent Padois"
+      "contact": "Vincent Padois",
+      "retour": true
     },
     {
       "id": "LISTRAC-AMA",
@@ -1663,7 +1684,8 @@
       "rnaId": "W336002829",
       "producteurs": [],
       "etat": "actif",
-      "derniereCom": "12/02/2026"
+      "derniereCom": "12/02/2026",
+      "retour": true
     },
     {
       "id": "MARTIGN-AMA",
@@ -1823,7 +1845,8 @@
       "producteurs": [],
       "etat": "actif",
       "derniereCom": "12/02/2026",
-      "contact": "Hélène Ribeaut"
+      "contact": "Hélène Ribeaut",
+      "retour": true
     },
     {
       "id": "MERIG-TARAV",
@@ -1957,7 +1980,8 @@
       "rnaId": null,
       "producteurs": [],
       "etat": "actif",
-      "derniereCom": "13/02/2026"
+      "derniereCom": "13/02/2026",
+      "retour": true
     },
     {
       "id": "PESSAC-ADEL",
@@ -2049,7 +2073,8 @@
       "producteurs": [],
       "etat": "actif",
       "derniereCom": "09/02/2026",
-      "contact": "Sophie Fazeli"
+      "contact": "Sophie Fazeli",
+      "retour": true
     },
     {
       "id": "QUIN-CUEILL",
@@ -2074,7 +2099,8 @@
       "producteurs": [],
       "etat": "actif",
       "derniereCom": "11/02/2026",
-      "contact": "Christian Coulais"
+      "contact": "Christian Coulais",
+      "retour": true
     },
     {
       "id": "REIGNAC-JAR",
@@ -2122,7 +2148,8 @@
       "etat": "actif",
       "derniereCom": "09/02/2026",
       "contact": "Sylvain Hottin",
-      "miramap": true
+      "miramap": true,
+      "retour": true
     },
     {
       "id": "CUZAC-JARDI",
@@ -2146,7 +2173,8 @@
       "rnaId": null,
       "producteurs": [],
       "etat": "actif",
-      "derniereCom": "10/02/2026"
+      "derniereCom": "10/02/2026",
+      "retour": true
     },
     {
       "id": "SAUBIN-TOUR",
@@ -2171,7 +2199,8 @@
       "producteurs": [],
       "etat": "actif",
       "derniereCom": "20/02/2026",
-      "contact": "Adrien"
+      "contact": "Adrien",
+      "retour": true
     },
     {
       "id": "SLAUR-AMAP",
@@ -2310,7 +2339,8 @@
       "producteurs": [],
       "etat": "actif",
       "derniereCom": "10/02/2026",
-      "contact": "Virginie CULLERIER"
+      "contact": "Virginie CULLERIER",
+      "retour": true
     },
     {
       "id": "SFOY-FOYEN",
@@ -2401,7 +2431,8 @@
       "producteurs": [],
       "etat": "actif",
       "derniereCom": "17/02/2026",
-      "contact": "Nadège"
+      "contact": "Nadège",
+      "retour": true
     },
     {
       "id": "TALENCE-PET",
@@ -2449,7 +2480,8 @@
       "producteurs": [],
       "etat": "actif",
       "derniereCom": "10/02/2026",
-      "contact": "DETRIEUX Christian"
+      "contact": "DETRIEUX Christian",
+      "retour": true
     },
     {
       "id": "VILLORN-RUC",
@@ -2474,7 +2506,8 @@
       "producteurs": [],
       "etat": "actif",
       "derniereCom": "09/02/2026",
-      "contact": "AMAP Gestionnaire, Nathalie"
+      "contact": "AMAP Gestionnaire, Nathalie",
+      "retour": true
     },
     {
       "id": "VILLORN-MAR",
@@ -2605,7 +2638,8 @@
       "etat": "actif",
       "derniereCom": "12/02/2026",
       "contact": "Bénédicte Bernier",
-      "nbAdherents": 20
+      "nbAdherents": 20,
+      "retour": true
     },
     {
       "id": "MERIGNAC",
@@ -2629,7 +2663,8 @@
       "rnaId": null,
       "producteurs": [],
       "etat": "actif",
-      "derniereCom": "19/02/2026"
+      "derniereCom": "19/02/2026",
+      "retour": true
     }
   ],
   "producteurs": [

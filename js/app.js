@@ -14,7 +14,10 @@ const CONFIG = {
     amapColors: {
         default: '#e07b39',
         hover: '#5a8f3e',
-        border: '#c4a35a'
+        border: '#c4a35a',
+        retour: '#5a8f3e',
+        retourBorder: '#3d6b28',
+        retourHover: '#e07b39'
     },
     
     // Couleurs et icônes par catégorie de produit
@@ -144,13 +147,19 @@ function updateAmapsMap() {
         const lng = amap.localisation?.lng;
         
         if (lat && lng) {
+            const hasRetour = amap.retour === true;
+            const baseColor = hasRetour ? CONFIG.amapColors.retour : CONFIG.amapColors.default;
+            const borderColor = hasRetour ? CONFIG.amapColors.retourBorder : CONFIG.amapColors.border;
+            const hoverColor = hasRetour ? CONFIG.amapColors.retourHover : CONFIG.amapColors.hover;
+            const baseRadius = hasRetour ? 10 : 8;
+            
             const marker = L.circleMarker([lat, lng], {
-                radius: 9,
-                fillColor: CONFIG.amapColors.default,
-                color: CONFIG.amapColors.border,
-                weight: 2,
+                radius: baseRadius,
+                fillColor: baseColor,
+                color: borderColor,
+                weight: hasRetour ? 3 : 2,
                 opacity: 1,
-                fillOpacity: 0.85
+                fillOpacity: hasRetour ? 0.9 : 0.7
             });
             
             marker.on('click', () => {
@@ -158,20 +167,20 @@ function updateAmapsMap() {
             });
             
             marker.on('mouseover', function() {
-                this.setStyle({ fillColor: CONFIG.amapColors.hover, radius: 11 });
+                this.setStyle({ fillColor: hoverColor, radius: baseRadius + 2 });
             });
             marker.on('mouseout', function() {
-                this.setStyle({ fillColor: CONFIG.amapColors.default, radius: 9 });
+                this.setStyle({ fillColor: baseColor, radius: baseRadius });
             });
             
-            marker.bindTooltip(amap.nom, { direction: 'top', offset: [0, -10] });
+            const tooltipPrefix = hasRetour ? '✅ ' : '';
+            marker.bindTooltip(tooltipPrefix + amap.nom, { direction: 'top', offset: [0, -10] });
             marker.addTo(state.map);
             state.markers.push(marker);
         }
     });
     
-    // Cacher la légende en vue AMAPs
-    document.getElementById('mapLegend').classList.remove('visible');
+    updateAmapsLegend(filtered);
 }
 
 // ============================================
@@ -220,6 +229,25 @@ function updateProducteursMap() {
     
     // Afficher la légende
     updateLegend(categoriesUsed);
+}
+
+function updateAmapsLegend(filtered) {
+    const legend = document.getElementById('mapLegend');
+    const items = document.getElementById('legendItems');
+    const retourCount = filtered.filter(a => a.retour).length;
+    const otherCount = filtered.length - retourCount;
+    
+    items.innerHTML = `
+        <div class="legend-item">
+            <span class="legend-dot" style="background:${CONFIG.amapColors.retour};border:2px solid ${CONFIG.amapColors.retourBorder}"></span>
+            <span>Retour confirmé (${retourCount})</span>
+        </div>
+        <div class="legend-item">
+            <span class="legend-dot" style="background:${CONFIG.amapColors.default};border:2px solid ${CONFIG.amapColors.border}"></span>
+            <span>Pas de retour (${otherCount})</span>
+        </div>
+    `;
+    legend.classList.add('visible');
 }
 
 function updateLegend(categories) {
@@ -332,9 +360,12 @@ function updateAmapsList() {
     tbody.innerHTML = filtered.map(amap => {
         const ville = amap.localisation?.ville || '-';
         const jour = amap.distribution?.jour || '-';
+        const hasRetour = amap.retour === true;
+        const rowClass = hasRetour ? 'class="amap-retour"' : '';
+        const retourBadge = hasRetour ? '<span class="badge badge-retour" title="Retour confirmé">✅</span> ' : '';
         
-        return `<tr>
-            <td class="item-name">${amap.nom}</td>
+        return `<tr ${rowClass}>
+            <td class="item-name">${retourBadge}${amap.nom}</td>
             <td>${ville}</td>
             <td><span class="badge badge-jour">${truncate(jour, 10)}</span></td>
             <td><button class="btn-view" onclick="openAmapDetail('${amap.id}')">Voir</button></td>
@@ -380,10 +411,14 @@ function openAmapDetail(id) {
     const dist = amap.distribution || {};
     const web = amap.web || {};
     
+    const retourTag = amap.retour ? '<span class="detail-badge detail-badge-retour">✅ Retour confirmé</span>' : '';
+    const etatTag = amap.etat ? `<span class="detail-badge detail-badge-etat detail-badge-etat-${amap.etat}">${amap.etat}</span>` : '';
+    
     let html = `
         <div class="detail-header">
             <h2>🏠 ${amap.nom}</h2>
             <p class="subtitle">${loc.ville || ''}${loc.codePostal ? ` (${loc.codePostal})` : ''}</p>
+            <div class="detail-tags">${etatTag} ${retourTag}</div>
         </div>
     `;
     
