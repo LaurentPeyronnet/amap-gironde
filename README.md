@@ -15,7 +15,7 @@ Ouvrir `index.html` dans un navigateur moderne.
 ## ✨ Fonctionnalités
 
 - **Carte interactive** des AMAPs géolocalisées
-- **Slider temporel** pour visualiser l'évolution du réseau (2005-2022)
+- **Slider temporel** pour visualiser l'évolution du réseau (2005-2026)
 - **Liste filtrable** avec recherche
 - **Fiche détail** au clic sur un marqueur
 
@@ -43,9 +43,14 @@ Seules les informations publiques sont affichées.
 
 ## 📊 Données
 
-- **107 AMAPs** en Gironde
-- **103 géolocalisées** sur la carte
+- **108 AMAPs** en Gironde
+- **107 géolocalisées** sur la carte
 - **46 avec date de création** (RNA)
+
+Dernière mise à jour : **février 2026** — campagne de vérification Inter-AMAP Gironde
+- 38 AMAPs vérifiées (état actif/fermé/désabonné, adresses, horaires, coordonnées)
+- 2 nouvelles AMAPs intégrées
+- Nouveaux champs : état, date de dernière communication, contact
 
 Source : Réseau Inter-AMAP Gironde
 
