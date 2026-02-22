@@ -1,9 +1,9 @@
 {
   "metadata": {
-    "source": "AMAPs_Gironde_2025",
-    "generated": "2026-01-16",
-    "amapsCount": 107,
-    "amapsGeocoded": 103,
+    "source": "AMAPs_Gironde-AMAP_02_2026",
+    "generated": "2026-02-22",
+    "amapsCount": 108,
+    "amapsGeocoded": 107,
     "producteursCount": 132,
     "producteursGeocoded": 67,
     "withDate": 46,
@@ -31,7 +31,8 @@
       },
       "dateCreation": "2013-07-24",
       "rnaId": "W332015776",
-      "producteurs": []
+      "producteurs": [],
+      "contact": "Isabelle DUMORA"
     },
     {
       "id": "ARTIG-ART",
@@ -109,7 +110,8 @@
         "PROD-009",
         "PROD-010",
         "PROD-011"
-      ]
+      ],
+      "contact": "Président Yves Raulin"
     },
     {
       "id": "BAZAS-BAZAD",
@@ -118,12 +120,12 @@
         "ville": "Bazas",
         "codePostal": "33430",
         "adresse": "Terrasse du restaurant Caro&co - 38 place de la Cathédrale",
-        "lat": 44.40844,
-        "lng": -0.19556
+        "lat": 44.431721,
+        "lng": -0.211478
       },
       "distribution": {
         "jour": "Mercredi",
-        "horaire": "18h00-19h00"
+        "horaire": "18h00-18h45"
       },
       "web": {
         "siteWeb": "https://amapenbazadais.wixsite.com/amap-en-bazadais",
@@ -151,7 +153,10 @@
         "PROD-028",
         "PROD-029",
         "PROD-030"
-      ]
+      ],
+      "etat": "actif",
+      "derniereCom": "11/02/2026",
+      "contact": "Morane"
     },
     {
       "id": "BEGLES-RADIS",
@@ -181,13 +186,13 @@
       "localisation": {
         "ville": "Bègles",
         "codePostal": "33130",
-        "adresse": "Centre Social et Culturel de l'Estey Centre Jean Lurçat, 20 rue Pierre et Marie Curie",
+        "adresse": "salle Saint Maurice. 105 avenue Alexis Capelle",
         "lat": 44.80311,
         "lng": -0.54926
       },
       "distribution": {
         "jour": "Mardi",
-        "horaire": "18h30-20h00"
+        "horaire": "18h30-19H30"
       },
       "web": {
         "siteWeb": "https://www.amapbegles33.fr/",
@@ -195,7 +200,10 @@
       },
       "dateCreation": null,
       "rnaId": null,
-      "producteurs": []
+      "producteurs": [],
+      "etat": "actif",
+      "derniereCom": "18/02/2026",
+      "contact": "Françoise GROSS"
     },
     {
       "id": "BEGLES-RDVB",
@@ -217,7 +225,8 @@
       },
       "dateCreation": null,
       "rnaId": null,
-      "producteurs": []
+      "producteurs": [],
+      "contact": "DOUGET Eric"
     },
     {
       "id": "BEGLES-COCCI",
@@ -243,13 +252,13 @@
     },
     {
       "id": "BEGLES-EOLE",
-      "nom": "Amap d'entreprise Bègles (Le Jardin d'Eole - Valorem)",
+      "nom": "Les jardins d’éole",
       "localisation": {
         "ville": "Bègles",
         "codePostal": "33130",
         "adresse": "Société Valorem, 213 cours Victor Hugo",
-        "lat": null,
-        "lng": null
+        "lat": 44.806587,
+        "lng": -0.559765
       },
       "distribution": {
         "jour": "Mardi + Jeudi",
@@ -261,7 +270,9 @@
       },
       "dateCreation": "2008-11-26",
       "rnaId": "W332007566",
-      "producteurs": []
+      "producteurs": [],
+      "etat": "actif",
+      "derniereCom": "10/02/2026"
     },
     {
       "id": "BELIN-CASAL",
@@ -327,7 +338,10 @@
       },
       "dateCreation": "2015-05-30",
       "rnaId": "W336002939",
-      "producteurs": []
+      "producteurs": [],
+      "etat": "actif",
+      "derniereCom": "11/02/2026",
+      "contact": "COEUR BASSIN AMAP"
     },
     {
       "id": "BLANQ-PLANET",
@@ -371,7 +385,10 @@
         "PROD-097",
         "PROD-098",
         "PROD-099"
-      ]
+      ],
+      "etat": "actif",
+      "derniereCom": "09/02/2026",
+      "miramap": true
     },
     {
       "id": "BONZAC-PANIER",
@@ -437,7 +454,8 @@
       },
       "dateCreation": "2021-01-22",
       "rnaId": "W332030239",
-      "producteurs": []
+      "producteurs": [],
+      "etat": "fermé"
     },
     {
       "id": "BDX-DESCAS",
@@ -476,12 +494,14 @@
         "horaire": "18h00-19h30"
       },
       "web": {
-        "siteWeb": null,
+        "siteWeb": "https://s1.amapj.fr/p/bio-gustin",
         "plateforme": "AmapJ"
       },
       "dateCreation": null,
       "rnaId": null,
-      "producteurs": []
+      "producteurs": [],
+      "etat": "actif",
+      "derniereCom": "12/02/2026"
     },
     {
       "id": "BDX-5COEUR",
@@ -529,7 +549,7 @@
     },
     {
       "id": "BDX-BACALAN",
-      "nom": "Amap Bordeaux Bacalan (Le Panier Moderne)",
+      "nom": "Le panier moderne de Bacalan",
       "localisation": {
         "ville": "Bordeaux",
         "codePostal": "33300",
@@ -538,8 +558,8 @@
         "lng": -0.55682
       },
       "distribution": {
-        "jour": "Mardi + Vendredi",
-        "horaire": "18h30-20h30"
+        "jour": "Mardi",
+        "horaire": "18h30-20h00"
       },
       "web": {
         "siteWeb": "https://www.herbajo.com/coffrets-cadeaux",
@@ -571,17 +591,20 @@
         "PROD-056",
         "PROD-057",
         "PROD-059"
-      ]
+      ],
+      "etat": "actif",
+      "derniereCom": "09/02/2026",
+      "contact": "LE PANIER MODERNE AMAP"
     },
     {
       "id": "BDX-CAUDER",
       "nom": "Amap Bordeaux Caudéran",
       "localisation": {
-        "ville": "Bordeaux",
+        "ville": "Bordeaux Caudéran",
         "codePostal": "33000",
-        "adresse": "Chartreuse Saint André (Caudéran) ; Centre d'animation Monséjour",
-        "lat": 44.85521,
-        "lng": -0.61517
+        "adresse": "Centre d'animation Monséjour,  rue François Coppée",
+        "lat": 44.854216,
+        "lng": -0.6322919
       },
       "distribution": {
         "jour": "Jeudi",
@@ -593,29 +616,35 @@
       },
       "dateCreation": null,
       "rnaId": null,
-      "producteurs": []
+      "producteurs": [],
+      "etat": "actif",
+      "derniereCom": "18/02/2026",
+      "contact": "BONTEMPS Dominique"
     },
     {
       "id": "BDX-GPARC",
-      "nom": "AMAP Bordeaux Bio Grand Parc",
+      "nom": "AMAP Chartrons Grand Parc",
       "localisation": {
         "ville": "Bordeaux",
         "codePostal": "33000",
-        "adresse": "Mairie du quartier du grand parc salle n°3, place de l'Europe ; Rue Premeynard",
-        "lat": 44.83911,
-        "lng": -0.58143
+        "adresse": "maison de quartier - rue Preymenard",
+        "lat": 44.8588293,
+        "lng": -0.5795049
       },
       "distribution": {
         "jour": "Jeudi",
-        "horaire": "17h00-19h00"
+        "horaire": "18h30-19h30"
       },
       "web": {
-        "siteWeb": null,
+        "siteWeb": "https://www.facebook.com/amapChartronsGrandParc/",
         "plateforme": "CAMAP"
       },
       "dateCreation": null,
       "rnaId": null,
-      "producteurs": []
+      "producteurs": [],
+      "etat": "actif",
+      "derniereCom": "09/02/2026",
+      "contact": "Marie"
     },
     {
       "id": "BDX-NANSOU",
@@ -659,7 +688,8 @@
         "PROD-077",
         "PROD-078",
         "PROD-079"
-      ]
+      ],
+      "contact": "FAURE Laëtitia"
     },
     {
       "id": "BDX-STGENE",
@@ -733,9 +763,9 @@
       "localisation": {
         "ville": "Bruges",
         "codePostal": "33520",
-        "adresse": "salle du tasta place des fusillés à Bruges",
-        "lat": 44.88935,
-        "lng": -0.60247
+        "adresse": "salle du Grand Darnal, 44 rue Fleuranceau",
+        "lat": 44.8855954,
+        "lng": -0.6062821
       },
       "distribution": {
         "jour": "Lundi",
@@ -747,7 +777,11 @@
       },
       "dateCreation": "2018-08-21",
       "rnaId": "W332023802",
-      "producteurs": []
+      "producteurs": [],
+      "etat": "actif",
+      "derniereCom": "10/02/2026",
+      "contact": "Danièle",
+      "miramap": true
     },
     {
       "id": "CADAU-PLUS",
@@ -769,7 +803,10 @@
       },
       "dateCreation": null,
       "rnaId": null,
-      "producteurs": []
+      "producteurs": [],
+      "etat": "actif",
+      "derniereCom": "09/02/2026",
+      "contact": "SOULET Bénédicte, Labedan Marylene"
     },
     {
       "id": "CADIL-AFFAM",
@@ -777,13 +814,13 @@
       "localisation": {
         "ville": "Cadillac-sur-Garonne",
         "codePostal": "33410",
-        "adresse": null,
-        "lat": 44.63842,
-        "lng": -0.28629
+        "adresse": "Halte Nautique, local de distribution sur les quais de Garonne au niveau du ponton d'escale des bateaux de croisière",
+        "lat": 44.6345009,
+        "lng": -0.3246221
       },
       "distribution": {
-        "jour": null,
-        "horaire": null
+        "jour": "Jeudi",
+        "horaire": "18h30-19h00"
       },
       "web": {
         "siteWeb": "https://www.facebook.com/Lesaffamesdulocal?locale=fr_FR",
@@ -791,21 +828,24 @@
       },
       "dateCreation": null,
       "rnaId": null,
-      "producteurs": []
+      "producteurs": [],
+      "etat": "actif",
+      "derniereCom": "16/02/2026",
+      "miramap": true
     },
     {
       "id": "CANEJAN-CAL",
-      "nom": "Amap Canejan (CaLienTer)",
+      "nom": "Amap de Canejan en Transition",
       "localisation": {
         "ville": "Canejan",
         "codePostal": "33610",
-        "adresse": "Salle du Lac Vert",
-        "lat": 44.77764,
-        "lng": -0.64754
+        "adresse": "Lieu Accorderie de Canéjan, 1 bis Bd Pey Arnaud",
+        "lat": 44.7520073,
+        "lng": -0.6434085
       },
       "distribution": {
-        "jour": "1er et 3ème mercredi",
-        "horaire": "19h00-20h30"
+        "jour": "mardi",
+        "horaire": "18h00 - 19h00"
       },
       "web": {
         "siteWeb": null,
@@ -813,7 +853,11 @@
       },
       "dateCreation": null,
       "rnaId": null,
-      "producteurs": []
+      "producteurs": [],
+      "etat": "actif",
+      "derniereCom": "10/02/2026",
+      "contact": "RE Rose",
+      "nbAdherents": 30
     },
     {
       "id": "CARIG-PRE",
@@ -835,7 +879,8 @@
       },
       "dateCreation": null,
       "rnaId": null,
-      "producteurs": []
+      "producteurs": [],
+      "contact": "Famille Lhomet"
     },
     {
       "id": "CASTEL-MAP",
@@ -848,8 +893,8 @@
         "lng": -0.8512
       },
       "distribution": {
-        "jour": "Vendredi",
-        "horaire": "18h00-19h30"
+        "jour": "Mardi et Vendredi",
+        "horaire": "18h30-19h30"
       },
       "web": {
         "siteWeb": "http://www.castelamap.org/",
@@ -857,7 +902,9 @@
       },
       "dateCreation": "2010-07-06",
       "rnaId": "W334001235",
-      "producteurs": []
+      "producteurs": [],
+      "etat": "actif",
+      "derniereCom": "09/02/2026"
     },
     {
       "id": "CASTIL-VERT",
@@ -923,7 +970,8 @@
       },
       "dateCreation": null,
       "rnaId": null,
-      "producteurs": []
+      "producteurs": [],
+      "contact": "ROMAIN Pascal"
     },
     {
       "id": "CISSAC-AMAP",
@@ -945,7 +993,8 @@
       },
       "dateCreation": null,
       "rnaId": null,
-      "producteurs": []
+      "producteurs": [],
+      "contact": "Laurence Dessimoulie"
     },
     {
       "id": "COUTRAS-AMA",
@@ -989,7 +1038,10 @@
       },
       "dateCreation": "2008-10-22",
       "rnaId": "W332007329",
-      "producteurs": []
+      "producteurs": [],
+      "etat": "actif",
+      "derniereCom": "10/02/2026",
+      "contact": "Caroline"
     },
     {
       "id": "CUSSAC-FORT",
@@ -1019,9 +1071,9 @@
       "localisation": {
         "ville": "Eysines",
         "codePostal": "33320",
-        "adresse": "Grange du Château Lescombes",
-        "lat": 44.88293,
-        "lng": -0.64539
+        "adresse": "14 rue Jean Zay",
+        "lat": 44.8837198,
+        "lng": -0.6562034
       },
       "distribution": {
         "jour": "Mercredi",
@@ -1033,7 +1085,10 @@
       },
       "dateCreation": "2010-05-06",
       "rnaId": "W332010535",
-      "producteurs": []
+      "producteurs": [],
+      "etat": "actif",
+      "derniereCom": "22/02/2026",
+      "nbAdherents": 40
     },
     {
       "id": "EYSIN-MIGRO",
@@ -1041,9 +1096,9 @@
       "localisation": {
         "ville": "Eysines",
         "codePostal": "33320",
-        "adresse": "salle \"Douceur de Vivre\" - Allée Léo Lagrange à Eysines",
-        "lat": 44.88293,
-        "lng": -0.64539
+        "adresse": "salle \"Douceur de Vivre\" - Allée Léo Lagrange",
+        "lat": 44.8669394,
+        "lng": -0.6415102
       },
       "distribution": {
         "jour": "Mercredi",
@@ -1055,7 +1110,9 @@
       },
       "dateCreation": "2011-10-24",
       "rnaId": "W332012950",
-      "producteurs": []
+      "producteurs": [],
+      "etat": "désabonné",
+      "derniereCom": "09/02/2026"
     },
     {
       "id": "FLOIRAC-PAN",
@@ -1121,7 +1178,9 @@
       },
       "dateCreation": null,
       "rnaId": null,
-      "producteurs": []
+      "producteurs": [],
+      "contact": "Présidente: kapoudou@bbox.fr",
+      "miramap": true
     },
     {
       "id": "GUJAN-SUDB",
@@ -1195,9 +1254,9 @@
       "localisation": {
         "ville": "La Brède",
         "codePostal": "33650",
-        "adresse": "École Maternelle (2025) - Anciennement: Ancienne mairie, 5 place Montesquieu",
-        "lat": 44.64466,
-        "lng": -0.57122
+        "adresse": "École Maternelle",
+        "lat": 44.6843025,
+        "lng": -0.5320016
       },
       "distribution": {
         "jour": "Jeudi",
@@ -1209,7 +1268,11 @@
       },
       "dateCreation": "2013-03-25",
       "rnaId": "W332015272",
-      "producteurs": []
+      "producteurs": [],
+      "etat": "actif",
+      "derniereCom": "10/02/2026",
+      "contact": "Hervé",
+      "miramap": true
     },
     {
       "id": "LAREOLE-AMA",
@@ -1239,13 +1302,13 @@
       "localisation": {
         "ville": "Lacanau",
         "codePostal": "33680",
-        "adresse": "sous l'auvent du tennis proximité club house",
+        "adresse": "pôle de l'ardilouse (lacanau océan, le lundi), place de la Gaîté (lacanau ville, le vendredi)",
         "lat": 44.93792,
         "lng": -1.09079
       },
       "distribution": {
-        "jour": "Lundi",
-        "horaire": "18h30-19h30"
+        "jour": "Lundi et 3ieme vendredi du mois (volaille et poisson)",
+        "horaire": "18h45-19h15"
       },
       "web": {
         "siteWeb": "https://www.facebook.com/amaplacanau/",
@@ -1253,7 +1316,10 @@
       },
       "dateCreation": "2009-06-11",
       "rnaId": "W334001039",
-      "producteurs": []
+      "producteurs": [],
+      "etat": "actif",
+      "derniereCom": "19/02/2026",
+      "contact": "Alexis Le Duc"
     },
     {
       "id": "LANGOI-AMAP",
@@ -1305,9 +1371,9 @@
       "localisation": {
         "ville": "Lanton",
         "codePostal": "33138",
-        "adresse": "MIOS, 10 route de reganeau (distribution à Mios)",
-        "lat": 44.77394,
-        "lng": -0.96825
+        "adresse": "73, Bd Charles de Gaulle",
+        "lat": 44.723842,
+        "lng": -1.068024
       },
       "distribution": {
         "jour": null,
@@ -1317,9 +1383,12 @@
         "siteWeb": null,
         "plateforme": null
       },
-      "dateCreation": null,
+      "dateCreation": "2004-01-01",
       "rnaId": null,
-      "producteurs": []
+      "producteurs": [],
+      "etat": "actif",
+      "derniereCom": "11/02/2026",
+      "contact": "Danielle Trannoy"
     },
     {
       "id": "LAPOU-AMAP",
@@ -1341,7 +1410,9 @@
       },
       "dateCreation": null,
       "rnaId": null,
-      "producteurs": []
+      "producteurs": [],
+      "etat": "fermé",
+      "derniereCom": "2019"
     },
     {
       "id": "BARP-JARDIN",
@@ -1371,7 +1442,7 @@
       "localisation": {
         "ville": "Le Haillan",
         "codePostal": "33185",
-        "adresse": "1 Square Condorcet (2025) - Anciennement: hall du forum des associations",
+        "adresse": "1 Square Condorcet",
         "lat": 44.87063,
         "lng": -0.67561
       },
@@ -1385,7 +1456,11 @@
       },
       "dateCreation": "2010-12-16",
       "rnaId": "W332011476",
-      "producteurs": []
+      "producteurs": [],
+      "etat": "actif",
+      "derniereCom": "14/02/2026",
+      "contact": "Sandra Normand-Bouyssou",
+      "miramap": true
     },
     {
       "id": "PORGE-AMAP",
@@ -1451,7 +1526,10 @@
       },
       "dateCreation": "2008-09-26",
       "rnaId": "W332007172",
-      "producteurs": []
+      "producteurs": [],
+      "etat": "actif",
+      "derniereCom": "12/02/2026",
+      "contact": "Vincent Padois"
     },
     {
       "id": "LISTRAC-AMA",
@@ -1569,9 +1647,9 @@
       "localisation": {
         "ville": "Marcheprime",
         "codePostal": "33380",
-        "adresse": "Complexe Émilie Andeol (2025) - Anciennement: maison des associations, 12 Rue Jacques Blieck",
-        "lat": 44.62345,
-        "lng": -0.90102
+        "adresse": "Complexe Émilie Andeol",
+        "lat": 44.6919919,
+        "lng": -0.8559173
       },
       "distribution": {
         "jour": "Mercredi",
@@ -1583,7 +1661,9 @@
       },
       "dateCreation": "2014-10-30",
       "rnaId": "W336002829",
-      "producteurs": []
+      "producteurs": [],
+      "etat": "actif",
+      "derniereCom": "12/02/2026"
     },
     {
       "id": "MARTIGN-AMA",
@@ -1605,7 +1685,9 @@
       },
       "dateCreation": "2012-03-30",
       "rnaId": "W332013745",
-      "producteurs": []
+      "producteurs": [],
+      "contact": "JENN Bruno",
+      "miramap": true
     },
     {
       "id": "MARTIL-VENT",
@@ -1644,7 +1726,7 @@
         "horaire": "18h30"
       },
       "web": {
-        "siteWeb": null,
+        "siteWeb": "www.facebook.com/amapbeutre",
         "plateforme": "AmapJ"
       },
       "dateCreation": "2020-03-03",
@@ -1671,7 +1753,8 @@
       },
       "dateCreation": null,
       "rnaId": null,
-      "producteurs": []
+      "producteurs": [],
+      "miramap": true
     },
     {
       "id": "MERIG-FANTA",
@@ -1723,13 +1806,13 @@
       "localisation": {
         "ville": "Mérignac",
         "codePostal": "33700",
-        "adresse": null,
-        "lat": 44.83131,
-        "lng": -0.67945
+        "adresse": "Ecole Maternelle Joséphine Baker, 10 avenue Robert SCHUMANN",
+        "lat": 44.817787,
+        "lng": -0.6393397
       },
       "distribution": {
-        "jour": null,
-        "horaire": null
+        "jour": "Mercredi",
+        "horaire": "17h30 - 18h30"
       },
       "web": {
         "siteWeb": "https://www.facebook.com/amapleburck/",
@@ -1737,29 +1820,10 @@
       },
       "dateCreation": "2019-04-29",
       "rnaId": "W332027922",
-      "producteurs": []
-    },
-    {
-      "id": "MERIG-GENER",
-      "nom": "AMAP Mérignac (générique)",
-      "localisation": {
-        "ville": "Mérignac",
-        "codePostal": "33700",
-        "adresse": "8 rue de la tour de Veyrines (si = Fantaisie)",
-        "lat": 44.82587,
-        "lng": -0.64521
-      },
-      "distribution": {
-        "jour": "Mardi",
-        "horaire": "18h30-19h30"
-      },
-      "web": {
-        "siteWeb": "https://amapmerignac.wix.com/merignac",
-        "plateforme": null
-      },
-      "dateCreation": null,
-      "rnaId": null,
-      "producteurs": []
+      "producteurs": [],
+      "etat": "actif",
+      "derniereCom": "12/02/2026",
+      "contact": "Hélène Ribeaut"
     },
     {
       "id": "MERIG-TARAV",
@@ -1877,9 +1941,9 @@
       "localisation": {
         "ville": "Parempuyre",
         "codePostal": "33290",
-        "adresse": "Athénée municipale à Parempuyre",
-        "lat": 44.95457,
-        "lng": -0.59995
+        "adresse": "vieux logis, plaine des sports, derrière le studio de danse",
+        "lat": 44.945936,
+        "lng": -0.598376
       },
       "distribution": {
         "jour": "Mercredi",
@@ -1891,7 +1955,9 @@
       },
       "dateCreation": null,
       "rnaId": null,
-      "producteurs": []
+      "producteurs": [],
+      "etat": "actif",
+      "derniereCom": "13/02/2026"
     },
     {
       "id": "PESSAC-ADEL",
@@ -1921,9 +1987,9 @@
       "localisation": {
         "ville": "Pompignac",
         "codePostal": "33370",
-        "adresse": "37 Lot. Parc de Cadouin (2025) - Anciennement: ferme du Plessis, 11 chemin du Maine",
-        "lat": 44.85448,
-        "lng": -0.44861
+        "adresse": "37 Lot. Parc de Cadouin",
+        "lat": 44.854478,
+        "lng": -0.448605
       },
       "distribution": {
         "jour": "Mardi",
@@ -1935,7 +2001,8 @@
       },
       "dateCreation": "2008-10-28",
       "rnaId": "W332007357",
-      "producteurs": []
+      "producteurs": [],
+      "etat": "actif"
     },
     {
       "id": "PRIGN-BROUE",
@@ -1961,17 +2028,17 @@
     },
     {
       "id": "PUJOLS-CIRO",
-      "nom": "AMAP de Pujols sur Ciron",
+      "nom": "AMAP du Ciron",
       "localisation": {
         "ville": "Pujols-sur-Ciron",
         "codePostal": "33210",
-        "adresse": null,
-        "lat": 44.56247,
-        "lng": -0.35385
+        "adresse": "Foyer Rural ou Espace Pierre Coillot",
+        "lat": 44.5584447,
+        "lng": -0.3574326
       },
       "distribution": {
-        "jour": null,
-        "horaire": null
+        "jour": "un jeudi sur deux",
+        "horaire": "18h30-19h30"
       },
       "web": {
         "siteWeb": "https://www.facebook.com/profile.php?id=100063703625882",
@@ -1979,7 +2046,10 @@
       },
       "dateCreation": null,
       "rnaId": null,
-      "producteurs": []
+      "producteurs": [],
+      "etat": "actif",
+      "derniereCom": "09/02/2026",
+      "contact": "Sophie Fazeli"
     },
     {
       "id": "QUIN-CUEILL",
@@ -1987,9 +2057,9 @@
       "localisation": {
         "ville": "Quinsac",
         "codePostal": "33360",
-        "adresse": "Salle des fêtes de Quinsac",
-        "lat": 44.75569,
-        "lng": -0.48913
+        "adresse": "2 rue Gabriel Massias",
+        "lat": 44.755011,
+        "lng": -0.487298
       },
       "distribution": {
         "jour": "Lundi",
@@ -2001,7 +2071,10 @@
       },
       "dateCreation": null,
       "rnaId": null,
-      "producteurs": []
+      "producteurs": [],
+      "etat": "actif",
+      "derniereCom": "11/02/2026",
+      "contact": "Christian Coulais"
     },
     {
       "id": "REIGNAC-JAR",
@@ -2027,13 +2100,13 @@
     },
     {
       "id": "SILLAC-AMAP",
-      "nom": "AMAPILLAC",
+      "nom": "Amapillac",
       "localisation": {
         "ville": "Saint Jean d'Illac",
         "codePostal": "33127",
-        "adresse": "Club House du Complexe sportif \"Pierre Favre\"",
-        "lat": 44.80369,
-        "lng": -0.81574
+        "adresse": "Espace Sahnoun",
+        "lat": 44.8124249,
+        "lng": -0.7794543
       },
       "distribution": {
         "jour": "Mercredi",
@@ -2045,7 +2118,11 @@
       },
       "dateCreation": "2011-06-14",
       "rnaId": "W332012356",
-      "producteurs": []
+      "producteurs": [],
+      "etat": "actif",
+      "derniereCom": "09/02/2026",
+      "contact": "Sylvain Hottin",
+      "miramap": true
     },
     {
       "id": "CUZAC-JARDI",
@@ -2067,7 +2144,9 @@
       },
       "dateCreation": null,
       "rnaId": null,
-      "producteurs": []
+      "producteurs": [],
+      "etat": "actif",
+      "derniereCom": "10/02/2026"
     },
     {
       "id": "SAUBIN-TOUR",
@@ -2075,13 +2154,13 @@
       "localisation": {
         "ville": "Saint-Aubin-de-Médoc",
         "codePostal": "33160",
-        "adresse": "Espace Villepreux - salle Concorde, Route du Tronquet",
-        "lat": 44.91342,
-        "lng": -0.72467
+        "adresse": "18 route de Picot",
+        "lat": 44.91434,
+        "lng": -0.736522
       },
       "distribution": {
         "jour": "Jeudi",
-        "horaire": "19h00-20h00"
+        "horaire": "19h00-19h30"
       },
       "web": {
         "siteWeb": "http://panier.tourterelles.free.fr/amap/",
@@ -2089,7 +2168,10 @@
       },
       "dateCreation": null,
       "rnaId": null,
-      "producteurs": []
+      "producteurs": [],
+      "etat": "actif",
+      "derniereCom": "20/02/2026",
+      "contact": "Adrien"
     },
     {
       "id": "SLAUR-AMAP",
@@ -2133,7 +2215,8 @@
       },
       "dateCreation": null,
       "rnaId": null,
-      "producteurs": []
+      "producteurs": [],
+      "contact": "AMAP Le Panier Loubesien"
     },
     {
       "id": "SMAC-COTEAU",
@@ -2191,7 +2274,7 @@
       },
       "distribution": {
         "jour": "Jeudi",
-        "horaire": "19h00-20h00"
+        "horaire": "19h00-19h45"
       },
       "web": {
         "siteWeb": "https://amapdesjalles.fr/",
@@ -2199,7 +2282,10 @@
       },
       "dateCreation": "2012-03-26",
       "rnaId": "W332013721",
-      "producteurs": []
+      "producteurs": [],
+      "etat": "actif",
+      "derniereCom": "10/02/2026",
+      "miramap": true
     },
     {
       "id": "SMORIL-VIGN",
@@ -2207,9 +2293,9 @@
       "localisation": {
         "ville": "Saint-Morillon",
         "codePostal": "33650",
-        "adresse": "sous le préau de la salle des fêtes (à côté école et bibliothèque)",
-        "lat": 44.6499,
-        "lng": -0.50268
+        "adresse": "Le foyer du stade",
+        "lat": 44.630893,
+        "lng": -0.50753
       },
       "distribution": {
         "jour": "Mercredi",
@@ -2221,7 +2307,10 @@
       },
       "dateCreation": "2010-10-15",
       "rnaId": "W332011165",
-      "producteurs": []
+      "producteurs": [],
+      "etat": "actif",
+      "derniereCom": "10/02/2026",
+      "contact": "Virginie CULLERIER"
     },
     {
       "id": "SFOY-FOYEN",
@@ -2295,12 +2384,12 @@
       "localisation": {
         "ville": "Saucats",
         "codePostal": "33650",
-        "adresse": null,
-        "lat": 44.6528,
-        "lng": -0.59589
+        "adresse": "Mairie de Saucats, 4 Chemin de la Mairie",
+        "lat": 44.6509649,
+        "lng": -0.6025853
       },
       "distribution": {
-        "jour": null,
+        "jour": "Mardi",
         "horaire": null
       },
       "web": {
@@ -2309,7 +2398,10 @@
       },
       "dateCreation": "2017-06-30",
       "rnaId": "W332022042",
-      "producteurs": []
+      "producteurs": [],
+      "etat": "actif",
+      "derniereCom": "17/02/2026",
+      "contact": "Nadège"
     },
     {
       "id": "TALENCE-PET",
@@ -2331,7 +2423,8 @@
       },
       "dateCreation": "2005-10-10",
       "rnaId": "W332006555",
-      "producteurs": []
+      "producteurs": [],
+      "contact": "*AMAP PETAL"
     },
     {
       "id": "TRESSES-TAB",
@@ -2339,9 +2432,9 @@
       "localisation": {
         "ville": "Tresses",
         "codePostal": "33370",
-        "adresse": "Salle du marronnier (2025) - Anciennement: derrière salle de la fontaine",
-        "lat": 44.84789,
-        "lng": -0.43306
+        "adresse": "Salle du marronnier",
+        "lat": 44.84781,
+        "lng": -0.46296
       },
       "distribution": {
         "jour": "Mardi",
@@ -2353,17 +2446,20 @@
       },
       "dateCreation": "2009-05-14",
       "rnaId": "W332008519",
-      "producteurs": []
+      "producteurs": [],
+      "etat": "actif",
+      "derniereCom": "10/02/2026",
+      "contact": "DETRIEUX Christian"
     },
     {
       "id": "VILLORN-RUC",
-      "nom": "AMAP La ruche / Aux Paniers de Chambéry",
+      "nom": "AMAP Aux Paniers de Chambéry",
       "localisation": {
         "ville": "Villenave-d'Ornon",
         "codePostal": "33140",
-        "adresse": "31 rue Léon Gambetta chez Laurent Némery ; Stade Pierre Brossolette",
-        "lat": 44.76414,
-        "lng": -0.55091
+        "adresse": "RC Club Chambery, 8 Rue Lamartine",
+        "lat": 44.762331,
+        "lng": -0.585206
       },
       "distribution": {
         "jour": "Vendredi",
@@ -2375,7 +2471,10 @@
       },
       "dateCreation": "2012-10-22",
       "rnaId": "W332014579",
-      "producteurs": []
+      "producteurs": [],
+      "etat": "actif",
+      "derniereCom": "09/02/2026",
+      "contact": "AMAP Gestionnaire, Nathalie"
     },
     {
       "id": "VILLORN-MAR",
@@ -2435,20 +2534,21 @@
         "PROD-129",
         "PROD-130",
         "PROD-131"
-      ]
+      ],
+      "contact": "GAUTIER Anne-Laure"
     },
     {
       "id": "BDX-SUD",
       "nom": "Amap Bordeaux Sud",
       "localisation": {
-        "ville": "33800",
-        "codePostal": null,
-        "adresse": "Bordeaux",
-        "lat": null,
-        "lng": 44.822542
+        "ville": "Bordeaux",
+        "codePostal": "33800",
+        "adresse": "Place du Cardinal Donnet",
+        "lat": 44.822542,
+        "lng": -0.562841
       },
       "distribution": {
-        "jour": "Place du Cardinal Donnet",
+        "jour": null,
         "horaire": null
       },
       "web": {
@@ -2456,21 +2556,21 @@
         "plateforme": "CAMAP"
       },
       "dateCreation": null,
-      "rnaId": "code_postal_ville",
+      "rnaId": null,
       "producteurs": []
     },
     {
       "id": "BDX-SACRE",
       "nom": "AMAP SACRE COEUR",
       "localisation": {
-        "ville": "33800",
-        "codePostal": null,
-        "adresse": "Bordeaux",
-        "lat": null,
-        "lng": 44.823528
+        "ville": "Bordeaux",
+        "codePostal": "33800",
+        "adresse": "81 rue fieffe",
+        "lat": 44.823528,
+        "lng": -0.562281
       },
       "distribution": {
-        "jour": "81 rue fieffe",
+        "jour": null,
         "horaire": null
       },
       "web": {
@@ -2478,8 +2578,58 @@
         "plateforme": "CAMAP"
       },
       "dateCreation": null,
-      "rnaId": "code_postal_ville",
+      "rnaId": null,
       "producteurs": []
+    },
+    {
+      "id": "GUITRE-AMA",
+      "nom": "Amap de Guîtres",
+      "localisation": {
+        "ville": "Guîtres",
+        "codePostal": "33230",
+        "adresse": null,
+        "lat": 45.044314,
+        "lng": -0.2051142
+      },
+      "distribution": {
+        "jour": null,
+        "horaire": null
+      },
+      "web": {
+        "siteWeb": null,
+        "plateforme": null
+      },
+      "dateCreation": null,
+      "rnaId": null,
+      "producteurs": [],
+      "etat": "actif",
+      "derniereCom": "12/02/2026",
+      "contact": "Bénédicte Bernier",
+      "nbAdherents": 20
+    },
+    {
+      "id": "MERIGNAC",
+      "nom": "AMAP des Eyquems (Fantaisie)",
+      "localisation": {
+        "ville": "Mérignac",
+        "codePostal": "33700",
+        "adresse": "8 chemin de la Tour de Veyrines",
+        "lat": 44.8257347,
+        "lng": -0.6449912
+      },
+      "distribution": {
+        "jour": "Mardi",
+        "horaire": "18h30-19h30"
+      },
+      "web": {
+        "siteWeb": "https://amapmerignac.wixsite.com/merignac",
+        "plateforme": null
+      },
+      "dateCreation": null,
+      "rnaId": null,
+      "producteurs": [],
+      "etat": "actif",
+      "derniereCom": "19/02/2026"
     }
   ],
   "producteurs": [
