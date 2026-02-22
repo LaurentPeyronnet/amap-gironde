@@ -12,9 +12,9 @@ const CONFIG = {
     
     // Couleurs pour les AMAPs
     amapColors: {
-        default: '#e07b39',
+        default: '#a8a8a8',
         hover: '#5a8f3e',
-        border: '#c4a35a',
+        border: '#888888',
         retour: '#5a8f3e',
         retourBorder: '#3d6b28',
         retourHover: '#e07b39'
@@ -159,7 +159,7 @@ function updateAmapsMap() {
                 color: borderColor,
                 weight: hasRetour ? 3 : 2,
                 opacity: 1,
-                fillOpacity: hasRetour ? 0.9 : 0.7
+                fillOpacity: hasRetour ? 0.9 : 0.5
             });
             
             marker.on('click', () => {
@@ -234,17 +234,19 @@ function updateProducteursMap() {
 function updateAmapsLegend(filtered) {
     const legend = document.getElementById('mapLegend');
     const items = document.getElementById('legendItems');
+    const title = legend.querySelector('.legend-title');
+    if (title) title.textContent = 'Statut';
     const retourCount = filtered.filter(a => a.retour).length;
     const otherCount = filtered.length - retourCount;
     
     items.innerHTML = `
         <div class="legend-item">
             <span class="legend-dot" style="background:${CONFIG.amapColors.retour};border:2px solid ${CONFIG.amapColors.retourBorder}"></span>
-            <span>Retour confirmé (${retourCount})</span>
+            <span>Contact 2026 (${retourCount})</span>
         </div>
         <div class="legend-item">
             <span class="legend-dot" style="background:${CONFIG.amapColors.default};border:2px solid ${CONFIG.amapColors.border}"></span>
-            <span>Pas de retour (${otherCount})</span>
+            <span>Attente retour (${otherCount})</span>
         </div>
     `;
     legend.classList.add('visible');
@@ -253,6 +255,8 @@ function updateAmapsLegend(filtered) {
 function updateLegend(categories) {
     const legend = document.getElementById('mapLegend');
     const items = document.getElementById('legendItems');
+    const title = legend.querySelector('.legend-title');
+    if (title) title.textContent = 'Produits';
     
     if (categories.size === 0) {
         legend.classList.remove('visible');
