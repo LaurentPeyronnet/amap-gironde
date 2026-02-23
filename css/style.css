@@ -122,8 +122,9 @@ body {
 }
 
 .logo {
-    font-size: 2rem;
-    line-height: 1;
+    height: 80px;
+    width: auto;
+    object-fit: contain;
 }
 
 .title-text h1 {
