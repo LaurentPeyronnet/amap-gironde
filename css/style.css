@@ -138,6 +138,13 @@ body {
     color: var(--text-muted);
 }
 
+.last-update {
+    font-size: 0.7rem;
+    color: var(--text-muted);
+    opacity: 0.6;
+    margin-left: 0.5em;
+}
+
 /* Header Controls */
 .header-controls {
     display: flex;

@@ -95,6 +95,14 @@ async function loadData() {
         state.yearRange.max = parseInt(state.data.metadata.dateMax.substring(0, 4));
     }
     state.filters.yearMax = state.yearRange.max;
+
+    if (state.data.metadata.generated) {
+        const el = document.getElementById('lastUpdate');
+        if (el) {
+            const d = state.data.metadata.generated.split('-');
+            el.textContent = `· màj ${d[2]}/${d[1]}/${d[0]}`;
+        }
+    }
 }
 
 // ============================================
