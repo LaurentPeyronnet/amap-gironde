@@ -534,24 +534,41 @@ tbody tr:hover {
     font-size: 0.7rem;
 }
 
-.btn-view {
+.td-actions {
+    display: flex;
+    gap: 4px;
+    align-items: center;
+}
+
+.btn-icon {
     display: inline-flex;
     align-items: center;
-    gap: 4px;
-    padding: 4px 10px;
-    background: var(--accent-leaf-pale);
-    border: 1px solid var(--accent-leaf);
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    padding: 0;
     border-radius: var(--radius-sm);
-    color: var(--accent-leaf);
-    font-size: 0.8rem;
-    font-weight: 500;
+    border: 1px solid var(--border-color);
+    background: var(--bg-card);
+    color: var(--text-muted);
     cursor: pointer;
     transition: all 0.2s ease;
 }
 
-.btn-view:hover {
-    background: var(--accent-leaf);
-    color: white;
+.btn-icon:hover {
+    border-color: var(--accent-leaf);
+    color: var(--accent-leaf);
+    background: var(--accent-leaf-pale);
+}
+
+.btn-icon.btn-locate:hover {
+    border-color: var(--accent-earth);
+    color: var(--accent-earth);
+    background: rgba(224, 123, 57, 0.1);
+}
+
+.btn-icon svg {
+    flex-shrink: 0;
 }
 
 /* ============================================
@@ -641,33 +658,52 @@ tbody tr:hover {
     font-size: 0.9rem;
 }
 
-/* Site web en priorité */
-.detail-website {
+/* Dual link buttons (Site vitrine + Gestion) */
+.detail-links {
+    display: flex;
+    gap: var(--space-sm);
     margin: var(--space-md) 0;
 }
 
-.detail-website-link {
+.detail-link-btn {
+    flex: 1;
     display: flex;
     align-items: center;
+    justify-content: center;
     gap: var(--space-sm);
-    padding: var(--space-md);
-    background: var(--accent-leaf);
-    color: white;
+    padding: var(--space-sm) var(--space-md);
     text-decoration: none;
     border-radius: var(--radius-md);
     font-weight: 600;
-    font-size: 0.9rem;
+    font-size: 0.85rem;
     transition: all 0.2s ease;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
-.detail-website-link:hover {
+.detail-link-front {
+    background: var(--accent-leaf);
+    color: white;
+}
+
+.detail-link-front:hover {
     background: var(--accent-leaf-light);
     transform: translateY(-1px);
 }
 
-.detail-website-link svg {
-    width: 18px;
-    height: 18px;
+.detail-link-back {
+    background: var(--accent-earth);
+    color: white;
+}
+
+.detail-link-back:hover {
+    background: var(--accent-earth-light);
+    transform: translateY(-1px);
+}
+
+.detail-link-btn svg {
+    flex-shrink: 0;
 }
 
 /* Producteurs liés */
@@ -782,7 +818,7 @@ tbody tr:hover {
 }
 
 /* ============================================
-   AMAP Retour (confirmed response)
+   Statut AMAP - Tableau
    ============================================ */
 tr.amap-retour {
     background: var(--accent-leaf-pale);
@@ -792,23 +828,37 @@ tr.amap-retour:hover {
     background: #d5e8cd;
 }
 
-.badge-retour {
-    font-size: 0.7rem;
-    padding: 0;
-    background: none;
+.status-dot {
+    font-size: 0.65rem;
+    margin-right: 4px;
     vertical-align: middle;
 }
 
+/* ============================================
+   Statut AMAP - Fiche détail
+   ============================================ */
 .detail-tags {
     display: flex;
     gap: var(--space-sm);
-    margin-top: var(--space-xs);
+    margin-top: var(--space-sm);
     flex-wrap: wrap;
 }
 
 .detail-badge-retour {
     background: var(--accent-leaf-pale);
     color: var(--accent-leaf);
+    font-size: 0.8rem;
+}
+
+.detail-badge-recent {
+    background: #e3f2fd;
+    color: #1565c0;
+    font-size: 0.8rem;
+}
+
+.detail-badge-inactive {
+    background: var(--bg-secondary);
+    color: var(--text-muted);
     font-size: 0.8rem;
 }
 

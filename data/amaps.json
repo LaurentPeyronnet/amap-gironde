@@ -27,7 +27,8 @@
       },
       "web": {
         "siteWeb": "https://www.cagette.net",
-        "plateforme": "AmapJ"
+        "plateforme": "AmapJ",
+        "plateformeUrl": "https://s2.amapj.fr/p/ambares-et-lagrave"
       },
       "dateCreation": "2013-07-24",
       "rnaId": "W332015776",
@@ -129,7 +130,8 @@
       },
       "web": {
         "siteWeb": "https://amapenbazadais.wixsite.com/amap-en-bazadais",
-        "plateforme": "CAMAP"
+        "plateforme": "CAMAP",
+        "plateformeUrl": "https://camap.amap44.org/group/4543"
       },
       "dateCreation": null,
       "rnaId": null,
@@ -223,7 +225,8 @@
       },
       "web": {
         "siteWeb": null,
-        "plateforme": "CAMAP"
+        "plateforme": "CAMAP",
+        "plateformeUrl": "https://camap.amap44.org/group/5505"
       },
       "dateCreation": null,
       "rnaId": null,
@@ -337,7 +340,8 @@
       },
       "web": {
         "siteWeb": "https://amapcoeurbassin.wixsite.com/amap",
-        "plateforme": "CAMAP"
+        "plateforme": "CAMAP",
+        "plateformeUrl": "https://camap.amap44.org/group/16941"
       },
       "dateCreation": "2015-05-30",
       "rnaId": "W336002939",
@@ -353,9 +357,9 @@
       "localisation": {
         "ville": "Blanquefort",
         "codePostal": "33290",
-        "adresse": "LA VACHERIE - 2 Rue de Monteil - parking Grottes de Majolan",
-        "lat": 44.92476,
-        "lng": -0.62313
+        "adresse": "La vacherie - 2 Rue de Monteil - parking Grottes de Majolan",
+        "lat": 44.9027625,
+        "lng": -0.6496214
       },
       "distribution": {
         "jour": "Jeudi",
@@ -363,7 +367,8 @@
       },
       "web": {
         "siteWeb": "http://www.amaplaneteblanquefort.fr/wordpress/",
-        "plateforme": "AmapJ"
+        "plateforme": "AmapJ",
+        "plateformeUrl": "https://s1.amapj.fr/p/blanquefort"
       },
       "dateCreation": "2012-02-06",
       "rnaId": "W332013490",
@@ -392,7 +397,8 @@
       ],
       "etat": "actif",
       "derniereCom": "09/02/2026",
-      "miramap": true
+      "miramap": true,
+      "retour": true
     },
     {
       "id": "BONZAC-PANIER",
@@ -432,7 +438,8 @@
       },
       "web": {
         "siteWeb": "https://www.facebook.com/AMAPBordeauxCentre/",
-        "plateforme": "AmapJ"
+        "plateforme": "AmapJ",
+        "plateformeUrl": "https://s8.amapj.fr/p/bordeaux-centre"
       },
       "dateCreation": "2021-03-21",
       "rnaId": "W332030450",
@@ -499,7 +506,8 @@
       },
       "web": {
         "siteWeb": "https://s1.amapj.fr/p/bio-gustin",
-        "plateforme": "AmapJ"
+        "plateforme": "AmapJ",
+        "plateformeUrl": "https://s1.amapj.fr/p/bio-gustin"
       },
       "dateCreation": null,
       "rnaId": null,
@@ -568,7 +576,8 @@
       },
       "web": {
         "siteWeb": "https://www.herbajo.com/coffrets-cadeaux",
-        "plateforme": "CAMAP"
+        "plateforme": "CAMAP",
+        "plateformeUrl": "https://camap.amap44.org/group/2965"
       },
       "dateCreation": null,
       "rnaId": null,
@@ -618,7 +627,8 @@
       },
       "web": {
         "siteWeb": "https://www.lacroixmelier.fr/produit/la-piece-qui-tourne-moelleux/",
-        "plateforme": "CAMAP"
+        "plateforme": "CAMAP",
+        "plateformeUrl": "https://camap.amap44.org/group/11"
       },
       "dateCreation": null,
       "rnaId": null,
@@ -644,7 +654,8 @@
       },
       "web": {
         "siteWeb": "https://www.facebook.com/amapChartronsGrandParc/",
-        "plateforme": "CAMAP"
+        "plateforme": "CAMAP",
+        "plateformeUrl": "https://camap.amap44.org/group/741"
       },
       "dateCreation": null,
       "rnaId": null,
@@ -670,7 +681,8 @@
       },
       "web": {
         "siteWeb": null,
-        "plateforme": "CAMAP"
+        "plateforme": "CAMAP",
+        "plateformeUrl": "https://camap.amap44.org/group/1"
       },
       "dateCreation": null,
       "rnaId": null,
@@ -737,7 +749,8 @@
       },
       "web": {
         "siteWeb": "https://www.facebook.com/moulinalegumes/",
-        "plateforme": "AmapJ"
+        "plateforme": "AmapJ",
+        "plateformeUrl": "https://s1.amapj.fr/p/la-bastide"
       },
       "dateCreation": null,
       "rnaId": null,
@@ -781,7 +794,8 @@
       },
       "web": {
         "siteWeb": "http://www.amap-brugeslebouscat.fr/",
-        "plateforme": "AmapJ"
+        "plateforme": "AmapJ",
+        "plateformeUrl": "https://s3.amapj.fr/p/bruges"
       },
       "dateCreation": "2018-08-21",
       "rnaId": "W332023802",
@@ -808,7 +822,8 @@
       },
       "web": {
         "siteWeb": "https://www.facebook.com/groups/129314147127621",
-        "plateforme": "CAMAP"
+        "plateforme": "CAMAP",
+        "plateformeUrl": "https://camap.amap44.org/group/1240"
       },
       "dateCreation": null,
       "rnaId": null,
@@ -860,7 +875,8 @@
       },
       "web": {
         "siteWeb": null,
-        "plateforme": "CAMAP"
+        "plateforme": "CAMAP",
+        "plateformeUrl": "https://camap.amap44.org/group/16978"
       },
       "dateCreation": null,
       "rnaId": null,
@@ -887,7 +903,8 @@
       },
       "web": {
         "siteWeb": null,
-        "plateforme": "AmapJ"
+        "plateforme": "AmapJ",
+        "plateformeUrl": "https://s8.amapj.fr/p/carignan-de-bordeaux"
       },
       "dateCreation": null,
       "rnaId": null,
@@ -910,7 +927,8 @@
       },
       "web": {
         "siteWeb": "http://www.castelamap.org/",
-        "plateforme": null
+        "plateforme": null,
+        "plateformeUrl": "https://padlet.com/castelamap/m-mo-des-adh-rents-castelamap-kmc0j80d2sit9ryj"
       },
       "dateCreation": "2010-07-06",
       "rnaId": "W334001235",
@@ -979,7 +997,8 @@
       },
       "web": {
         "siteWeb": "https://www.gourmandignes.org/",
-        "plateforme": "CAMAP"
+        "plateforme": "CAMAP",
+        "plateformeUrl": "https://camap.amap44.org/group/17016"
       },
       "dateCreation": null,
       "rnaId": null,
@@ -1121,7 +1140,8 @@
       },
       "web": {
         "siteWeb": "http://amap-migron.jimdo.com/",
-        "plateforme": "AmapJ"
+        "plateforme": "AmapJ",
+        "plateformeUrl": "https://s2.amapj.fr/p/migron"
       },
       "dateCreation": "2011-10-24",
       "rnaId": "W332012950",
@@ -1190,7 +1210,8 @@
       },
       "web": {
         "siteWeb": "http://lecabas33.fr/",
-        "plateforme": "AmapJ"
+        "plateforme": "AmapJ",
+        "plateformeUrl": "https://s2.amapj.fr/p/gradignan"
       },
       "dateCreation": null,
       "rnaId": null,
@@ -1471,7 +1492,8 @@
       },
       "web": {
         "siteWeb": "http://amap-hallanaise.e-monsite.com/",
-        "plateforme": "AmapJ"
+        "plateforme": "AmapJ",
+        "plateformeUrl": "https://s1.amapj.fr/p/le-haillan"
       },
       "dateCreation": "2010-12-16",
       "rnaId": "W332011476",
@@ -1520,7 +1542,8 @@
       },
       "web": {
         "siteWeb": "https://www.facebook.com/AmapTaillanaise",
-        "plateforme": "AmapJ"
+        "plateforme": "AmapJ",
+        "plateformeUrl": "https://s5.amapj.fr/p/le-taillan"
       },
       "dateCreation": "2012-04-02",
       "rnaId": "W332013756",
@@ -1542,7 +1565,8 @@
       },
       "web": {
         "siteWeb": "https://www.amappechedevigne.fr/",
-        "plateforme": "CAMAP"
+        "plateforme": "CAMAP",
+        "plateformeUrl": "https://camap.amap44.org/group/8"
       },
       "dateCreation": "2008-09-26",
       "rnaId": "W332007172",
@@ -1568,7 +1592,8 @@
       },
       "web": {
         "siteWeb": null,
-        "plateforme": "AmapJ"
+        "plateforme": "AmapJ",
+        "plateformeUrl": "https://t1.amapj.fr/p/listrac"
       },
       "dateCreation": "2021-05-21",
       "rnaId": "W334005739",
@@ -1703,7 +1728,8 @@
       },
       "web": {
         "siteWeb": "http://martignamap.e-monsite.com/",
-        "plateforme": "CAMAP"
+        "plateforme": "CAMAP",
+        "plateformeUrl": "https://camap.amap44.org/group/2679"
       },
       "dateCreation": "2012-03-30",
       "rnaId": "W332013745",
@@ -1749,7 +1775,8 @@
       },
       "web": {
         "siteWeb": "www.facebook.com/amapbeutre",
-        "plateforme": "AmapJ"
+        "plateforme": "AmapJ",
+        "plateformeUrl": "https://s1.amapj.fr/p/beutre"
       },
       "dateCreation": "2020-03-03",
       "rnaId": "W332029246",
@@ -1771,7 +1798,8 @@
       },
       "web": {
         "siteWeb": "http://amap-arlac.fr/",
-        "plateforme": "AmapJ"
+        "plateforme": "AmapJ",
+        "plateformeUrl": "https://s1.amapj.fr/p/arlac"
       },
       "dateCreation": null,
       "rnaId": null,
@@ -1794,7 +1822,8 @@
       },
       "web": {
         "siteWeb": null,
-        "plateforme": "AmapJ"
+        "plateforme": "AmapJ",
+        "plateformeUrl": "https://s5.amapj.fr/p/fantaisie"
       },
       "dateCreation": "2009-03-17",
       "rnaId": "W332008191",
@@ -1816,7 +1845,8 @@
       },
       "web": {
         "siteWeb": "https://www.amap-laglaciere.fr/",
-        "plateforme": "AmapJ"
+        "plateforme": "AmapJ",
+        "plateformeUrl": "https://t1.amapj.fr/p/merignac-la-glaciere"
       },
       "dateCreation": null,
       "rnaId": null,
@@ -1838,7 +1868,8 @@
       },
       "web": {
         "siteWeb": "https://www.facebook.com/amapleburck/",
-        "plateforme": "AmapJ"
+        "plateforme": "AmapJ",
+        "plateformeUrl": "https://s1.amapj.fr/p/le-burck"
       },
       "dateCreation": "2019-04-29",
       "rnaId": "W332027922",
@@ -1864,7 +1895,8 @@
       },
       "web": {
         "siteWeb": "https://amap-taravao.fr/",
-        "plateforme": "AmapJ"
+        "plateforme": "AmapJ",
+        "plateformeUrl": "https://s2.amapj.fr/p/taravao"
       },
       "dateCreation": null,
       "rnaId": null,
@@ -1974,7 +2006,8 @@
       },
       "web": {
         "siteWeb": null,
-        "plateforme": "AmapJ"
+        "plateforme": "AmapJ",
+        "plateformeUrl": "https://s4.amapj.fr/p/parempuyre"
       },
       "dateCreation": null,
       "rnaId": null,
@@ -2044,7 +2077,8 @@
       },
       "web": {
         "siteWeb": "http://brouettesetpaniers.com/",
-        "plateforme": "AmapJ"
+        "plateforme": "AmapJ",
+        "plateformeUrl": "https://s8.amapj.fr/p/brouettes-et-paniers"
       },
       "dateCreation": null,
       "rnaId": null,
@@ -2140,7 +2174,8 @@
       },
       "web": {
         "siteWeb": "http://amapillac.over-blog.fr/",
-        "plateforme": "AmapJ"
+        "plateforme": "AmapJ",
+        "plateformeUrl": "https://s6.amapj.fr/p/saint-jean-d-illac"
       },
       "dateCreation": "2011-06-14",
       "rnaId": "W332012356",
@@ -2240,7 +2275,8 @@
       },
       "web": {
         "siteWeb": "http://lepanierloubesien.fr/",
-        "plateforme": "CAMAP"
+        "plateforme": "CAMAP",
+        "plateformeUrl": "https://camap.amap44.org/group/17048"
       },
       "dateCreation": null,
       "rnaId": null,
@@ -2297,9 +2333,9 @@
       "localisation": {
         "ville": "Saint-Médard-en-Jalles",
         "codePostal": "33160",
-        "adresse": "CAPOUEST, 26 Rue Aurel Chazeau",
-        "lat": 44.90869,
-        "lng": -0.80556
+        "adresse": "26 Rue Aurel Chazeau",
+        "lat": 44.8991927,
+        "lng": -0.7473162
       },
       "distribution": {
         "jour": "Jeudi",
@@ -2307,14 +2343,16 @@
       },
       "web": {
         "siteWeb": "https://amapdesjalles.fr/",
-        "plateforme": "AmapJ"
+        "plateforme": "AmapJ",
+        "plateformeUrl": "https://s2.amapj.fr/p/saint-medard-en-jalles"
       },
-      "dateCreation": "2012-03-26",
+      "dateCreation": "2008-04-01",
       "rnaId": "W332013721",
       "producteurs": [],
       "etat": "actif",
-      "derniereCom": "10/02/2026",
-      "miramap": true
+      "derniereCom": "23/02/2026",
+      "miramap": true,
+      "retour": true
     },
     {
       "id": "SMORIL-VIGN",
@@ -2402,7 +2440,8 @@
       },
       "web": {
         "siteWeb": "https://www.lesjardinsdesillac.fr/amap/",
-        "plateforme": "CAMAP"
+        "plateforme": "CAMAP",
+        "plateformeUrl": "https://camap.amap44.org/group/14152"
       },
       "dateCreation": null,
       "rnaId": null,
@@ -2450,7 +2489,8 @@
       },
       "web": {
         "siteWeb": "https://cpa-petal.org/petal/",
-        "plateforme": "CAMAP"
+        "plateforme": "CAMAP",
+        "plateformeUrl": "https://camap.amap44.org/group/4708"
       },
       "dateCreation": "2005-10-10",
       "rnaId": "W332006555",
@@ -2473,7 +2513,8 @@
       },
       "web": {
         "siteWeb": "https://tressesatable.wixsite.com/tressesatable",
-        "plateforme": "CAMAP"
+        "plateforme": "CAMAP",
+        "plateformeUrl": "https://camap.amap44.org/group/4160"
       },
       "dateCreation": "2009-05-14",
       "rnaId": "W332008519",
@@ -2499,7 +2540,8 @@
       },
       "web": {
         "siteWeb": "http://amaplaruchevo.blogspot.com/p/presentation-de-lamap.html",
-        "plateforme": "CAMAP"
+        "plateforme": "CAMAP",
+        "plateformeUrl": "https://camap.amap44.org/group/1215"
       },
       "dateCreation": "2012-10-22",
       "rnaId": "W332014579",
@@ -2547,7 +2589,8 @@
       },
       "web": {
         "siteWeb": "https://amapgarobio.wixsite.com/amap",
-        "plateforme": "CAMAP"
+        "plateforme": "CAMAP",
+        "plateformeUrl": "https://camap.amap44.org/group/16931"
       },
       "dateCreation": null,
       "rnaId": null,

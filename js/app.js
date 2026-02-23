@@ -366,13 +366,20 @@ function updateAmapsList() {
         const jour = amap.distribution?.jour || '-';
         const hasRetour = amap.retour === true;
         const rowClass = hasRetour ? 'class="amap-retour"' : '';
-        const retourBadge = hasRetour ? '<span class="badge badge-retour" title="Retour confirmé">✅</span> ' : '';
+        const statusDot = getStatusDot(amap);
+        const hasCoords = amap.localisation?.lat && amap.localisation?.lng;
+        const locBtn = hasCoords
+            ? `<button class="btn-icon btn-locate" onclick="centerMapOn('${amap.id}')" title="Centrer la carte"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="16" height="16"><circle cx="12" cy="12" r="3"/><path d="M12 2v4m0 12v4M2 12h4m12 0h4"/><circle cx="12" cy="12" r="9"/></svg></button>`
+            : '';
         
         return `<tr ${rowClass}>
-            <td class="item-name">${retourBadge}${amap.nom}</td>
+            <td class="item-name">${statusDot}${amap.nom}</td>
             <td>${ville}</td>
             <td><span class="badge badge-jour">${truncate(jour, 10)}</span></td>
-            <td><button class="btn-view" onclick="openAmapDetail('${amap.id}')">Voir</button></td>
+            <td class="td-actions">
+                <button class="btn-icon btn-detail" onclick="openAmapDetail('${amap.id}')" title="Fiche détail"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="16" height="16"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg></button>
+                ${locBtn}
+            </td>
         </tr>`;
     }).join('');
     
@@ -395,7 +402,9 @@ function updateProducteursList() {
             </td>
             <td class="item-name">${prod.nom || prod.societe || '-'}</td>
             <td>${truncate(freq, 15)}</td>
-            <td><button class="btn-view" onclick="openProducteurDetail('${prod.id}')">Voir</button></td>
+            <td class="td-actions">
+                <button class="btn-icon btn-detail" onclick="openProducteurDetail('${prod.id}')" title="Fiche détail"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="16" height="16"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg></button>
+            </td>
         </tr>`;
     }).join('');
     
@@ -415,29 +424,41 @@ function openAmapDetail(id) {
     const dist = amap.distribution || {};
     const web = amap.web || {};
     
-    const retourTag = amap.retour ? '<span class="detail-badge detail-badge-retour">✅ Retour confirmé</span>' : '';
+    let statusBadge;
+    if (amap.retour) {
+        statusBadge = '<span class="detail-badge detail-badge-retour">✅ Contact 2026</span>';
+    } else if (amap.derniereCom) {
+        statusBadge = `<span class="detail-badge detail-badge-retour">✅ Com. ${amap.derniereCom}</span>`;
+    } else {
+        statusBadge = '<span class="detail-badge detail-badge-inactive">⚪ Attente retour</span>';
+    }
     const etatTag = amap.etat ? `<span class="detail-badge detail-badge-etat detail-badge-etat-${amap.etat}">${amap.etat}</span>` : '';
     
     let html = `
         <div class="detail-header">
             <h2>🏠 ${amap.nom}</h2>
             <p class="subtitle">${loc.ville || ''}${loc.codePostal ? ` (${loc.codePostal})` : ''}</p>
-            <div class="detail-tags">${etatTag} ${retourTag}</div>
+            <div class="detail-tags">${etatTag} ${statusBadge}</div>
         </div>
     `;
     
-    if (web.siteWeb) {
-        html += `
-            <div class="detail-website">
-                <a href="${web.siteWeb}" target="_blank" rel="noopener" class="detail-website-link">
-                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                        <circle cx="12" cy="12" r="10"></circle>
-                        <path d="M2 12h20M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
-                    </svg>
-                    Accéder au site web
-                </a>
-            </div>
-        `;
+    const hasFront = web.siteWeb;
+    const hasBack = web.plateformeUrl;
+    if (hasFront || hasBack) {
+        html += `<div class="detail-links">`;
+        if (hasFront) {
+            html += `<a href="${web.siteWeb}" target="_blank" rel="noopener" class="detail-link-btn detail-link-front" title="${web.siteWeb}">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="16" height="16"><circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+                Site vitrine
+            </a>`;
+        }
+        if (hasBack) {
+            html += `<a href="${web.plateformeUrl}" target="_blank" rel="noopener" class="detail-link-btn detail-link-back" title="${web.plateformeUrl}">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="16" height="16"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8m-4-4v4"/></svg>
+                ${web.plateforme || 'Gestion'}
+            </a>`;
+        }
+        html += `</div>`;
     }
     
     html += `<div class="detail-info">`;
@@ -471,15 +492,13 @@ function openAmapDetail(id) {
         `;
     }
     
-    if (web.plateforme) {
+    if (amap.derniereCom) {
         html += `
             <div class="detail-info-item">
-                <span class="detail-info-icon">💻</span>
+                <span class="detail-info-icon">📨</span>
                 <div class="detail-info-content">
-                    <div class="detail-info-label">Plateforme</div>
-                    <div class="detail-info-value">
-                        <span class="detail-badge detail-badge-plateforme">${web.plateforme}</span>
-                    </div>
+                    <div class="detail-info-label">Dernière communication</div>
+                    <div class="detail-info-value">${amap.derniereCom}</div>
                 </div>
             </div>
         `;
@@ -658,6 +677,56 @@ function updateAll() {
     } else {
         updateProducteursList();
     }
+    if (state.filters.search) {
+        fitMapToResults();
+    } else {
+        state.map.flyTo(CONFIG.mapCenter, CONFIG.mapZoom, { duration: 0.6 });
+    }
+}
+
+// ============================================
+// Navigation carte
+// ============================================
+function centerMapOn(id) {
+    const item = state.data.amaps.find(a => a.id === id)
+        || state.data.producteurs.find(p => p.id === id);
+    if (!item) return;
+    const lat = item.localisation?.lat;
+    const lng = item.localisation?.lng;
+    if (lat && lng) {
+        state.map.flyTo([lat, lng], 14, { duration: 0.8 });
+    }
+}
+
+function fitMapToResults() {
+    const coords = [];
+    if (state.currentView === 'amaps') {
+        filterAmaps().forEach(a => {
+            if (a.localisation?.lat && a.localisation?.lng)
+                coords.push([a.localisation.lat, a.localisation.lng]);
+        });
+    } else {
+        filterProducteurs().forEach(p => {
+            if (p.localisation?.lat && p.localisation?.lng)
+                coords.push([p.localisation.lat, p.localisation.lng]);
+        });
+    }
+    if (coords.length === 0) return;
+    if (coords.length === 1) {
+        state.map.flyTo(coords[0], 13, { duration: 0.6 });
+    } else {
+        state.map.flyToBounds(L.latLngBounds(coords), { padding: [40, 40], duration: 0.6, maxZoom: 14 });
+    }
+}
+
+function getStatusDot(amap) {
+    if (amap.retour) {
+        return '<span class="status-dot status-confirmed" title="Contact 2026 confirmé">✅</span>';
+    }
+    if (amap.derniereCom) {
+        return '<span class="status-dot status-recent" title="Dernière com: ' + amap.derniereCom + '">✅</span>';
+    }
+    return '<span class="status-dot status-unknown" title="Pas de contact récent">⚪</span>';
 }
 
 // ============================================
@@ -679,3 +748,4 @@ function debounce(fn, delay) {
 // Exposer les fonctions pour onclick
 window.openAmapDetail = openAmapDetail;
 window.openProducteurDetail = openProducteurDetail;
+window.centerMapOn = centerMapOn;
