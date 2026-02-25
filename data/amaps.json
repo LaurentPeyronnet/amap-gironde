@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "AMAPs_Gironde-AMAP_02_2026",
-    "generated": "2026-02-22",
+    "generated": "2026-02-25",
     "amapsCount": 108,
     "amapsGeocoded": 107,
     "producteursCount": 132,
@@ -187,8 +187,8 @@
         "ville": "Bègles",
         "codePostal": "33130",
         "adresse": "salle Saint Maurice. 105 avenue Alexis Capelle",
-        "lat": 44.80311,
-        "lng": -0.54926
+        "lat": 44.8161669,
+        "lng": -0.5504837
       },
       "distribution": {
         "jour": "Mardi",
