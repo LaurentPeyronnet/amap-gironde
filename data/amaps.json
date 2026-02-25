@@ -32,8 +32,7 @@
       },
       "dateCreation": "2013-07-24",
       "rnaId": "W332015776",
-      "producteurs": [],
-      "contact": "Isabelle DUMORA"
+      "producteurs": []
     },
     {
       "id": "ARTIG-ART",
@@ -111,8 +110,7 @@
         "PROD-009",
         "PROD-010",
         "PROD-011"
-      ],
-      "contact": "Président Yves Raulin"
+      ]
     },
     {
       "id": "BAZAS-BAZAD",
@@ -158,7 +156,6 @@
       ],
       "etat": "actif",
       "derniereCom": "11/02/2026",
-      "contact": "Morane",
       "retour": true
     },
     {
@@ -206,7 +203,6 @@
       "producteurs": [],
       "etat": "actif",
       "derniereCom": "18/02/2026",
-      "contact": "Françoise GROSS",
       "retour": true
     },
     {
@@ -230,8 +226,7 @@
       },
       "dateCreation": null,
       "rnaId": null,
-      "producteurs": [],
-      "contact": "DOUGET Eric"
+      "producteurs": []
     },
     {
       "id": "BEGLES-COCCI",
@@ -348,7 +343,6 @@
       "producteurs": [],
       "etat": "actif",
       "derniereCom": "11/02/2026",
-      "contact": "COEUR BASSIN AMAP",
       "retour": true
     },
     {
@@ -608,7 +602,6 @@
       ],
       "etat": "actif",
       "derniereCom": "09/02/2026",
-      "contact": "LE PANIER MODERNE AMAP",
       "retour": true
     },
     {
@@ -635,7 +628,6 @@
       "producteurs": [],
       "etat": "actif",
       "derniereCom": "18/02/2026",
-      "contact": "BONTEMPS Dominique",
       "retour": true
     },
     {
@@ -662,7 +654,6 @@
       "producteurs": [],
       "etat": "actif",
       "derniereCom": "09/02/2026",
-      "contact": "Marie",
       "retour": true
     },
     {
@@ -708,8 +699,7 @@
         "PROD-077",
         "PROD-078",
         "PROD-079"
-      ],
-      "contact": "FAURE Laëtitia"
+      ]
     },
     {
       "id": "BDX-STGENE",
@@ -802,7 +792,6 @@
       "producteurs": [],
       "etat": "actif",
       "derniereCom": "10/02/2026",
-      "contact": "Danièle",
       "miramap": true,
       "retour": true
     },
@@ -830,7 +819,6 @@
       "producteurs": [],
       "etat": "actif",
       "derniereCom": "09/02/2026",
-      "contact": "SOULET Bénédicte, Labedan Marylene",
       "retour": true
     },
     {
@@ -883,7 +871,6 @@
       "producteurs": [],
       "etat": "actif",
       "derniereCom": "10/02/2026",
-      "contact": "RE Rose",
       "nbAdherents": 30,
       "retour": true
     },
@@ -908,8 +895,7 @@
       },
       "dateCreation": null,
       "rnaId": null,
-      "producteurs": [],
-      "contact": "Famille Lhomet"
+      "producteurs": []
     },
     {
       "id": "CASTEL-MAP",
@@ -1002,8 +988,7 @@
       },
       "dateCreation": null,
       "rnaId": null,
-      "producteurs": [],
-      "contact": "ROMAIN Pascal"
+      "producteurs": []
     },
     {
       "id": "CISSAC-AMAP",
@@ -1025,8 +1010,7 @@
       },
       "dateCreation": null,
       "rnaId": null,
-      "producteurs": [],
-      "contact": "Laurence Dessimoulie"
+      "producteurs": []
     },
     {
       "id": "COUTRAS-AMA",
@@ -1073,7 +1057,6 @@
       "producteurs": [],
       "etat": "actif",
       "derniereCom": "10/02/2026",
-      "contact": "Caroline",
       "retour": true
     },
     {
@@ -1216,7 +1199,6 @@
       "dateCreation": null,
       "rnaId": null,
       "producteurs": [],
-      "contact": "Présidente: kapoudou@bbox.fr",
       "miramap": true
     },
     {
@@ -1308,7 +1290,6 @@
       "producteurs": [],
       "etat": "actif",
       "derniereCom": "10/02/2026",
-      "contact": "Hervé",
       "miramap": true,
       "retour": true
     },
@@ -1357,7 +1338,6 @@
       "producteurs": [],
       "etat": "actif",
       "derniereCom": "19/02/2026",
-      "contact": "Alexis Le Duc",
       "retour": true
     },
     {
@@ -1427,7 +1407,6 @@
       "producteurs": [],
       "etat": "actif",
       "derniereCom": "11/02/2026",
-      "contact": "Danielle Trannoy",
       "retour": true
     },
     {
@@ -1500,7 +1479,6 @@
       "producteurs": [],
       "etat": "actif",
       "derniereCom": "14/02/2026",
-      "contact": "Sandra Normand-Bouyssou",
       "miramap": true,
       "retour": true
     },
@@ -1573,7 +1551,6 @@
       "producteurs": [],
       "etat": "actif",
       "derniereCom": "12/02/2026",
-      "contact": "Vincent Padois",
       "retour": true
     },
     {
@@ -1734,7 +1711,6 @@
       "dateCreation": "2012-03-30",
       "rnaId": "W332013745",
       "producteurs": [],
-      "contact": "JENN Bruno",
       "miramap": true
     },
     {
@@ -1876,7 +1852,6 @@
       "producteurs": [],
       "etat": "actif",
       "derniereCom": "12/02/2026",
-      "contact": "Hélène Ribeaut",
       "retour": true
     },
     {
@@ -2107,7 +2082,6 @@
       "producteurs": [],
       "etat": "actif",
       "derniereCom": "09/02/2026",
-      "contact": "Sophie Fazeli",
       "retour": true
     },
     {
@@ -2133,7 +2107,6 @@
       "producteurs": [],
       "etat": "actif",
       "derniereCom": "11/02/2026",
-      "contact": "Christian Coulais",
       "retour": true
     },
     {
@@ -2182,7 +2155,6 @@
       "producteurs": [],
       "etat": "actif",
       "derniereCom": "09/02/2026",
-      "contact": "Sylvain Hottin",
       "miramap": true,
       "retour": true
     },
@@ -2234,7 +2206,6 @@
       "producteurs": [],
       "etat": "actif",
       "derniereCom": "20/02/2026",
-      "contact": "Adrien",
       "retour": true
     },
     {
@@ -2280,8 +2251,7 @@
       },
       "dateCreation": null,
       "rnaId": null,
-      "producteurs": [],
-      "contact": "AMAP Le Panier Loubesien"
+      "producteurs": []
     },
     {
       "id": "SMAC-COTEAU",
@@ -2377,7 +2347,6 @@
       "producteurs": [],
       "etat": "actif",
       "derniereCom": "10/02/2026",
-      "contact": "Virginie CULLERIER",
       "retour": true
     },
     {
@@ -2470,7 +2439,6 @@
       "producteurs": [],
       "etat": "actif",
       "derniereCom": "17/02/2026",
-      "contact": "Nadège",
       "retour": true
     },
     {
@@ -2494,8 +2462,7 @@
       },
       "dateCreation": "2005-10-10",
       "rnaId": "W332006555",
-      "producteurs": [],
-      "contact": "*AMAP PETAL"
+      "producteurs": []
     },
     {
       "id": "TRESSES-TAB",
@@ -2521,11 +2488,10 @@
       "producteurs": [],
       "etat": "actif",
       "derniereCom": "10/02/2026",
-      "contact": "DETRIEUX Christian",
       "retour": true
     },
     {
-      "id": "VILLORN-RUC",
+      "id": "VILLORN-CHAM",
       "nom": "AMAP Aux Paniers de Chambéry",
       "localisation": {
         "ville": "Villenave-d'Ornon",
@@ -2536,10 +2502,10 @@
       },
       "distribution": {
         "jour": "Vendredi",
-        "horaire": "18h45-20h00"
+        "horaire": "18h45-19h30"
       },
       "web": {
-        "siteWeb": "http://amaplaruchevo.blogspot.com/p/presentation-de-lamap.html",
+        "siteWeb": "https://amapauxpaniersdechambery.blogspot.com/",
         "plateforme": "CAMAP",
         "plateformeUrl": "https://camap.amap44.org/group/1215"
       },
@@ -2548,7 +2514,6 @@
       "producteurs": [],
       "etat": "actif",
       "derniereCom": "09/02/2026",
-      "contact": "AMAP Gestionnaire, Nathalie",
       "retour": true
     },
     {
@@ -2610,8 +2575,7 @@
         "PROD-129",
         "PROD-130",
         "PROD-131"
-      ],
-      "contact": "GAUTIER Anne-Laure"
+      ]
     },
     {
       "id": "BDX-SUD",
@@ -2680,7 +2644,6 @@
       "producteurs": [],
       "etat": "actif",
       "derniereCom": "12/02/2026",
-      "contact": "Bénédicte Bernier",
       "nbAdherents": 20,
       "retour": true
     },
