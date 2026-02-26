@@ -64,7 +64,7 @@ Créer une **visualisation cartographique** permettant d'explorer les AMAPs de G
 |--------|----------|--------|
 | Nom de l'AMAP | ✅ Oui | Information publique |
 | Ville | ✅ Oui | Localisation générale |
-| Adresse de distribution | ✅ Oui | Lieu public |
+| Adresse de livraison | ✅ Oui | Lieu public |
 | Jour et horaire | ✅ Oui | Info pratique |
 | Site web / Page Facebook | ✅ Oui | Lien public |
 | Date de création | ✅ Oui | Contexte historique |
@@ -168,7 +168,7 @@ dashboard/
         "lat": 44.96083,
         "lng": -0.50029
       },
-      "distribution": {
+      "livraison": {
         "jour": "Jeudi",
         "horaire": "19h00-20h00"
       },

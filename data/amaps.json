@@ -21,7 +21,7 @@
         "lat": 44.96083,
         "lng": -0.50029
       },
-      "distribution": {
+      "livraison": {
         "jour": "Jeudi",
         "horaire": "19h00-20h00"
       },
@@ -44,7 +44,7 @@
         "lat": 44.84535,
         "lng": -0.49671
       },
-      "distribution": {
+      "livraison": {
         "jour": "Mercredi",
         "horaire": "18h30-20h00"
       },
@@ -66,7 +66,7 @@
         "lat": 44.60433,
         "lng": -0.32344
       },
-      "distribution": {
+      "livraison": {
         "jour": "Lundi",
         "horaire": "18h45-19h45"
       },
@@ -88,7 +88,7 @@
         "lat": 45.05578,
         "lng": -0.59979
       },
-      "distribution": {
+      "livraison": {
         "jour": "Lundi",
         "horaire": "19h00-20h00"
       },
@@ -122,7 +122,7 @@
         "lat": 44.431721,
         "lng": -0.211478
       },
-      "distribution": {
+      "livraison": {
         "jour": "Mercredi",
         "horaire": "18h00-18h45"
       },
@@ -168,7 +168,7 @@
         "lat": null,
         "lng": null
       },
-      "distribution": {
+      "livraison": {
         "jour": "Mardi",
         "horaire": "19h00-20h00"
       },
@@ -190,7 +190,7 @@
         "lat": 44.816410,
         "lng": -0.547662
       },
-      "distribution": {
+      "livraison": {
         "jour": "Mardi",
         "horaire": "18h30-19H30"
       },
@@ -215,7 +215,7 @@
         "lat": 44.80311,
         "lng": -0.54926
       },
-      "distribution": {
+      "livraison": {
         "jour": "Mardi",
         "horaire": "19h00-20h00"
       },
@@ -238,7 +238,7 @@
         "lat": 44.80311,
         "lng": -0.54926
       },
-      "distribution": {
+      "livraison": {
         "jour": "Mardi",
         "horaire": "18h30-20h00"
       },
@@ -260,7 +260,7 @@
         "lat": 44.806587,
         "lng": -0.559765
       },
-      "distribution": {
+      "livraison": {
         "jour": "Mardi + Jeudi",
         "horaire": null
       },
@@ -285,7 +285,7 @@
         "lat": 44.49272,
         "lng": -0.78961
       },
-      "distribution": {
+      "livraison": {
         "jour": "Mardi",
         "horaire": "19h00-20h00"
       },
@@ -307,7 +307,7 @@
         "lat": 45.1083,
         "lng": -0.58514
       },
-      "distribution": {
+      "livraison": {
         "jour": "Vendredi",
         "horaire": "18h30-19h15"
       },
@@ -329,7 +329,7 @@
         "lat": 44.6627,
         "lng": -0.99204
       },
-      "distribution": {
+      "livraison": {
         "jour": "Vendredi",
         "horaire": "18h00-19h00"
       },
@@ -355,7 +355,7 @@
         "lat": 44.9027625,
         "lng": -0.6496214
       },
-      "distribution": {
+      "livraison": {
         "jour": "Jeudi",
         "horaire": "18h45-19h45"
       },
@@ -404,7 +404,7 @@
         "lat": 45.00737,
         "lng": -0.22328
       },
-      "distribution": {
+      "livraison": {
         "jour": "Vendredi",
         "horaire": "18h45-19h30"
       },
@@ -426,7 +426,7 @@
         "lat": 44.83911,
         "lng": -0.58143
       },
-      "distribution": {
+      "livraison": {
         "jour": "Jeudi",
         "horaire": "19h00-20h00"
       },
@@ -449,7 +449,7 @@
         "lat": 44.83911,
         "lng": -0.58143
       },
-      "distribution": {
+      "livraison": {
         "jour": "Mercredi",
         "horaire": "18h30-19h30"
       },
@@ -472,7 +472,7 @@
         "lat": 44.83911,
         "lng": -0.58143
       },
-      "distribution": {
+      "livraison": {
         "jour": null,
         "horaire": null
       },
@@ -494,7 +494,7 @@
         "lat": 44.83911,
         "lng": -0.58143
       },
-      "distribution": {
+      "livraison": {
         "jour": "Vendredi",
         "horaire": "18h00-19h30"
       },
@@ -520,7 +520,7 @@
         "lat": 44.83044,
         "lng": -0.58157
       },
-      "distribution": {
+      "livraison": {
         "jour": "Jeudi",
         "horaire": "18h30-20h30"
       },
@@ -542,7 +542,7 @@
         "lat": 44.84058,
         "lng": -0.58447
       },
-      "distribution": {
+      "livraison": {
         "jour": null,
         "horaire": null
       },
@@ -564,7 +564,7 @@
         "lat": 44.88299,
         "lng": -0.55682
       },
-      "distribution": {
+      "livraison": {
         "jour": "Mardi",
         "horaire": "18h30-20h00"
       },
@@ -614,7 +614,7 @@
         "lat": 44.854216,
         "lng": -0.6322919
       },
-      "distribution": {
+      "livraison": {
         "jour": "Jeudi",
         "horaire": "18h30-19h30"
       },
@@ -640,7 +640,7 @@
         "lat": 44.8588293,
         "lng": -0.5795049
       },
-      "distribution": {
+      "livraison": {
         "jour": "Jeudi",
         "horaire": "18h30-19h30"
       },
@@ -666,7 +666,7 @@
         "lat": 44.81731,
         "lng": -0.57497
       },
-      "distribution": {
+      "livraison": {
         "jour": "Jeudi + Mardi",
         "horaire": "Variable selon groupes"
       },
@@ -711,7 +711,7 @@
         "lat": 44.82579,
         "lng": -0.58293
       },
-      "distribution": {
+      "livraison": {
         "jour": "Mercredi",
         "horaire": "19h00-20h00"
       },
@@ -733,7 +733,7 @@
         "lat": 44.84568,
         "lng": -0.5531
       },
-      "distribution": {
+      "livraison": {
         "jour": null,
         "horaire": null
       },
@@ -756,7 +756,7 @@
         "lat": 45.24778,
         "lng": -0.62595
       },
-      "distribution": {
+      "livraison": {
         "jour": null,
         "horaire": null
       },
@@ -778,7 +778,7 @@
         "lat": 44.8855954,
         "lng": -0.6062821
       },
-      "distribution": {
+      "livraison": {
         "jour": "Lundi",
         "horaire": "18h30-19h30"
       },
@@ -805,7 +805,7 @@
         "lat": 44.75489,
         "lng": -0.52865
       },
-      "distribution": {
+      "livraison": {
         "jour": "Mercredi",
         "horaire": "18h30-19h30"
       },
@@ -831,7 +831,7 @@
         "lat": 44.6345009,
         "lng": -0.3246221
       },
-      "distribution": {
+      "livraison": {
         "jour": "Jeudi",
         "horaire": "18h30-19h00"
       },
@@ -857,7 +857,7 @@
         "lat": 44.7520073,
         "lng": -0.6434085
       },
-      "distribution": {
+      "livraison": {
         "jour": "mardi",
         "horaire": "18h00 - 19h00"
       },
@@ -884,7 +884,7 @@
         "lat": 44.81293,
         "lng": -0.47474
       },
-      "distribution": {
+      "livraison": {
         "jour": "Jeudi",
         "horaire": "18h30-19h30"
       },
@@ -907,7 +907,7 @@
         "lat": 45.00582,
         "lng": -0.8512
       },
-      "distribution": {
+      "livraison": {
         "jour": "Mardi et Vendredi",
         "horaire": "18h30-19h30"
       },
@@ -933,7 +933,7 @@
         "lat": 44.85414,
         "lng": -0.04394
       },
-      "distribution": {
+      "livraison": {
         "jour": null,
         "horaire": null
       },
@@ -955,7 +955,7 @@
         "lat": 44.85112,
         "lng": -0.51444
       },
-      "distribution": {
+      "livraison": {
         "jour": "Jeudi",
         "horaire": "18h00"
       },
@@ -977,7 +977,7 @@
         "lat": 44.85788,
         "lng": -0.52952
       },
-      "distribution": {
+      "livraison": {
         "jour": "Jeudi",
         "horaire": "19h00-20h00"
       },
@@ -1000,7 +1000,7 @@
         "lat": 45.23174,
         "lng": -0.83884
       },
-      "distribution": {
+      "livraison": {
         "jour": "Vendredi",
         "horaire": "18h00-19h00"
       },
@@ -1022,7 +1022,7 @@
         "lat": 45.05618,
         "lng": -0.1423
       },
-      "distribution": {
+      "livraison": {
         "jour": "Mercredi",
         "horaire": "18h30-19h30"
       },
@@ -1044,7 +1044,7 @@
         "lat": 44.77465,
         "lng": -0.35444
       },
-      "distribution": {
+      "livraison": {
         "jour": "Vendredi",
         "horaire": "19h00-20h00"
       },
@@ -1069,7 +1069,7 @@
         "lat": 45.11903,
         "lng": -0.72885
       },
-      "distribution": {
+      "livraison": {
         "jour": "Mercredi",
         "horaire": "18h30-19h00"
       },
@@ -1091,7 +1091,7 @@
         "lat": 44.8837198,
         "lng": -0.6562034
       },
-      "distribution": {
+      "livraison": {
         "jour": "Mercredi",
         "horaire": "18h30-19h30"
       },
@@ -1117,7 +1117,7 @@
         "lat": 44.8669394,
         "lng": -0.6415102
       },
-      "distribution": {
+      "livraison": {
         "jour": "Mercredi",
         "horaire": "18h30-19h30"
       },
@@ -1143,7 +1143,7 @@
         "lat": 44.82527,
         "lng": -0.50504
       },
-      "distribution": {
+      "livraison": {
         "jour": "Mercredi",
         "horaire": null
       },
@@ -1165,7 +1165,7 @@
         "lat": 44.76806,
         "lng": -0.61686
       },
-      "distribution": {
+      "livraison": {
         "jour": "Mardi",
         "horaire": "17h30-19h00"
       },
@@ -1187,7 +1187,7 @@
         "lat": 44.77355,
         "lng": -0.61854
       },
-      "distribution": {
+      "livraison": {
         "jour": "Lundi",
         "horaire": "18h00-19h30"
       },
@@ -1211,7 +1211,7 @@
         "lat": 44.5793,
         "lng": -1.04064
       },
-      "distribution": {
+      "livraison": {
         "jour": "Lundi",
         "horaire": "18h30-19h30"
       },
@@ -1233,7 +1233,7 @@
         "lat": 44.59738,
         "lng": -0.37356
       },
-      "distribution": {
+      "livraison": {
         "jour": "Jeudi",
         "horaire": "18h30-19h30 (tous les 15 jours)"
       },
@@ -1255,7 +1255,7 @@
         "lat": 44.91655,
         "lng": -0.34667
       },
-      "distribution": {
+      "livraison": {
         "jour": "Jeudi",
         "horaire": "18h00"
       },
@@ -1277,7 +1277,7 @@
         "lat": 44.6843025,
         "lng": -0.5320016
       },
-      "distribution": {
+      "livraison": {
         "jour": "Jeudi",
         "horaire": "18h30-19h30"
       },
@@ -1303,7 +1303,7 @@
         "lat": 44.57632,
         "lng": -0.02646
       },
-      "distribution": {
+      "livraison": {
         "jour": null,
         "horaire": null
       },
@@ -1325,7 +1325,7 @@
         "lat": 44.93792,
         "lng": -1.09079
       },
-      "distribution": {
+      "livraison": {
         "jour": "Lundi et 3ieme vendredi du mois (volaille et poisson)",
         "horaire": "18h45-19h15"
       },
@@ -1350,7 +1350,7 @@
         "lat": 44.71715,
         "lng": -0.36226
       },
-      "distribution": {
+      "livraison": {
         "jour": null,
         "horaire": null
       },
@@ -1372,7 +1372,7 @@
         "lat": 44.53657,
         "lng": -0.28448
       },
-      "distribution": {
+      "livraison": {
         "jour": "Jeudi",
         "horaire": "18h15-19h30"
       },
@@ -1394,7 +1394,7 @@
         "lat": 44.723842,
         "lng": -1.068024
       },
-      "distribution": {
+      "livraison": {
         "jour": null,
         "horaire": null
       },
@@ -1419,7 +1419,7 @@
         "lat": 45.08624,
         "lng": -0.2873
       },
-      "distribution": {
+      "livraison": {
         "jour": null,
         "horaire": null
       },
@@ -1443,7 +1443,7 @@
         "lat": 44.62937,
         "lng": -0.7483
       },
-      "distribution": {
+      "livraison": {
         "jour": null,
         "horaire": null
       },
@@ -1465,7 +1465,7 @@
         "lat": 44.87063,
         "lng": -0.67561
       },
-      "distribution": {
+      "livraison": {
         "jour": "Mardi",
         "horaire": "18h00-19h30"
       },
@@ -1492,7 +1492,7 @@
         "lat": 44.87279,
         "lng": -1.09272
       },
-      "distribution": {
+      "livraison": {
         "jour": "Jeudi",
         "horaire": "19h00-19h45"
       },
@@ -1514,7 +1514,7 @@
         "lat": 44.90682,
         "lng": -0.667
       },
-      "distribution": {
+      "livraison": {
         "jour": "Mardi",
         "horaire": "18h15-19h15"
       },
@@ -1537,7 +1537,7 @@
         "lat": 44.72347,
         "lng": -0.60979
       },
-      "distribution": {
+      "livraison": {
         "jour": "Mercredi",
         "horaire": "18h30-19h30 (tous les 15 jours)"
       },
@@ -1563,7 +1563,7 @@
         "lat": 45.06905,
         "lng": -0.80449
       },
-      "distribution": {
+      "livraison": {
         "jour": "Lundi",
         "horaire": "18h30"
       },
@@ -1586,7 +1586,7 @@
         "lat": 44.87492,
         "lng": -0.51851
       },
-      "distribution": {
+      "livraison": {
         "jour": null,
         "horaire": null
       },
@@ -1608,7 +1608,7 @@
         "lat": 44.63023,
         "lng": -0.307
       },
-      "distribution": {
+      "livraison": {
         "jour": null,
         "horaire": null
       },
@@ -1630,7 +1630,7 @@
         "lat": 45.008,
         "lng": -0.61502
       },
-      "distribution": {
+      "livraison": {
         "jour": "Mercredi",
         "horaire": "18h30-19h30"
       },
@@ -1652,7 +1652,7 @@
         "lat": 44.62345,
         "lng": -0.90102
       },
-      "distribution": {
+      "livraison": {
         "jour": "Dimanche (variable)",
         "horaire": null
       },
@@ -1674,7 +1674,7 @@
         "lat": 44.6919919,
         "lng": -0.8559173
       },
-      "distribution": {
+      "livraison": {
         "jour": "Mercredi",
         "horaire": "18h00-19h30"
       },
@@ -1699,7 +1699,7 @@
         "lat": 44.84054,
         "lng": -0.77615
       },
-      "distribution": {
+      "livraison": {
         "jour": "Mardi",
         "horaire": "19h00-20h00"
       },
@@ -1723,7 +1723,7 @@
         "lat": 44.71417,
         "lng": -0.54223
       },
-      "distribution": {
+      "livraison": {
         "jour": "Lundi",
         "horaire": "18h30-19h30"
       },
@@ -1745,7 +1745,7 @@
         "lat": 44.83131,
         "lng": -0.67945
       },
-      "distribution": {
+      "livraison": {
         "jour": null,
         "horaire": "18h30"
       },
@@ -1768,7 +1768,7 @@
         "lat": 44.83131,
         "lng": -0.67945
       },
-      "distribution": {
+      "livraison": {
         "jour": "Mercredi",
         "horaire": null
       },
@@ -1792,7 +1792,7 @@
         "lat": 44.83131,
         "lng": -0.67945
       },
-      "distribution": {
+      "livraison": {
         "jour": "Mardi",
         "horaire": "18h30-19h30"
       },
@@ -1815,7 +1815,7 @@
         "lat": 44.83549,
         "lng": -0.62126
       },
-      "distribution": {
+      "livraison": {
         "jour": "Vendredi",
         "horaire": "18h30-19h30"
       },
@@ -1838,7 +1838,7 @@
         "lat": 44.817787,
         "lng": -0.6393397
       },
-      "distribution": {
+      "livraison": {
         "jour": "Mercredi",
         "horaire": "17h30 - 18h30"
       },
@@ -1864,7 +1864,7 @@
         "lat": 44.82281,
         "lng": -0.62308
       },
-      "distribution": {
+      "livraison": {
         "jour": "Vendredi",
         "horaire": "18h00"
       },
@@ -1887,7 +1887,7 @@
         "lat": 44.84541,
         "lng": -0.631
       },
-      "distribution": {
+      "livraison": {
         "jour": "Jeudi",
         "horaire": "18h30-19h30"
       },
@@ -1909,7 +1909,7 @@
         "lat": 44.83131,
         "lng": -0.67945
       },
-      "distribution": {
+      "livraison": {
         "jour": "Mercredi",
         "horaire": "18h30-19h30"
       },
@@ -1931,7 +1931,7 @@
         "lat": 44.68577,
         "lng": -0.36424
       },
-      "distribution": {
+      "livraison": {
         "jour": "Jeudi",
         "horaire": "18h30-19h30"
       },
@@ -1953,7 +1953,7 @@
         "lat": 44.68577,
         "lng": -0.36424
       },
-      "distribution": {
+      "livraison": {
         "jour": null,
         "horaire": null
       },
@@ -1975,7 +1975,7 @@
         "lat": 44.945936,
         "lng": -0.598376
       },
-      "distribution": {
+      "livraison": {
         "jour": "Mercredi",
         "horaire": "18h30-19h30"
       },
@@ -2001,7 +2001,7 @@
         "lat": 44.78569,
         "lng": -0.68271
       },
-      "distribution": {
+      "livraison": {
         "jour": "Mercredi + Vendredi",
         "horaire": "14h-16h (mer) / 17h-19h (ven)"
       },
@@ -2023,7 +2023,7 @@
         "lat": 44.854478,
         "lng": -0.448605
       },
-      "distribution": {
+      "livraison": {
         "jour": "Mardi",
         "horaire": "18h00-19h30"
       },
@@ -2046,7 +2046,7 @@
         "lat": 45.03466,
         "lng": -0.49405
       },
-      "distribution": {
+      "livraison": {
         "jour": "Mardi (+ Lundi Bayon)",
         "horaire": "19h00-20h00 (mar) / 18h30-19h30 (lun Bayon)"
       },
@@ -2069,7 +2069,7 @@
         "lat": 44.5584447,
         "lng": -0.3574326
       },
-      "distribution": {
+      "livraison": {
         "jour": "un jeudi sur deux",
         "horaire": "18h30-19h30"
       },
@@ -2094,7 +2094,7 @@
         "lat": 44.755011,
         "lng": -0.487298
       },
-      "distribution": {
+      "livraison": {
         "jour": "Lundi",
         "horaire": "19h30-20h30"
       },
@@ -2119,7 +2119,7 @@
         "lat": 45.23413,
         "lng": -0.50767
       },
-      "distribution": {
+      "livraison": {
         "jour": null,
         "horaire": null
       },
@@ -2141,7 +2141,7 @@
         "lat": 44.8124249,
         "lng": -0.7794543
       },
-      "distribution": {
+      "livraison": {
         "jour": "Mercredi",
         "horaire": "18h30-19h30"
       },
@@ -2168,7 +2168,7 @@
         "lat": 44.9983,
         "lng": -0.39346
       },
-      "distribution": {
+      "livraison": {
         "jour": "Mardi",
         "horaire": "18h30-20h00"
       },
@@ -2193,7 +2193,7 @@
         "lat": 44.91434,
         "lng": -0.736522
       },
-      "distribution": {
+      "livraison": {
         "jour": "Jeudi",
         "horaire": "19h00-19h30"
       },
@@ -2218,7 +2218,7 @@
         "lat": 45.03533,
         "lng": -0.47133
       },
-      "distribution": {
+      "livraison": {
         "jour": null,
         "horaire": null
       },
@@ -2240,7 +2240,7 @@
         "lat": 44.90992,
         "lng": -0.39992
       },
-      "distribution": {
+      "livraison": {
         "jour": null,
         "horaire": null
       },
@@ -2263,7 +2263,7 @@
         "lat": 44.56542,
         "lng": -0.22644
       },
-      "distribution": {
+      "livraison": {
         "jour": "Jeudi",
         "horaire": "18h30-19h30"
       },
@@ -2285,7 +2285,7 @@
         "lat": 45.14657,
         "lng": -0.64283
       },
-      "distribution": {
+      "livraison": {
         "jour": "Jeudi",
         "horaire": "18h30-19h30"
       },
@@ -2307,7 +2307,7 @@
         "lat": 44.8991927,
         "lng": -0.7473162
       },
-      "distribution": {
+      "livraison": {
         "jour": "Jeudi",
         "horaire": "19h00-19h45"
       },
@@ -2334,7 +2334,7 @@
         "lat": 44.630893,
         "lng": -0.50753
       },
-      "distribution": {
+      "livraison": {
         "jour": "Mercredi",
         "horaire": "18h30-19h30"
       },
@@ -2359,7 +2359,7 @@
         "lat": 44.84165,
         "lng": 0.214969
       },
-      "distribution": {
+      "livraison": {
         "jour": "Mardi",
         "horaire": "18h30-19h30"
       },
@@ -2381,7 +2381,7 @@
         "lat": 44.96529,
         "lng": -0.87846
       },
-      "distribution": {
+      "livraison": {
         "jour": "Mardi (+ Jeudi)",
         "horaire": "18h30-19h30 (mar) / 18h00-19h00 (jeu)"
       },
@@ -2403,7 +2403,7 @@
         "lat": 44.53636,
         "lng": -0.89165
       },
-      "distribution": {
+      "livraison": {
         "jour": "Mardi + Vendredi",
         "horaire": "19h00-20h00"
       },
@@ -2426,7 +2426,7 @@
         "lat": 44.6509649,
         "lng": -0.6025853
       },
-      "distribution": {
+      "livraison": {
         "jour": "Mardi",
         "horaire": null
       },
@@ -2451,7 +2451,7 @@
         "lat": 44.80597,
         "lng": -0.58922
       },
-      "distribution": {
+      "livraison": {
         "jour": "Mercredi",
         "horaire": "Brama: 19h-20h / Thouars: 18h30-20h"
       },
@@ -2474,7 +2474,7 @@
         "lat": 44.84781,
         "lng": -0.46296
       },
-      "distribution": {
+      "livraison": {
         "jour": "Mardi",
         "horaire": "18h30-19h30"
       },
@@ -2500,7 +2500,7 @@
         "lat": 44.762331,
         "lng": -0.585206
       },
-      "distribution": {
+      "livraison": {
         "jour": "Vendredi",
         "horaire": "18h45-19h30"
       },
@@ -2526,7 +2526,7 @@
         "lat": 44.78199,
         "lng": -0.57217
       },
-      "distribution": {
+      "livraison": {
         "jour": "Mercredi (+ Jeudi été)",
         "horaire": "18h30-19h30 (mer juin/sep/oct, jeu juil/août)"
       },
@@ -2548,7 +2548,7 @@
         "lat": 44.80091,
         "lng": -0.56942
       },
-      "distribution": {
+      "livraison": {
         "jour": "Mercredi",
         "horaire": "18h30-19h30"
       },
@@ -2587,7 +2587,7 @@
         "lat": 44.822542,
         "lng": -0.562841
       },
-      "distribution": {
+      "livraison": {
         "jour": null,
         "horaire": null
       },
@@ -2609,7 +2609,7 @@
         "lat": 44.823528,
         "lng": -0.562281
       },
-      "distribution": {
+      "livraison": {
         "jour": null,
         "horaire": null
       },
@@ -2631,7 +2631,7 @@
         "lat": 45.044314,
         "lng": -0.2051142
       },
-      "distribution": {
+      "livraison": {
         "jour": null,
         "horaire": null
       },
@@ -2657,7 +2657,7 @@
         "lat": 44.8257347,
         "lng": -0.6449912
       },
-      "distribution": {
+      "livraison": {
         "jour": "Mardi",
         "horaire": "18h30-19h30"
       },

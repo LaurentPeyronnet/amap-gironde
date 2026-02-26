@@ -152,7 +152,7 @@ def convert_csv_to_json(amaps_csv, producteurs_csv, coords_file, json_path):
                     "lat": lat,
                     "lng": lng
                 },
-                "distribution": {
+                "livraison": {
                     "jour": clean_value(row.get('Distribution Jour')),
                     "horaire": clean_value(row.get('Distribution Horaire'))
                 },

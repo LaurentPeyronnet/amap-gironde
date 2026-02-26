@@ -371,7 +371,7 @@ function updateAmapsList() {
     
     tbody.innerHTML = filtered.map(amap => {
         const ville = amap.localisation?.ville || '-';
-        const jour = amap.distribution?.jour || '-';
+        const jour = amap.livraison?.jour || '-';
         const hasRetour = amap.retour === true;
         const rowClass = hasRetour ? 'class="amap-retour"' : '';
         const statusDot = getStatusDot(amap);
@@ -429,7 +429,7 @@ function openAmapDetail(id) {
     state.selectedAmap = amap;
     
     const loc = amap.localisation || {};
-    const dist = amap.distribution || {};
+    const dist = amap.livraison || {};
     const web = amap.web || {};
     
     let statusBadge;
@@ -476,7 +476,7 @@ function openAmapDetail(id) {
             <div class="detail-info-item">
                 <span class="detail-info-icon">📅</span>
                 <div class="detail-info-content">
-                    <div class="detail-info-label">Distribution</div>
+                    <div class="detail-info-label">Livraison</div>
                     <div class="detail-info-value">
                         <span class="detail-badge detail-badge-jour">${dist.jour}</span>
                         ${dist.horaire ? ` ${dist.horaire}` : ''}
