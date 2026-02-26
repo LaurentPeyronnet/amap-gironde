@@ -2,8 +2,8 @@
   "metadata": {
     "source": "AMAPs_Gironde-AMAP_02_2026",
     "generated": "2026-02-26",
-    "amapsCount": 108,
-    "amapsGeocoded": 107,
+    "amapsCount": 109,
+    "amapsGeocoded": 109,
     "producteursCount": 132,
     "producteursGeocoded": 67,
     "withDate": 46,
@@ -2442,27 +2442,56 @@
       "retour": true
     },
     {
-      "id": "TALENCE-PET",
-      "nom": "Panier d'Epeautre Talençais (AMAP Talence Pétal)",
+      "id": "TALPET-NORD",
+      "nom": "AMAP Pétal - Nord (Panier d'épeautre Talençais)",
       "localisation": {
         "ville": "Talence",
         "codePostal": "33400",
-        "adresse": "2 groupes: Salle Brama 56 Av Sainte-Marie + atelier dôme de Thouars (Salle des éclaireurs, château de Thouars)",
-        "lat": 44.80597,
-        "lng": -0.58922
+        "adresse": "Salle Brama, 56 Av Sainte-Marie",
+        "lat": 44.81757759280692,
+        "lng": -0.5935042455368196
       },
       "livraison": {
         "jour": "Mercredi",
-        "horaire": "Brama: 19h-20h / Thouars: 18h30-20h"
+        "horaire": "18h45-19h45"
       },
       "web": {
-        "siteWeb": "https://cpa-petal.org/petal/",
+        "siteWeb": "https://cpa-petal.org/petal/contact/",
         "plateforme": "CAMAP",
         "plateformeUrl": "https://camap.amap44.org/group/4708"
       },
       "dateCreation": "2005-10-10",
       "rnaId": "W332006555",
-      "producteurs": []
+      "producteurs": [],
+      "etat": "actif",
+      "derniereCom": "25/02/2026",
+      "retour": true
+    },
+    {
+      "id": "TALPET-SUD",
+      "nom": "AMAP Pétal - Sud (Panier d'épeautre Talençais)",
+      "localisation": {
+        "ville": "Talence",
+        "codePostal": "33400",
+        "adresse": "Salle des éclaireurs du Château de Thouars, Allée des Petits Rois",
+        "lat": 44.78862717302874,
+        "lng": -0.592980232044235
+      },
+      "livraison": {
+        "jour": "Mercredi",
+        "horaire": "18h30-19h30"
+      },
+      "web": {
+        "siteWeb": "https://cpa-petal.org/petal/contact/",
+        "plateforme": "CAMAP",
+        "plateformeUrl": "https://camap.amap44.org/group/5148"
+      },
+      "dateCreation": "2005-10-10",
+      "rnaId": "W332006555",
+      "producteurs": [],
+      "etat": "actif",
+      "derniereCom": "25/02/2026",
+      "retour": true
     },
     {
       "id": "TRESSES-TAB",
