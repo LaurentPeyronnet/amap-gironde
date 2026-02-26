@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "AMAPs_Gironde-AMAP_02_2026",
-    "generated": "2026-02-25",
+    "generated": "2026-02-26",
     "amapsCount": 108,
     "amapsGeocoded": 107,
     "producteursCount": 132,
@@ -351,9 +351,9 @@
       "localisation": {
         "ville": "Blanquefort",
         "codePostal": "33290",
-        "adresse": "La vacherie - 2 Rue de Monteil - parking Grottes de Majolan",
-        "lat": 44.9027625,
-        "lng": -0.6496214
+        "adresse": "Rue Ransinangue, parking des grottes",
+        "lat": 44.902597053692624,
+        "lng": -0.6470806762147141
       },
       "livraison": {
         "jour": "Jeudi",
