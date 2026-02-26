@@ -1183,13 +1183,13 @@
       "localisation": {
         "ville": "Gradignan",
         "codePostal": "33170",
-        "adresse": "16 Avenue Jean Larrieu (2025) - Anciennement: Château de L'Hermitage",
+        "adresse": "16 Avenue Jean Larrieu",
         "lat": 44.77355,
         "lng": -0.61854
       },
       "livraison": {
-        "jour": "Lundi",
-        "horaire": "18h00-19h30"
+        "jour": "Mardi",
+        "horaire": "18h00-19h00"
       },
       "web": {
         "siteWeb": "http://lecabas33.fr/",
@@ -1199,7 +1199,10 @@
       "dateCreation": null,
       "rnaId": null,
       "producteurs": [],
-      "miramap": true
+      "miramap": true,
+      "etat": "actif",
+      "derniereCom": "25/02/2026",
+      "retour": true
     },
     {
       "id": "GUJAN-SUDB",
