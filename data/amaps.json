@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "AMAPs_Gironde-AMAP_02_2026",
-    "generated": "2026-02-26",
+    "generated": "2026-03-06",
     "amapsCount": 109,
     "amapsGeocoded": 109,
     "producteursCount": 132,
@@ -1135,7 +1135,7 @@
     },
     {
       "id": "FLOIRAC-PAN",
-      "nom": "Paniers Floirac",
+      "nom": "ARROSOIR Ô LÉGUMES",
       "localisation": {
         "ville": "Floirac",
         "codePostal": "33270",
@@ -1145,15 +1145,18 @@
       },
       "livraison": {
         "jour": "Mercredi",
-        "horaire": null
+        "horaire": "18h30-19h45"
       },
       "web": {
-        "siteWeb": null,
+        "siteWeb": "https://arrosoirolegumes.com",
         "plateforme": null
       },
       "dateCreation": null,
       "rnaId": null,
-      "producteurs": []
+      "producteurs": [],
+      "etat": "actif",
+      "derniereCom": "04/03/2026",
+      "retour": true
     },
     {
       "id": "GRADI-MALAR",
@@ -1740,26 +1743,29 @@
     },
     {
       "id": "MERIG-BEUTR",
-      "nom": "AMAP de Beutre (distincte d'Arlac)",
+      "nom": "AMAP de Beutre",
       "localisation": {
         "ville": "Mérignac",
         "codePostal": "33700",
-        "adresse": "Devant le centre social de Beutre, Avenue de l'Argonne",
-        "lat": 44.83131,
-        "lng": -0.67945
+        "adresse": "Maison des habitants de Beutre, 210 avenue de l'Argonne",
+        "lat": 44.81802198106499,
+        "lng": -0.7003192939720979
       },
       "livraison": {
-        "jour": null,
-        "horaire": "18h30"
+        "jour": "Jeudi",
+        "horaire": "18h30-19h15"
       },
       "web": {
         "siteWeb": "www.facebook.com/amapbeutre",
         "plateforme": "AmapJ",
         "plateformeUrl": "https://s1.amapj.fr/p/beutre"
       },
-      "dateCreation": "2020-03-03",
+      "dateCreation": "2019-01-01",
       "rnaId": "W332029246",
-      "producteurs": []
+      "producteurs": [],
+      "etat": "actif",
+      "derniereCom": "06/03/2026",
+      "retour": true
     },
     {
       "id": "MERIG-ARLAC",
@@ -1909,8 +1915,8 @@
         "ville": "Mérignac",
         "codePostal": "33700",
         "adresse": "Centre social Le Puzzle, rue Jean Giono, à Capeyron",
-        "lat": 44.83131,
-        "lng": -0.67945
+        "lat": 44.851553374280776,
+        "lng": -0.6513753878644336
       },
       "livraison": {
         "jour": "Mercredi",
@@ -1922,7 +1928,10 @@
       },
       "dateCreation": null,
       "rnaId": null,
-      "producteurs": []
+      "producteurs": [],
+      "etat": "actif",
+      "derniereCom": "04/03/2026",
+      "retour": true
     },
     {
       "id": "PAIL-ARTOLI",

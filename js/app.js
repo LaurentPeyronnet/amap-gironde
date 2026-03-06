@@ -506,7 +506,7 @@ function openAmapDetail(id) {
                 <span class="detail-info-icon">📨</span>
                 <div class="detail-info-content">
                     <div class="detail-info-label">Dernière communication</div>
-                    <div class="detail-info-value">${amap.derniereCom}</div>
+                    <div class="detail-info-value">${amap.derniereCom.split('/').pop()}</div>
                 </div>
             </div>
         `;
