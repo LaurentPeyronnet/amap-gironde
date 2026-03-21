@@ -1,9 +1,9 @@
 {
   "metadata": {
     "source": "AMAPs_Gironde-AMAP_02_2026",
-    "generated": "2026-03-06",
-    "amapsCount": 109,
-    "amapsGeocoded": 109,
+    "generated": "2026-03-21",
+    "amapsCount": 108,
+    "amapsGeocoded": 108,
     "producteursCount": 132,
     "producteursGeocoded": 67,
     "withDate": 46,
@@ -17,22 +17,25 @@
       "localisation": {
         "ville": "Ambarès-et-Lagrave",
         "codePostal": "33440",
-        "adresse": "école Rosa Bonheur - accès par le parking situé derrière la Mairie (données 2025)",
-        "lat": 44.96083,
-        "lng": -0.50029
+        "adresse": "18 Place de la Victoire",
+        "lat": 44.926368390982425,
+        "lng": -0.49052606087228484
       },
       "livraison": {
         "jour": "Jeudi",
         "horaire": "19h00-20h00"
       },
       "web": {
-        "siteWeb": "https://www.cagette.net",
+        "siteWeb": null,
         "plateforme": "AmapJ",
         "plateformeUrl": "https://s2.amapj.fr/p/ambares-et-lagrave"
       },
       "dateCreation": "2013-07-24",
       "rnaId": "W332015776",
-      "producteurs": []
+      "producteurs": [],
+      "etat": "actif",
+      "derniereCom": "14/03/2026",
+      "retour": true
     },
     {
       "id": "ARTIG-ART",
@@ -725,26 +728,29 @@
     },
     {
       "id": "BDX-MOULIN",
-      "nom": "Le Moulin - Bordeaux Bastide",
+      "nom": "Moulin à Légumes",
       "localisation": {
-        "ville": "Bordeaux Bastide",
+        "ville": "Bordeaux",
         "codePostal": "33100",
-        "adresse": null,
-        "lat": 44.84568,
-        "lng": -0.5531
+        "adresse": "La Chiffonne'Rit, 77 rue Rainette",
+        "lat": 44.850043702794444,
+        "lng": -0.5383766743704277
       },
       "livraison": {
-        "jour": null,
-        "horaire": null
+        "jour": "Mercredi",
+        "horaire": "18h00-19h30"
       },
       "web": {
-        "siteWeb": "https://www.facebook.com/moulinalegumes/",
+        "siteWeb": "https://www.moulin-a-legumes.com/",
         "plateforme": "AmapJ",
         "plateformeUrl": "https://s1.amapj.fr/p/la-bastide"
       },
       "dateCreation": null,
       "rnaId": null,
-      "producteurs": []
+      "producteurs": [],
+      "etat": "actif",
+      "derniereCom": "10/03/2026",
+      "retour": true
     },
     {
       "id": "BRAUD-ESTUA",
@@ -1556,7 +1562,7 @@
       "rnaId": "W332007172",
       "producteurs": [],
       "etat": "actif",
-      "derniereCom": "12/02/2026",
+      "derniereCom": "12/03/2026",
       "retour": true
     },
     {
@@ -1790,29 +1796,6 @@
       "rnaId": null,
       "producteurs": [],
       "miramap": true
-    },
-    {
-      "id": "MERIG-FANTA",
-      "nom": "AMAP de Mérignac Fantaisie",
-      "localisation": {
-        "ville": "Mérignac",
-        "codePostal": "33700",
-        "adresse": "8 Chemin/Rue de la Tour de Veyrines",
-        "lat": 44.83131,
-        "lng": -0.67945
-      },
-      "livraison": {
-        "jour": "Mardi",
-        "horaire": "18h30-19h30"
-      },
-      "web": {
-        "siteWeb": null,
-        "plateforme": "AmapJ",
-        "plateformeUrl": "https://s5.amapj.fr/p/fantaisie"
-      },
-      "dateCreation": "2009-03-17",
-      "rnaId": "W332008191",
-      "producteurs": []
     },
     {
       "id": "MERIG-GLACI",
@@ -2690,13 +2673,13 @@
     },
     {
       "id": "MERIGNAC",
-      "nom": "AMAP des Eyquems (Fantaisie)",
+      "nom": "AMAP des Eyquems / Fantaisie",
       "localisation": {
         "ville": "Mérignac",
         "codePostal": "33700",
-        "adresse": "8 chemin de la Tour de Veyrines",
-        "lat": 44.8257347,
-        "lng": -0.6449912
+        "adresse": "8 Chemin de la Tour de Veyrines",
+        "lat": 44.82588686030218,
+        "lng": -0.6449912032069732
       },
       "livraison": {
         "jour": "Mardi",
@@ -2710,7 +2693,7 @@
       "rnaId": null,
       "producteurs": [],
       "etat": "actif",
-      "derniereCom": "19/02/2026",
+      "derniereCom": "10/03/2026",
       "retour": true
     }
   ],
