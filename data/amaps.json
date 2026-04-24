@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "AMAPs_Gironde-AMAP_02_2026",
-    "generated": "2026-03-21",
+    "generated": "2026-04-24",
     "amapsCount": 108,
     "amapsGeocoded": 108,
     "producteursCount": 132,
@@ -1522,22 +1522,27 @@
       "localisation": {
         "ville": "Le Taillan-Médoc",
         "codePostal": "33320",
-        "adresse": "7 Rue Stehelin - CCAS",
-        "lat": 44.90682,
-        "lng": -0.667
+        "adresse": "Parc du Presbytère, bâtiments jouxtant l'église",
+        "lat": 44.90389643127435,
+        "lng": -0.6701043185440416
       },
       "livraison": {
         "jour": "Mardi",
-        "horaire": "18h15-19h15"
+        "horaire": "18h-19h"
       },
       "web": {
-        "siteWeb": "https://www.facebook.com/AmapTaillanaise",
+        "siteWeb": "https://amaptaillanaise.blogspot.com/",
+        "facebook": "https://www.facebook.com/AMAP.Taillan/",
         "plateforme": "AmapJ",
-        "plateformeUrl": "https://s5.amapj.fr/p/le-taillan"
+        "plateformeUrl": "https://contrats.amapj.fr/d/le-taillan"
       },
       "dateCreation": "2012-04-02",
       "rnaId": "W332013756",
-      "producteurs": []
+      "producteurs": [],
+      "etat": "actif",
+      "derniereCom": "24/04/2026",
+      "retour": true,
+      "contact": "Nathalie MARTIN (bureau)"
     },
     {
       "id": "LEOGNAN-PEC",
