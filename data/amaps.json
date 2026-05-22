@@ -1,11 +1,11 @@
 {
   "metadata": {
     "source": "AMAPs_Gironde-AMAP_02_2026",
-    "generated": "2026-04-24",
+    "generated": "2026-05-22",
     "amapsCount": 108,
     "amapsGeocoded": 108,
-    "producteursCount": 132,
-    "producteursGeocoded": 67,
+    "producteursCount": 133,
+    "producteursGeocoded": 68,
     "withDate": 46,
     "dateMin": "2005-10-10",
     "dateMax": "2022-09-23"
@@ -1170,9 +1170,9 @@
       "localisation": {
         "ville": "Gradignan",
         "codePostal": "33170",
-        "adresse": "58 Boulevard Malartic - Hall de la MJC",
-        "lat": 44.76806,
-        "lng": -0.61686
+        "adresse": "Château Malartic - 58 boulevard Malartic",
+        "lat": 44.768296375341635,
+        "lng": -0.5961474134941177
       },
       "livraison": {
         "jour": "Mardi",
@@ -1184,7 +1184,12 @@
       },
       "dateCreation": "2009-12-11",
       "rnaId": "W332009718",
-      "producteurs": []
+      "producteurs": [
+        "PROD-137"
+      ],
+      "etat": "actif",
+      "derniereCom": "22/05/2026",
+      "retour": true
     },
     {
       "id": "GRADI-CABAS",
@@ -5473,6 +5478,27 @@
       "infos": null,
       "amaps": [
         "GRADIG-PANIER"
+      ]
+    },
+    {
+      "id": "PROD-137",
+      "nom": "Ferme du Tellier",
+      "societe": null,
+      "produit": "légumes",
+      "categorie": "legumes",
+      "frequence": null,
+      "localisation": {
+        "adresse": "33190 Puybarban",
+        "lat": 44.5392,
+        "lng": -0.0908,
+        "precision": "ville"
+      },
+      "web": {
+        "siteWeb": null
+      },
+      "infos": null,
+      "amaps": [
+        "GRADI-MALAR"
       ]
     }
   ]
