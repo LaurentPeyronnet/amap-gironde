@@ -187,8 +187,6 @@ function updateAmapsMap() {
             state.markers.push(marker);
         }
     });
-    
-    updateAmapsLegend(filtered);
 }
 
 // ============================================
@@ -196,16 +194,14 @@ function updateAmapsMap() {
 // ============================================
 function updateProducteursMap() {
     const filtered = filterProducteurs();
-    const categoriesUsed = new Set();
-    
+
     filtered.forEach(prod => {
         const lat = prod.localisation?.lat;
         const lng = prod.localisation?.lng;
-        
+
         if (lat && lng) {
             const cat = CONFIG.productCategories[prod.categorie] || CONFIG.productCategories.autre;
-            categoriesUsed.add(prod.categorie);
-            
+
             // Créer une icône avec l'emoji du produit
             const icon = L.divIcon({
                 className: 'producteur-marker',
@@ -215,71 +211,17 @@ function updateProducteursMap() {
             });
             
             const marker = L.marker([lat, lng], { icon });
-            
-            // Popup avec infos
-            const popupContent = `
-                <div class="popup-content">
-                    <strong>${cat.icon} ${prod.nom || prod.societe || 'Producteur'}</strong>
-                    <p>${prod.produit || ''}</p>
-                    ${prod.localisation?.adresse ? `<small>${prod.localisation.adresse}</small>` : ''}
-                </div>
-            `;
-            marker.bindPopup(popupContent);
+
+            // Survol : nom seul (comme les AMAP). Clic : fiche détaillée (modale).
+            // Pas de popup Leaflet pour éviter le double affichage popup + modale.
+            marker.bindTooltip(`${cat.icon} ${prod.nom || prod.societe || 'Producteur'}`,
+                               { direction: 'top', offset: [0, -14] });
             marker.on('click', () => openProducteurDetail(prod.id));
             
             marker.addTo(state.map);
             state.markers.push(marker);
-        } else {
-            // Producteur sans coordonnées
-            categoriesUsed.add(prod.categorie);
         }
     });
-    
-    // Afficher la légende
-    updateLegend(categoriesUsed);
-}
-
-function updateAmapsLegend(filtered) {
-    const legend = document.getElementById('mapLegend');
-    const items = document.getElementById('legendItems');
-    const title = legend.querySelector('.legend-title');
-    if (title) title.textContent = 'Statut';
-    const retourCount = filtered.filter(a => a.retour).length;
-    const otherCount = filtered.length - retourCount;
-    
-    items.innerHTML = `
-        <div class="legend-item">
-            <span class="legend-dot" style="background:${CONFIG.amapColors.retour};border:2px solid ${CONFIG.amapColors.retourBorder}"></span>
-            <span>Contact 2026 (${retourCount})</span>
-        </div>
-        <div class="legend-item">
-            <span class="legend-dot" style="background:${CONFIG.amapColors.default};border:2px solid ${CONFIG.amapColors.border}"></span>
-            <span>Attente retour (${otherCount})</span>
-        </div>
-    `;
-    legend.classList.add('visible');
-}
-
-function updateLegend(categories) {
-    const legend = document.getElementById('mapLegend');
-    const items = document.getElementById('legendItems');
-    const title = legend.querySelector('.legend-title');
-    if (title) title.textContent = 'Produits';
-    
-    if (categories.size === 0) {
-        legend.classList.remove('visible');
-        return;
-    }
-    
-    items.innerHTML = Array.from(categories).map(cat => {
-        const c = CONFIG.productCategories[cat] || CONFIG.productCategories.autre;
-        return `<div class="legend-item">
-            <span class="legend-dot" style="background:${c.color}"></span>
-            <span>${c.icon} ${c.label}</span>
-        </div>`;
-    }).join('');
-    
-    legend.classList.add('visible');
 }
 
 // ============================================
@@ -310,18 +252,36 @@ function updateSliderProgress(value) {
 // Filtres
 // ============================================
 function buildCategoryFilter() {
-    const select = document.getElementById('filterCategory');
-    const categories = new Set();
-    
+    const bar = document.getElementById('productFilters');
+    if (!bar) return;
+    const counts = {};
     state.data.producteurs.forEach(p => {
-        if (p.categorie) categories.add(p.categorie);
+        if (p.categorie) counts[p.categorie] = (counts[p.categorie] || 0) + 1;
     });
-    
-    select.innerHTML = '<option value="">Tous les produits</option>' +
-        Array.from(categories).sort().map(cat => {
-            const c = CONFIG.productCategories[cat] || CONFIG.productCategories.autre;
-            return `<option value="${cat}">${c.icon} ${c.label}</option>`;
-        }).join('');
+    const total = state.data.producteurs.length;
+    const cats = Object.keys(counts).sort((a, b) => counts[b] - counts[a]);
+
+    const mkBtn = (cat, icon, label, n, color) => {
+        const active = state.filters.category === cat ? ' active' : '';
+        const style = color ? ` style="--pf:${color}"` : '';
+        return `<button class="pfilter-btn${active}" data-cat="${cat}"${style}>`
+            + `<span class="pf-ico">${icon}</span> ${label} <span class="pf-n">${n}</span></button>`;
+    };
+
+    let html = mkBtn('', '🧺', 'Tous', total, '');
+    html += cats.map(cat => {
+        const c = CONFIG.productCategories[cat] || CONFIG.productCategories.autre;
+        return mkBtn(cat, c.icon, c.label, counts[cat], c.color);
+    }).join('');
+    bar.innerHTML = html;
+
+    bar.querySelectorAll('.pfilter-btn').forEach(b => {
+        b.addEventListener('click', () => {
+            state.filters.category = b.dataset.cat;
+            bar.querySelectorAll('.pfilter-btn').forEach(x => x.classList.toggle('active', x === b));
+            updateAll();
+        });
+    });
 }
 
 function filterAmaps() {
@@ -546,7 +506,7 @@ function openProducteurDetail(id) {
         html += `
             <div class="detail-website">
                 <a href="${prod.web.siteWeb}" target="_blank" rel="noopener" class="detail-website-link">
-                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="16" height="16">
                         <circle cx="12" cy="12" r="10"></circle>
                         <path d="M2 12h20M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
                     </svg>
@@ -651,13 +611,9 @@ function initEventListeners() {
         updateSliderProgress(year);
         updateAll();
     });
-    
-    // Filtre catégorie
-    document.getElementById('filterCategory').addEventListener('change', e => {
-        state.filters.category = e.target.value;
-        updateAll();
-    });
-    
+
+    // Les filtres par produit (boutons) sont câblés dans buildCategoryFilter()
+
     // Modal
     document.getElementById('modalClose').addEventListener('click', closeModal);
     document.querySelector('.modal-backdrop').addEventListener('click', closeModal);
@@ -672,7 +628,7 @@ function updateViewVisibility() {
     document.getElementById('amapsList').classList.toggle('hidden', !isAmaps);
     document.getElementById('producteursList').classList.toggle('hidden', isAmaps);
     document.getElementById('timelinePanel').classList.toggle('hidden', !isAmaps);
-    document.getElementById('categoryFilter').classList.toggle('hidden', isAmaps);
+    document.getElementById('productFilters').classList.toggle('hidden', isAmaps);
 }
 
 // ============================================

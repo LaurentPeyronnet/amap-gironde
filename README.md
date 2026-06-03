@@ -43,16 +43,18 @@ Seules les informations publiques sont affichées.
 
 ## 📊 Données
 
-- **108 AMAPs** en Gironde
-- **107 géolocalisées** sur la carte
-- **46 avec date de création** (RNA)
+- **108 AMAPs** en Gironde (107 géolocalisées, 46 avec date de création RNA)
+- **221 producteurs** dont **170 géolocalisés** (≥1 producteur sur 39 AMAP)
 
-Dernière mise à jour : **février 2026** — campagne de vérification Inter-AMAP Gironde
-- 38 AMAPs vérifiées (état actif/fermé/désabonné, adresses, horaires, coordonnées)
-- 2 nouvelles AMAPs intégrées
-- Nouveaux champs : état, date de dernière communication, contact
+Dernière mise à jour : **juin 2026** — consolidation du référentiel producteurs
+- Producteurs fusionnés depuis 4 sources : liste Inter-AMAP (S1), export CAMAP, sites des AMAP scrapés, recherches web
+- Vérification officielle au **SIREN/INSEE** (champ `valide`) + géocodage **BAN** au plus précis (champ `localisation.precision` : insee/housenumber/street/locality/municipality)
+- 35 producteurs hors-Gironde (contamination) exclus ; doublons fusionnés
+- Données personnelles (tél/email/contacts) non publiées
 
-Source : Réseau Inter-AMAP Gironde
+Mise à jour précédente : février 2026 — campagne de vérification Inter-AMAP (état actif/fermé, adresses, horaires ; 2 nouvelles AMAP)
+
+Source : Réseau Inter-AMAP Gironde + référentiel consolidé (voir `../consolidation/`)
 
 ## 🛠️ Technologies
 

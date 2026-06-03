@@ -59,13 +59,11 @@
             <!-- Carte principale -->
             <div class="map-container">
                 <div id="map"></div>
-                <!-- Légende des icônes producteurs -->
-                <div class="map-legend" id="mapLegend">
-                    <div class="legend-title">Produits</div>
-                    <div class="legend-items" id="legendItems"></div>
-                </div>
             </div>
-            
+
+            <!-- Filtres par produit (boutons + quantités) — sous la carte, vue producteurs -->
+            <div class="product-filters hidden" id="productFilters"></div>
+
             <!-- Slider temporel compact -->
             <div class="timeline-compact" id="timelinePanel">
                 <span class="timeline-year" id="yearMin">2005</span>
@@ -77,13 +75,6 @@
                        value="2024"
                        step="1">
                 <span class="timeline-year timeline-year-current" id="yearCurrent">2024</span>
-            </div>
-            
-            <!-- Filtre par catégorie de produit (pour producteurs) -->
-            <div class="category-filter hidden" id="categoryFilter">
-                <select id="filterCategory" class="filter-select">
-                    <option value="">Tous les produits</option>
-                </select>
             </div>
             
             <!-- Liste des AMAPs -->

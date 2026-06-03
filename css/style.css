@@ -1032,3 +1032,50 @@ tr.amap-retour:hover {
     border-top: 6px solid;
     border-top-color: inherit;
 }
+
+/* Sécurité : contraint la taille des icônes SVG dans les fiches détail
+   (évite un rendu géant si l'attribut width/height manque). */
+.detail-website-link svg,
+.detail-link-btn svg,
+.detail-info-icon svg { width: 16px; height: 16px; flex-shrink: 0; }
+
+/* ============================================
+   Filtres par produit (boutons sous la carte) — remplace la légende + le select
+   ============================================ */
+.product-filters {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    align-items: center;
+    background: var(--bg-card);
+    border: 1px solid var(--border-color);
+    border-radius: var(--radius-xl);
+    padding: var(--space-sm) var(--space-md);
+    box-shadow: var(--shadow-medium);
+}
+.product-filters.hidden { display: none; }
+
+.pfilter-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    padding: 4px 10px;
+    font-family: var(--font-body);
+    font-size: 0.8rem;
+    color: var(--text-secondary);
+    background: var(--bg-secondary);
+    border: 1.5px solid var(--border-color);
+    border-radius: 999px;
+    cursor: pointer;
+    transition: background .15s, border-color .15s, color .15s;
+    white-space: nowrap;
+}
+.pfilter-btn:hover { border-color: var(--pf, var(--accent-leaf)); color: var(--text-primary); }
+.pfilter-btn.active {
+    background: var(--pf, var(--accent-leaf));
+    border-color: var(--pf, var(--accent-leaf));
+    color: #fff;
+    font-weight: 600;
+}
+.pfilter-btn .pf-n { font-size: 0.72rem; font-weight: 700; opacity: .75; }
+.pfilter-btn.active .pf-n { opacity: .95; }
