@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "AMAPs_Gironde-AMAP_02_2026",
-    "generated": "2026-06-03",
+    "generated": "2026-06-04",
     "amapsCount": 108,
     "amapsGeocoded": 108,
     "producteursCount": 221,
@@ -5743,16 +5743,16 @@
     },
     {
       "id": "PRODU-121",
-      "nom": "Laurent Disson",
+      "nom": "Lo Champi Bio (Laurent Disson)",
       "societe": "Le jardin de La Rivière",
-      "produit": "légumes",
-      "categorie": "legumes",
+      "produit": "champignons",
+      "categorie": "champignon",
       "frequence": "hebdo",
       "localisation": {
-        "adresse": "Saint-Germain-la-Rivière",
-        "lat": 44.948406,
-        "lng": -0.3279,
-        "precision": "municipality"
+        "adresse": "1 Rte des Crêtes, 33240 Saint-Germain-de-la-Rivière",
+        "lat": 44.953296,
+        "lng": -0.321833,
+        "precision": "manuel"
       },
       "web": {
         "siteWeb": null
