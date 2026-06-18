@@ -1,7 +1,7 @@
 {
   "metadata": {
     "source": "AMAPs_Gironde-AMAP_02_2026",
-    "generated": "2026-06-04",
+    "generated": "2026-06-18",
     "amapsCount": 108,
     "amapsGeocoded": 108,
     "producteursCount": 221,
@@ -846,7 +846,7 @@
         "plateforme": "AmapJ",
         "plateformeUrl": "https://s3.amapj.fr/p/bruges"
       },
-      "dateCreation": "2018-08-21",
+      "dateCreation": "2008-08-21",
       "rnaId": "W332023802",
       "producteurs": [],
       "etat": "actif",
